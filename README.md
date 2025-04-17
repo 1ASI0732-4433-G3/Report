@@ -19,7 +19,7 @@
 **Producto:** GreenGrow
 
 ### Team Members:
-<div align="center">
+
 
 | Member                         |    Code    |
 |:-------------------------------|:----------:|
@@ -68,7 +68,7 @@ Abril del 2025
 ![insight2TB1](images/insight2TB1.png)
 
 ---
-</>
+
 
 # Contenido
 
@@ -256,5 +256,109 @@ Abril del 2025
 | Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Paolo Sebastián Checa Apolinario (TB1, TP, TB2, TF):** Documentación en Github, implementación web, integración tecnológica y funcionalidad final.<br><br>**Jesús Lazo Tapia (TB1, TP, TB2, TF):** Markdown colaborativo, diseño web, desarrollo frontend en Angular, visualización de datos Wokwi.<br><br>**Farid Hinostroza Mavila (TB1, TP, TB2, TF):** Informes técnicos, coordinación UI/UX, backend notification-management, informe final y métricas técnicas.<br><br>**Leonardo Taype Fernandez (TB1, TP, TB2, TF):** Planificación del proyecto, línea de diseño coherente, optimización del rendimiento de software, mejoras continuas en funcionalidades.<br><br>**Jack Arana Ramos (TB1, TP, TB2, TF):** Establecimiento de objetivos claros, documentación markdown, seguridad de datos e integración backend-frontend. | Planificación estructurada, colaboración activa en documentación y desarrollo. Implementación exitosa de mejoras técnicas y comunicativas. |
 
 ---
+
+
+# Part I: As-Is Software Project
+
+## Capítulo I: Introducción
+
+### 1.1. Startup Profile
+
+#### 1.1.1. Descripción de la Startup
+
+Nuestra startup, **HydroLink**, nace con la finalidad de revolucionar el modo en que se gestionan los cultivos mediante el uso de tecnologías inteligentes. Nos enfocamos en ofrecer soluciones IoT que permitan a agricultores y entusiastas de la hidroponía tener un control detallado de su entorno agrícola. A través de nuestra plataforma, es posible recolectar información en tiempo real sobre factores como temperatura, humedad del ambiente, velocidad del viento e intensidad lumínica. Esta información es analizada para facilitar decisiones precisas orientadas a mejorar el rendimiento de los cultivos y garantizar una producción sostenible.
+
+Nuestra propuesta no solo se basa en la tecnología, sino también en la accesibilidad: buscamos que cualquier persona, sin importar su nivel de conocimiento, pueda aprovechar herramientas avanzadas de monitoreo y gestión agrícola. Por ello, ofrecemos una interfaz amigable y adaptable tanto en plataformas móviles como web, promoviendo el uso de prácticas agrícolas eficientes desde cualquier lugar.
+
+<div align=center>
+    <img src="images/logo.png" alt="logo" style="margin-bottom: 5px;" width="500"/>      
+</div>
+
+
+- **Visión:** Convertirnos en referentes en la aplicación de tecnología IoT en la agricultura moderna, promoviendo un enfoque sostenible, inteligente y accesible para todos.
+
+- **Misión:** Desarrollar y mantener soluciones digitales integrales que permitan una gestión precisa, remota y automatizada de cultivos, mejorando la productividad y reduciendo el impacto ambiental.
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+| Nombre | Código | Carrera | Conocimiento y habilidades |
+|--------|--------|---------|----------------------------|
+| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Con experiencia en C++, Python y Java. Capacidad de adaptación, liderazgo en el equipo y pensamiento lógico para la creación de soluciones innovadoras. |
+| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Conocimientos en redes, electrónica básica y desarrollo de software, con un interés particular en sistemas inteligentes aplicados a entornos reales. |
+| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Especialista en backend y estructuración de bases de datos. Entusiasta de la IA aplicada a sistemas agrícolas y del trabajo colaborativo. |
+| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Amplia experiencia en diseño de interfaces, aplicaciones móviles y desarrollo web, con enfoque en experiencia de usuario y accesibilidad. |
+| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Perfil full-stack con habilidades en automatización de procesos, control de versiones y cultura DevOps. Alta orientación a resultados. |
+
+### 1.2. Solution Profile
+
+**Nombre del producto:** HydroLink
+
+**Descripción del producto:** HydroLink es una solución tecnológica centrada en el monitoreo inteligente de cultivos, diseñada para facilitar el control de variables ambientales que impactan directamente en el crecimiento de las plantas. Nuestro sistema emplea sensores conectados a una plataforma central que permite a los usuarios recibir datos en tiempo real y tomar acciones desde sus dispositivos móviles o computadoras. Esta integración mejora la eficiencia de los cultivos y reduce el desperdicio de recursos como agua y energía.
+
+El producto está enfocado tanto en agricultores expertos que desean optimizar sus procesos, como en personas que están iniciándose en la hidroponía y desean un acompañamiento tecnológico intuitivo y confiable. El diseño de la solución prioriza la experiencia del usuario, ofreciendo reportes, alertas y recomendaciones automatizadas.
+
+**Modelo de negocio:** El enfoque comercial de HydroLink se sustenta en la venta directa de kits de sensores IoT, además de ofrecer planes de suscripción para acceder a funciones avanzadas dentro de la plataforma, tales como reportes analíticos, ajustes automáticos y comunidad de usuarios. También se contempla la incorporación de publicidad segmentada sobre productos agrícolas complementarios, generando valor adicional para los usuarios y aliados estratégicos.
+
+### 1.2.1. Antecedentes y problemática
+
+La gestión eficiente de cultivos ha sido una preocupación constante para agricultores en todo el mundo. En el Perú, donde la agricultura representa un pilar fundamental de la economía, aún existen muchas zonas con poco acceso a tecnología que facilite el monitoreo continuo de variables ambientales. A esto se suma que prácticas como la hidroponía, aunque cada vez más populares, aún no están del todo democratizadas en cuanto al uso de herramientas tecnológicas.
+
+- **Who:** Usuarios comprometidos con la mejora de sus procesos agrícolas, ya sean nuevos en el ámbito de la hidroponía o profesionales que buscan incorporar soluciones digitales para elevar la productividad.
+
+- **What:** La problemática se centra en la ausencia de herramientas integrales que permitan recopilar y analizar datos de cultivo de forma accesible, comprensible y útil para la toma de decisiones.
+
+- **Where:** Tanto en zonas rurales como urbanas, donde los agricultores requieren monitoreo constante pero no cuentan con soluciones asequibles o fáciles de implementar.
+
+- **When:** Durante todas las etapas del ciclo agrícola, desde la preparación del terreno hasta el seguimiento del desarrollo de las plantas.
+
+- **Why:** Las soluciones actuales suelen ser costosas, difíciles de usar o no están adaptadas al contexto local. Esto genera una brecha tecnológica que limita la eficiencia y sostenibilidad de los cultivos.
+
+- **How:** Mediante la implementación de sensores IoT conectados a una aplicación multiplataforma, los usuarios pueden tener un panorama completo del estado de sus cultivos y tomar decisiones basadas en datos.
+
+- **How much:** Datos del INEI evidencian un crecimiento del empleo agrícola incluso durante contextos adversos, como la pandemia. Además, técnicas como la hidroponía —que puede reducir el uso de agua en hasta un 90%— refuerzan el potencial impacto positivo que puede generar una solución como HydroLink en eficiencia, ahorro y sostenibilidad.
+
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+Aunque la hidroponía se presenta como una solución viable ante la escasez de recursos y el cambio climático, su adopción tecnológica aún enfrenta barreras. Muchos usuarios desconocen cómo implementar herramientas IoT de manera efectiva. Por eso, nos planteamos la siguiente pregunta: ¿Cómo podemos diseñar un sistema basado en IoT que sea comprensible, útil y adaptable tanto para agricultores novatos como para expertos en producción agrícola?
+
+#### 1.2.2.2. Lean UX Assumptions
+
+**Business outcomes:**
+- Incremento en el uso de soluciones tecnológicas en agricultura urbana y rural.
+- Aumento del valor percibido por la automatización y centralización de datos agrícolas.
+- Mejora en la capacidad de decisión del agricultor gracias a la visualización de métricas en tiempo real.
+- Reducción de errores por intervención manual y optimización del uso de recursos.
+- Fidelización de usuarios mediante una experiencia personalizada.
+
+**User assumptions:**
+- Agricultores de diferentes niveles de experiencia que necesitan apoyo técnico simple.
+- Expectativas de una aplicación que sea clara, rápida y adaptable a distintos dispositivos.
+- Preferencia por sistemas que ofrezcan recomendaciones y alertas sin requerir supervisión constante.
+- Necesidad de comparar variables para tomar decisiones preventivas y correctivas.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+1. Creemos que más del 70% de los usuarios principiantes experimentarán una mejora significativa en el rendimiento de sus cultivos al utilizar HydroLink.
+2. Suponemos que al menos el 75% de los usuarios expertos encontrarán valioso el análisis avanzado de datos ofrecido por la plataforma.
+3. Anticipamos que el 85% de nuestra base de usuarios estará conformada por personas mayores de 18 años.
+4. Consideramos que la facilidad de uso llevará a que más del 85% de los usuarios califiquen la experiencia como satisfactoria.
+5. Estimamos que un 65% de los usuarios activos interactuará de forma regular con la comunidad digital integrada en la plataforma.
+
+#### 1.2.2.4. Lean UX Canvas
+
+
+<div align="left">
+    <img src="images/leanUXCanvas.png" alt="leanuxcanvas"/>
+</div>
+
+### 1.3. Segmentos objetivo
+
+| Tipo de Usuario | Usuarios Principiantes | Usuarios Expertos |
+|-----------------|------------------------|-------------------|
+| **Geográfico** | Residentes en Perú, tanto en zonas urbanas como rurales, interesados en iniciar cultivos hidropónicos o tradicionales con apoyo tecnológico. | Agricultores peruanos con experiencia previa en técnicas de cultivo que buscan optimizar sus prácticas mediante la incorporación de sistemas IoT. |
+| **Psicográfico** | Jóvenes y adultos de clase media que muestran interés por la tecnología y sostenibilidad. Dispuestos a aprender y probar nuevas formas de cultivo automatizado. | Profesionales del agro o empresarios agrícolas con mentalidad de mejora continua, enfocados en reducir costos y maximizar producción. |
+| **Demográfico** | Mayores de 18 años, ingresos medios, con acceso a smartphones o PCs. Nivel educativo variable, desde secundaria completa hasta formación técnica. | Mayores de 30 años, ingresos medios-altos, con estudios técnicos o universitarios en áreas afines. Disponen de infraestructura básica para implementar sistemas tecnológicos. |
 
 
