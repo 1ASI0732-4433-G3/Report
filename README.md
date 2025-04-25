@@ -1,184 +1,133 @@
-# Capítulo V: Solution UI/UX Design
+# Capítulo V: Product Implementation
 
-## 5.1. Style Guidelines
-Esta sección define las normas visuales y estéticas que seguirá nuestra startup para garantizar una identidad coherente en todos los canales y plataformas.
+## 5.1. Software Configuration Management
+El entorno de desarrollo de HidroLynk se configuró para garantizar un flujo de trabajo eficiente y colaborativo en el equipo. Se seleccionaron herramientas estándar de la industria para programación, control de versiones y gestión de proyectos, facilitando la integración continua y la comunicación efectiva entre los miembros del equipo.
 
-### 5.1.1. General Style Guidelines
-Aquí se establecen los lineamientos generales de estilo que aseguran una representación visual unificada de nuestros productos.
+Para la programación se utilizó principalmente Visual Studio Code, optimizado con extensiones esenciales que mejoraron la productividad, como ESLint y Prettier, asegurando coherencia y limpieza en el código. La comunicación del equipo se gestionó a través de Slack, mientras que las reuniones y seguimiento de progreso se llevaron a cabo mediante Zoom y Jira, respectivamente.
 
-Se especifica cómo utilizar correctamente el logotipo y los recursos visuales para reflejar los valores de sostenibilidad y comunidad que impulsa nuestra marca. A continuación, presentamos nuestro logotipo:
+### 5.1.1. Software Development Environment Configuration
 
-<div align="center">
-    <img src="images/logo.png"/>
-</div>
+Esta sección describe las herramientas y plataformas adoptadas por nuestro equipo para facilitar la colaboración efectiva durante todas las etapas del desarrollo del producto, utilizando metodologías ágiles.
 
-**Fuente principal:** Roboto
+### Project Management
 
-- Enlace de referencia: [Roboto Font](https://fonts.google.com/specimen/Roboto?query=roboto)
+- **Discord**: Originalmente una plataforma orientada a comunidades gamer, actualmente Discord es empleada para fomentar la comunicación y colaboración efectiva entre los miembros del equipo gracias a sus funcionalidades para crear espacios grupales interactivos.
 
-Se ha seleccionado esta tipografía por su legibilidad y versatilidad. Se emplearán estilos Regular, Medium, Semi-Bold y Bold, y tamaños que varían entre 16 px y 48 px dependiendo del contexto. Para los íconos, se usará el conjunto de Angular Material:
+- **WhatsApp**: Es una herramienta principalmente orientada a la mensajería instantánea que permite al equipo mantener una comunicación fluida en tiempo real, facilitando conversaciones rápidas y resoluciones inmediatas, aunque no esté específicamente diseñada para gestionar proyectos.
 
-- Enlace de referencia: [Material Icons](https://www.angularjswiki.com/angular/angular-material-icons-list-mat-icon-list/)
+### Requirements Management
 
-**Colores corporativos:**
-<div align="center">
-    <img src="images/paletadeColores.png"/>
-</div>
+- **Google Docs**: Es una suite basada en la nube que incluye herramientas de texto, hojas de cálculo y presentaciones. Aunque no es exclusivamente para la gestión de requisitos, facilita la colaboración simultánea y documentación de los requerimientos del proyecto.
 
-- **Principal:** Verde (#27AE60), que transmite sostenibilidad y conexión con el entorno agrícola.
-- **Secundario:** Azul (#3498DB), asociado a la tecnología y confianza.
-- **Neutro:** Blanco (#FFFFFF) como fondo para facilitar la lectura.
-- **Contraste:** Gris oscuro (#2C3E50) usado en textos sobre fondos claros.
+- **Miro**: Plataforma colaborativa en línea orientada a la visualización. Su principal valor radica en permitir la creación conjunta de diagramas, mapas mentales, wireframes y prototipos visuales, fortaleciendo así el proceso de planificación e ideación.
 
-**Botones:**
-- Acciones principales: botón verde con texto blanco.
-- Acciones secundarias: botón azul con texto blanco.
+- **LucidChart**: Herramienta online dedicada a la creación visual colaborativa, que permite generar diagramas de flujo, organigramas y otras representaciones gráficas que ayudan a definir y comprender mejor los procesos del proyecto.
 
-**Estilos de texto:**
-- Encabezado principal (H1): 32px en negrita.
-- Subtítulos (H2): 24px en negrita.
-- Texto base: 16px.
-- Texto auxiliar: 14px en cursiva.
+- **Structurizr**: Aplicación web especializada en documentar y gestionar la arquitectura del software mediante modelos gráficos interactivos. Esta herramienta garantiza la coherencia arquitectónica y facilita el entendimiento compartido del diseño del sistema.
 
-### 5.1.2. Web, Mobile and IoT Style Guidelines
+### Product UX/UI Design
 
-#### Diseño web:
-Presentación minimalista con estructura ordenada y bloques bien diferenciados con colores de fondo.
-- Barra de navegación fija en la parte superior con accesos directos a las principales funcionalidades: Inicio, Panel, Dispositivos y Ajustes.
+- **Figma**: Plataforma basada en la nube utilizada para diseñar interfaces de usuario (UI) y experiencias de usuario (UX), permitiendo al equipo crear diseños interactivos, prototipos realistas y colaborar en tiempo real en las diferentes etapas del diseño.
 
-#### Diseño móvil:
-- Menú lateral tipo "hamburguesa" para facilitar la navegación.
-- Componentes con diseño táctil: botones grandes, espaciados adecuados.
-- Uso de íconos sencillos y comprensibles para acciones frecuentes.
+- **UXPressia**: Herramienta enfocada en la visualización de experiencias de usuario, ofreciendo funcionalidades para crear mapas de viaje del usuario, perfiles de clientes y otros elementos visuales que enriquecen el proceso de diseño centrado en las necesidades del usuario.
 
-#### Diseño para IoT:
-- Interfaces simples, orientadas a pantallas pequeñas.
-- Datos esenciales (temperatura, humedad, etc.) mostrados de forma visual con colores de estado (verde = normal, amarillo = advertencia, rojo = alerta).
+### Software Development
 
-## 5.2. Information Architecture
+- **IntelliJ IDEA**: Entorno de desarrollo integrado (IDE) desarrollado por JetBrains, que destaca por su soporte avanzado para Java, Kotlin y otros lenguajes de la plataforma JVM, facilitando el desarrollo eficiente y productivo del código.
 
-### 5.2.1. Organization Systems
-La estructura de la información se divide en los siguientes módulos:
+- **Visual Studio Code**: Editor de código multiplataforma creado por Microsoft, compatible con múltiples lenguajes de programación y equipado con herramientas potentes de depuración, integración continua y gestión eficiente del control de versiones.
 
-1. **Panel de Control:** Muestra indicadores y gráficos de sensores en tiempo real.
-2. **Dispositivos:** Gestión completa de sensores: añadir, editar o eliminar.
-3. **Alertas:** Visualización y configuración de notificaciones automáticas.
-4. **Configuraciones:** Preferencias del usuario y exportación de registros.
+- **Wokwi**: Simulador online especializado en electrónica, enfocado principalmente en plataformas como Arduino y ESP32. Proporciona un entorno virtual en el que el equipo puede diseñar, programar y testear circuitos sin necesidad de componentes físicos.
 
-### 5.2.2. Labeling Systems
-Las etiquetas utilizadas en la plataforma son claras, consistentes y amigables para distintos tipos de usuario:
-- Ejemplos: "Sensor de Temperatura", "Nivel de Humedad", "Notificación de Riego".
-- Se evita el uso de términos técnicos en interfaces generales, pero se brinda mayor detalle en secciones avanzadas.
+- **Git**: Sistema distribuido de control de versiones que permite gestionar eficientemente los cambios del código fuente. Es una tecnología clave que favorece la colaboración, permitiendo a múltiples desarrolladores trabajar simultáneamente sin interferencias.
 
-### 5.2.3. SEO Tags and Meta Tags
-A continuación, se detallan los metadatos usados en la página principal de **HydroLink**:
+### Software Documentation
 
-**Landing Page:**
-- Título: `<title>Optimiza tus cultivos con HydroLink: Gestión inteligente y monitoreo IoT en tiempo real.</title>`
-- Descripción:
-  `<meta name="description" content="Controla, automatiza y mejora el cuidado de tus cultivos con sensores IoT y plataforma de monitoreo desde web y móvil." />`
-- Palabras clave:
-  `<meta name="keywords" content="IoT, agricultura, sensores, monitoreo de cultivos, automatización agrícola, agricultura inteligente" />`
-- Autor:
-  `<meta name="author" content="HydroLink" />`
-- Derechos:
-  `<meta name="copyright" content="© HydroLink 2024" />`
+- **GitHub**: Plataforma colaborativa basada en el sistema de control de versiones Git, que facilita almacenar, gestionar y revisar el código fuente. GitHub mejora significativamente la comunicación y el flujo de trabajo entre los desarrolladores, favoreciendo la documentación clara y centralizada del proyecto.
 
-### 5.2.4. Searching Systems
-La búsqueda se ha estructurado con base en filtros específicos para facilitar la navegación por grandes volúmenes de datos agrícolas.
+### 5.1.2. Source Code Management
+Para mantener una estructura clara y evitar conflictos o duplicidad de trabajo durante el desarrollo, los proyectos han sido organizados utilizando GitHub. Se ha creado una organización dedicada al proyecto HidroLynk, que contiene repositorios específicos para cada componente de la solución, detallados a continuación:
 
-| Elemento                           | Funcionalidad                                                                                      |
-|-----------------------------------|----------------------------------------------------------------------------------------------------|
-| Filtro con ícono de sensor        | Muestra información agrupada por tipo de sensor (temperatura, humedad, luz, etc).                |
-| Clasificador por tipo de cultivo  | Permite filtrar resultados según el tipo de planta cultivada: hortalizas, frutas, hierbas, etc.  |
+- **Repositorio de la Landing Page:** [https://github.com/1ASI0732-4433-G3/Landing-Page](https://github.com/1ASI0732-4433-G3/Landing-Page)
+- **Repositorio de la Aplicación Web:** [https://github.com/1ASI0732-4433-G3/Web-Page](https://github.com/1ASI0732-4433-G3/Web-Page)
 
-### 5.2.5. Navigation Systems
-El diseño de navegación sigue principios de accesibilidad, claridad y consistencia.
+Estos repositorios serán gestionados mediante el modelo Gitflow, un flujo de trabajo que optimiza el proceso colaborativo y agiliza la integración de código, ayudando a mantener el desarrollo organizado y fluido.
 
-- **Accesibilidad:** Máximo dos clics para acceder a las funcionalidades clave desde cualquier vista.
-- **Unificación:** Los elementos visuales y navegación mantienen el mismo estilo tanto en web como en dispositivos móviles.
-- **Retroalimentación:** Iconos activos, colores de confirmación y notificaciones aseguran una buena comprensión del estado de las acciones.
+- **Main:** Rama principal destinada a publicar versiones estables y completas del proyecto, asegurando que sean libres de errores. Representa la versión oficial que se despliega y es visible para los usuarios finales.
 
-#### Menú de navegación en la Landing Page:
-- Secciones principales:
-    - Inicio
-    - Visualización de Cultivos
-    - Administración de Sensores
-    - Sistema de Alertas
-    - Centro de Soporte
+- **Develop:** Es la rama base donde se integran continuamente las nuevas funcionalidades desarrolladas durante los distintos sprints.
 
-- Botones destacados:
-    - Crear cuenta / Iniciar sesión
-    - Acceso rápido al panel de monitoreo
+- **Feature:** Estas ramas específicas son creadas a partir de la rama `develop` cada vez que se desea implementar una funcionalidad adicional. Es importante fusionarlas de vuelta a `develop` frecuentemente, minimizando conflictos y facilitando la integración del trabajo realizado.
 
-#### Menú de navegación en la Aplicación Web:
-- Menú superior o lateral con las siguientes opciones:
-    - **Panel Principal:** Visión general del estado actual de los cultivos.
-    - **Datos en Tiempo Real:** Monitor interactivo con lectura en vivo de sensores.
-    - **Gestión de Dispositivos:** Control y configuración de hardware IoT.
-    - **Configuración de Alertas:** Creación de alertas según valores límite definidos.
-    - **Historial y Reportes:** Visualización de métricas y exportación en PDF o Excel.
-    - **Perfil de Usuario:** Datos personales, idioma, seguridad, y preferencias.
+### 5.1.3. Source Code Style Guide & Conventions
+Para asegurar la coherencia, claridad y facilidad de mantenimiento del código fuente, el equipo de HidroLynk ha establecido una serie de convenciones y buenas prácticas para cada uno de los lenguajes y tecnologías empleadas en el desarrollo del proyecto:
 
-## 5.3. Landing Page UI Design
+### HTML
 
-### 5.3.1. Landing Page Wireframe
+HTML es el lenguaje base utilizado para estructurar el contenido de nuestras interfaces web. Con el fin de mantener un código limpio y comprensible, se sigue una serie de recomendaciones:
+- Uso uniforme de espacios o tabulaciones.
+- Las etiquetas y nombres de archivo deben escribirse en minúsculas.
+- Atributos HTML encerrados entre comillas dobles.
+- Inclusión correcta de archivos CSS y JS mediante las etiquetas `<link>` y `<script>`.
+- Cierre adecuado de todas las etiquetas y uso de comentarios con la sintaxis `<!-- comentario -->`.
 
-**Prototipo en Figma:** https://www.figma.com/design/XNVO93oCaNIa24pvegEykM/Untitled?node-id=0-1&p=f&t=qVJfN9vOmhHBWZeW-0
+### CSS
 
-<img src="images/wireframe1.png" alt="wireframe">
-<img src="images/wireframe2.png" alt="wireframe">
-<img src="images/wireframe3.png" alt="wireframe">
-<img src="images/wireframe4.png" alt="wireframe">
-<img src="images/wireframe5.png" alt="wireframe">
+CSS permite aplicar estilos visuales a los elementos HTML. Para garantizar una presentación ordenada y bien definida, se aplican las siguientes prácticas:
+- Uso de nombres de clases en minúsculas, descriptivos y con significado claro.
+- Agrupación lógica de propiedades relacionadas.
+- Empleo de IDs solo cuando sea necesario aplicar estilos únicos.
+- Mantener una indentación clara para mejorar la lectura del código.
 
-### 5.3.2. Landing Page Mock-up
+### JavaScript
 
-<img src="images/mockup1.png" alt="wireframe">
-<img src="images/mockup2.png" alt="wireframe">
-<img src="images/mockup3.png" alt="wireframe">
-<img src="images/mockup4.png" alt="wireframe">
-<img src="images/mockup5.png" alt="wireframe">
+JavaScript añade interactividad y dinamismo a nuestras aplicaciones. Se siguen las siguientes convenciones para mantener la calidad del código:
+- Nombres de variables y funciones expresivos, sin abreviaciones, escritos en camelCase.
+- Separación de funciones complejas en bloques más pequeños y reutilizables.
+- Uso de comentarios que expliquen procesos relevantes.
+- Organización modular cuando sea posible.
 
-## 5.4. Applications UX/UI Design
+### Angular
 
-El diseño UX/UI de las aplicaciones de HydroLink busca crear una experiencia fluida y accesible para todo tipo de usuario, asegurando que la interacción con el sistema de monitoreo IoT sea simple y efectiva.
+Angular es el framework principal utilizado en el desarrollo de la aplicación web de HidroLynk. Sus buenas prácticas incluyen:
+- Uso de nombres de archivos y componentes descriptivos, empleando guiones para separar palabras.
+- Estructuración del proyecto en carpetas bien definidas (componentes, servicios, módulos).
+- Separación de lógica de presentación y lógica de negocio para mantener la limpieza arquitectónica.
+- Adherencia al estándar de TypeScript, incluyendo tipado explícito y uso de interfaces.
 
-### 5.4.1. Applications Wireframes
+### Gherkin
 
-Los wireframes son representaciones visuales que permiten entender la estructura y distribución de elementos en cada vista de las aplicaciones móviles y web.
+Gherkin es el lenguaje empleado para describir escenarios de prueba de forma legible por todos los miembros del equipo. Se adoptan las siguientes reglas:
+- Empleo de palabras clave como `Given`, `When`, `Then` y `And` para estructurar los pasos.
+- Redacción clara y enfocada en la intención del usuario o comportamiento del sistema.
+- Uso de tablas para representar entradas y salidas de manera estructurada.
+- Inclusión de comentarios solo cuando agregan valor (líneas que inician con `#`).
+- Cada archivo `.feature` debe centrarse en una sola funcionalidad, compuesta por uno o más escenarios.
 
-[Figma Wireframes](https://www.figma.com/design/dwgrf60ccxqQ5DoRSyMj0Q/MOBILE-FIGMA?node-id=0-1&p=f&t=BMJtpL2xYVLqCcYA-0)
-//aca te quedaste
-<img src="images/applications_wireframes_mobile.png" alt="App Mobile Wireframes">
-<img src="images/applications_wireframes_web.png" alt="App Web Wireframes">
+Estas directrices fueron seleccionadas para mantener la calidad técnica del proyecto y facilitar la colaboración entre los distintos roles del equipo, desde desarrolladores hasta diseñadores y testers.
 
-### 5.4.2. Applications Wireflow Diagrams
+### 5.1.4. Software Deployment Configuration
+A continuación, se detallan los procedimientos seguidos por el equipo de HidroLynk para poner en línea las soluciones desarrolladas durante esta etapa del proyecto.
 
-Estos diagramas muestran el recorrido lógico que realiza el usuario dentro de las aplicaciones, ayudando a identificar rutas de navegación, puntos de decisión y transiciones clave.
+### Landing Page
 
-[Wireflow Figma](https://www.figma.com/board/lPbcfOseQklnlhEZEXio4I/HYDROLINK?node-id=0-1&t=WLD4Ma6jAl0RtTgs-1)
+El despliegue de la página principal se llevó a cabo mediante **GitHub Pages**, una funcionalidad integrada en GitHub que permite alojar sitios estáticos directamente desde los repositorios del proyecto. Para ello, el código fuente se organizó dentro del repositorio correspondiente, y se activó la opción de publicación desde la configuración del repositorio, lo que generó automáticamente un enlace público de acceso al sitio.
 
-<img src="images/applications_wireflow_diagrams_mobile.png" alt="App MObile Wireflow Diagrams">
-<img src="images/applications_wireflow_diagrams_web.png" alt="App Web Wireflow Diagrams">
+### Web Application
 
-### 5.4.3. Applications Mock-ups
+La aplicación web fue desplegada usando **Firebase Hosting**, una solución de Google pensada para el alojamiento de aplicaciones modernas. Esta herramienta permite publicar sitios de manera rápida y segura, brindando la posibilidad de conectar el frontend del proyecto con servicios backend y bases de datos en la nube. Utilizamos Firebase para asegurar la disponibilidad en línea de nuestra interfaz, con un rendimiento optimizado y una configuración sencilla para entornos productivos.
 
-<img src="images/mockup - web 1.png" alt="App Web Wireflow Diagrams">
-<img src="images/mockup web 2.png" alt="App Web Wireflow Diagrams">
-<img src="images/mockup-mobile-1.png" alt="App Web Wireflow Diagrams">
-<img src="images/mockup-mobile-2.png" alt="App Web Wireflow Diagrams">
-[Figma Mockups](https://www.figma.com/design/9wb3lGc5giLV4KEyFty6bf/Mobile-Mockups-and-Prototyping?node-id=0-1&t=BjmklCBhCvcbcuJN-1)
+## 5.2. Product Implementation & Deployment
 
-### 5.4.4. Applications User Flow Diagrams
+### 5.2.1. Sprint Backlogs
 
-<img src="images/mockup-flow-mobile.png" alt="App Web Wireflow Diagrams">
-<img src="images/mockup-flow-web.png" alt="App Web Wireflow Diagrams">
-[Figma User Flow](https://www.figma.com/board/Ik78rH11emEGTPXNVfI7Mt/Untitled?node-id=0-1&t=6rvRf5q9NhL7tNPn-1)
 
-## 5.5. Applications Prototyping
+### 5.2.2. Implemented Landing Page Evidence
+### 5.2.3. Implemented Frontend-Web Application Evidence
+### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. RESTful API documentation
+### 5.2.7. Team Collaboration Insights
 
-<img src="images/prototyping-mobile.png" alt="App Web Wireflow Diagrams">
-<img src="images/prototyping-web.png" alt="App Web Wireflow Diagrams">
-[Figma Prototype](https://www.figma.com/proto/9wb3lGc5giLV4KEyFty6bf/Application-Mockups?node-id=12-29&node-type=canvas&t=Y2X2EgX3WIX3EKtB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=12%3A29&share=1)
+## 5.3. Video About-the-Product
 
