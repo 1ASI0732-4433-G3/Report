@@ -46,7 +46,7 @@ Esta sección describe las herramientas y plataformas adoptadas por nuestro equi
 - **GitHub**: Plataforma colaborativa basada en el sistema de control de versiones Git, que facilita almacenar, gestionar y revisar el código fuente. GitHub mejora significativamente la comunicación y el flujo de trabajo entre los desarrolladores, favoreciendo la documentación clara y centralizada del proyecto.
 
 ### 5.1.2. Source Code Management
-Para mantener una estructura clara y evitar conflictos o duplicidad de trabajo durante el desarrollo, los proyectos han sido organizados utilizando GitHub. Se ha creado una organización dedicada al proyecto HidroLynk, que contiene repositorios específicos para cada componente de la solución, detallados a continuación:
+Para mantener una estructura clara y evitar conflictos o duplicidad de trabajo durante el desarrollo, los proyectos han sido organizados utilizando GitHub. Se ha creado una organización dedicada al proyecto HydroLink, que contiene repositorios específicos para cada componente de la solución, detallados a continuación:
 
 - **Repositorio de la Landing Page:** [https://github.com/1ASI0732-4433-G3/Landing-Page](https://github.com/1ASI0732-4433-G3/Landing-Page)
 - **Repositorio de la Aplicación Web:** [https://github.com/1ASI0732-4433-G3/Web-Page](https://github.com/1ASI0732-4433-G3/Web-Page)
@@ -60,7 +60,7 @@ Estos repositorios serán gestionados mediante el modelo Gitflow, un flujo de tr
 - **Feature:** Estas ramas específicas son creadas a partir de la rama `develop` cada vez que se desea implementar una funcionalidad adicional. Es importante fusionarlas de vuelta a `develop` frecuentemente, minimizando conflictos y facilitando la integración del trabajo realizado.
 
 ### 5.1.3. Source Code Style Guide & Conventions
-Para asegurar la coherencia, claridad y facilidad de mantenimiento del código fuente, el equipo de HidroLynk ha establecido una serie de convenciones y buenas prácticas para cada uno de los lenguajes y tecnologías empleadas en el desarrollo del proyecto:
+Para asegurar la coherencia, claridad y facilidad de mantenimiento del código fuente, el equipo de HydroLink ha establecido una serie de convenciones y buenas prácticas para cada uno de los lenguajes y tecnologías empleadas en el desarrollo del proyecto:
 
 ### HTML
 
@@ -89,7 +89,7 @@ JavaScript añade interactividad y dinamismo a nuestras aplicaciones. Se siguen 
 
 ### Angular
 
-Angular es el framework principal utilizado en el desarrollo de la aplicación web de HidroLynk. Sus buenas prácticas incluyen:
+Angular es el framework principal utilizado en el desarrollo de la aplicación web de HydroLink. Sus buenas prácticas incluyen:
 - Uso de nombres de archivos y componentes descriptivos, empleando guiones para separar palabras.
 - Estructuración del proyecto en carpetas bien definidas (componentes, servicios, módulos).
 - Separación de lógica de presentación y lógica de negocio para mantener la limpieza arquitectónica.
@@ -107,7 +107,7 @@ Gherkin es el lenguaje empleado para describir escenarios de prueba de forma leg
 Estas directrices fueron seleccionadas para mantener la calidad técnica del proyecto y facilitar la colaboración entre los distintos roles del equipo, desde desarrolladores hasta diseñadores y testers.
 
 ### 5.1.4. Software Deployment Configuration
-A continuación, se detallan los procedimientos seguidos por el equipo de HidroLynk para poner en línea las soluciones desarrolladas durante esta etapa del proyecto.
+A continuación, se detallan los procedimientos seguidos por el equipo de HydroLink para poner en línea las soluciones desarrolladas durante esta etapa del proyecto.
 
 ### Landing Page
 
@@ -123,10 +123,26 @@ La aplicación web fue desplegada usando **Firebase Hosting**, una solución de 
 
 
 ### 5.2.2. Implemented Landing Page Evidence
+
+En esta etapa del proyecto, se completó el desarrollo inicial de la **Landing Page**, cumpliendo con los objetivos establecidos para la captación de usuarios e introducción al producto.
+
+Asimismo, se avanzó con la construcción de la **versión preliminar de la aplicación web**, permitiendo visualizar la estructura general y navegar entre sus componentes principales.
+
+![Mockup de la aplicación](images/mockup3.png)
+![Mockup de la aplicación](images/mockup4.png)
+![Mockup de la aplicación](images/img_4.png)
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+En esta fase del proyecto se completó la implementación de la aplicación web.
+![Mockup de la aplicación](images/img_2.png)
+![Mockup de la aplicación](images/img_3.png)
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+En esta fase del proyecto se completó la implementación de la aplicación movil.
+![Mockup de la aplicación](images/img_3.png)
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
 ### 5.2.6. RESTful API documentation
+
 ### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
