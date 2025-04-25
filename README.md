@@ -142,6 +142,10 @@ En esta fase del proyecto se completó la implementación de la aplicación movi
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 ### 5.2.6. RESTful API documentation
+Esta sección expone de forma precisa cómo se llevó a cabo la documentación de los servicios durante el desarrollo del sprint. A través del uso de Swagger, se generó una documentación interactiva y constantemente actualizada de los distintos endpoints de la API. Esta herramienta facilitó una revisión colaborativa durante la Sprint Review, permitiendo que tanto el equipo como los stakeholders comprendieran fácilmente las rutas disponibles, sus respectivas funciones, los métodos HTTP empleados y las posibles respuestas. La evidencia presentada respalda que los servicios están correctamente documentados, promoviendo una mayor claridad y comprensión del trabajo realizado.
+![Mockup de la aplicación](images/img.png)
+![Mockup de la aplicación](images/img_1.png)
+
 
 ### 5.2.7. Team Collaboration Insights
 
