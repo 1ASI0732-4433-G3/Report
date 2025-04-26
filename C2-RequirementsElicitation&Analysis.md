@@ -141,7 +141,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Evidencia de la reunión:**  
   - **Inicio:** 00:07  
   - **Fin:** 03:17  
-  - **Enlace de entrevista:** [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112749_upc_edu_pe/ERP0sf0OcAhMryt-BGJusicB6tFAdMA6lxjY8QTW3XVs7w?e=RCdZ3L)  
+  - **Enlace de entrevista:** [Ver entrevista](https://drive.google.com/file/d/1LMCdZXNh3TZw_ilhC85gERMOWaVSkgTa/view?usp=sharing&t=2)  
 - **Resumen:**  
   Juan es desarrollador de software con interés en hidroponía casera e IoT. Busca cultivar de manera eficiente y controlar condiciones desde el celular. Identifica como desafíos la falta de información consolidada y la complejidad técnica. Espera precisión, ajustes automáticos y datos históricos. Considera esencial el monitoreo en tiempo real, integración con sensores y una interfaz intuitiva con guías.
 
@@ -153,7 +153,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Ubicación:** San Martín, Lima  
 - **Inicio:** 03:18  
 - **Fin:** 05:25  
-- **Resumen:**  
+- **Resumen:**  [Ver entrevista](https://drive.google.com/file/d/1LMCdZXNh3TZw_ilhC85gERMOWaVSkgTa/view?usp=sharing&t=198)  
   Eddy está interesado en la hidroponía para aprender a cultivar eficientemente e integrar IoT. Imagina un sistema automatizado con alertas al celular. Señala como reto la falta de información sencilla para principiantes. Espera mejorar el crecimiento de las plantas y ahorrar tiempo. Encuentra útil una app con monitoreo en tiempo real y guías prácticas.
 
 ---
@@ -164,7 +164,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Ubicación:** Santa Anita, Lima  
 - **Inicio:** 05:24  
 - **Fin:** 09:46  
-- **Resumen:**  
+- **Resumen:**  [Ver entrevista](https://drive.google.com/file/d/1LMCdZXNh3TZw_ilhC85gERMOWaVSkgTa/view?usp=sharing&t=323)  
   Andrea quiere cultivar vegetales de forma eficiente e integrar IoT. Desea un sistema automatizado que monitoree agua, nutrientes, luz y humedad, con alertas móviles. El mayor desafío es encontrar información integrada y accesible. Ve en los sensores una forma de ahorrar tiempo y mejorar el rendimiento. Considera útil una app con monitoreo y guías prácticas.
 
 ---
@@ -177,7 +177,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Ubicación:** Santiago de Surco, Lima  
 - **Inicio:** 09:50  
 - **Fin:** 15:04  
-- **Enlace de entrevista:** [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112749_upc_edu_pe/ERP0sf0OcAhMryt-BGJusicB6tFAdMA6lxjY8QTW3XVs7w?e=RCdZ3L)  
+- **Enlace de entrevista:** [Ver entrevista](https://drive.google.com/file/d/1LMCdZXNh3TZw_ilhC85gERMOWaVSkgTa/view?usp=sharing&t=591)  
 - **Resumen:**  
   Paolo es agricultor experto. Empezó en hidroponía por la escasez de recursos en agricultura tradicional. Usa OneNote para organizar sus cultivos. Uno de sus desafíos es la durabilidad de los sensores en contacto con el agua. Le sería útil una app que le brinde datos específicos para detectar necesidades de sus cultivos y mejorar la producción.
 
@@ -189,7 +189,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Ubicación:** San Martín, Lima  
 - **Inicio:** 15:05  
 - **Fin:** 17:07  
-- **Enlace de entrevista:** [Ver entrevista](https://upcedupe
+- **Enlace de entrevista:** [Ver entrevista](https://drive.google.com/file/d/1LMCdZXNh3TZw_ilhC85gERMOWaVSkgTa/view?usp=sharing&t=906)
 
 ### 2.2.3. Análisis de entrevistas
 
