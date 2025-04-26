@@ -13,8 +13,8 @@
 
 ## TF REPORT
 
-**Sección:** WX71  
-**Profesor:**  
+**Sección:** 4433  
+**Profesor:** Juan Carlos Tinoco Licas
 **Startup Name:** HydroGenius  
 **Producto:** HydroLink
 
