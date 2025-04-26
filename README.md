@@ -214,15 +214,15 @@ Asimismo, se avanzó con la construcción de la **versión preliminar de la apli
 
 ![Mockup de la aplicación](images/mockup3.png)
 ![Mockup de la aplicación](images/mockup4.png)
-![Mockup de la aplicación](images/img_4.png)
+![Mockup de la aplicación](images/img_4524.png)
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 En esta fase del proyecto se completó la implementación de la aplicación web.
-![Mockup de la aplicación](images/img_2.png)
-![Mockup de la aplicación](images/img_3.png)
+![Mockup de la aplicación](images/img_2ddd.png)
+![Mockup de la aplicación](images/img_3523.png)
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 En esta fase del proyecto se completó la implementación de la aplicación movil.
-![Mockup de la aplicación](images/img_3.png)
+![Mockup de la aplicación](images/img_3523.png)
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 Para la implementación del servicio web de HidroLynk, se utilizó la plataforma Microsoft Azure. A través de App Service, se configuró un despliegue continuo integrando directamente el repositorio de GitHub donde se encuentra el código de la API RESTful.
@@ -230,15 +230,15 @@ Para la implementación del servicio web de HidroLynk, se utilizó la plataforma
 Gracias a esta configuración, cada actualización del repositorio desencadena automáticamente una nueva versión del servicio en producción, facilitando la gestión del backend y asegurando la disponibilidad constante de los endpoints. Además, la plataforma proporciona un dominio público mediante el cual se accede a los servicios, incluyendo la visualización de la documentación dinámica en Swagger.
 
 A continuación, se presentan capturas de la configuración del entorno y evidencia del despliegue exitoso:
-![Mockup de la aplicación](images/img_5.png)
+![Mockup de la aplicación](images/img_525.png)
 ![Mockup de la aplicación](images/img_6.png)
 ![Mockup de la aplicación](images/datab.png)
 
 
 ### 5.2.6. RESTful API documentation
 Esta sección expone de forma precisa cómo se llevó a cabo la documentación de los servicios durante el desarrollo del sprint. A través del uso de Swagger, se generó una documentación interactiva y constantemente actualizada de los distintos endpoints de la API. Esta herramienta facilitó una revisión colaborativa durante la Sprint Review, permitiendo que tanto el equipo como los stakeholders comprendieran fácilmente las rutas disponibles, sus respectivas funciones, los métodos HTTP empleados y las posibles respuestas. La evidencia presentada respalda que los servicios están correctamente documentados, promoviendo una mayor claridad y comprensión del trabajo realizado.
-![Mockup de la aplicación](images/img.png)
-![Mockup de la aplicación](images/img_1.png)
+![Mockup de la aplicación](images/img123.png)
+![Mockup de la aplicación](images/img_13333.png)
 
 
 ### 5.2.7. Team Collaboration Insights
