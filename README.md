@@ -68,9 +68,9 @@ Abril del 2025
 
 ## Registro de Versiones del Informe
 
-| Versión |   Fecha    | Autor(es) | Descripción de modificación |
-| :-----: | :--------: | :-------: | :-------------------------- |
-| **TB1** | 28/08/2024 | Checa Apolinario, Paolo Sebastián<br>Lazo Tapia, Jesús Antonio<br>Hinostroza Mavila, Farid Rolando<br>Taype Fernandez, Leonardo<br>Arana Ramos, Jack | Se realizaron los capítulos:<br>- **Capítulo I:** Introducción<br>- **Capítulo II:** Requirements Elicitation & Analysis<br>- **Capítulo III:** Requirements Specification<br>- **Capítulo IV:** Solution Software Design |
+| Versión |   Fecha    |        Autor(es)         | Descripción de modificación                                                                                                                                                                                                                                               |
+| :-----: | :--------: |:------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **TB1** | 28/08/2024 | Josue Hidalgo Bustamante | Se realizaron los capítulos:<br>- **Capítulo I:** Introducción<br>- **Capítulo II:** Requirements Elicitation & Analysis<br>- **Capítulo III:** Requirements Specification<br>- **Capítulo IV:** Product Design <br>- **Capítulo V:** Product Implementation |
 
 ---
 
