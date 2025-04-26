@@ -14,21 +14,48 @@
 ## TF REPORT
 
 **Sección:** WX71  
-**Profesor:** Marco Antonio León Baca  
-**Startup Name:** GrowGenius  
-**Producto:** GreenGrow
+**Profesor:**  
+**Startup Name:** HydroGenius  
+**Producto:** HydroLink
 
-### Team Members:
+<h3 align="center">Team Members</h3>
 
-
-| Member                         |    Code    |
-|:-------------------------------|:----------:|
-| Hidalgo Bustamante, Josue Omar | u202119880 |
-| cambiar                        | u202019038 |
-| cambiar                        | u202014468 |
-| cambiar                        | u20201e840 |
-| cambiar                        | u202121875 |
+<div align="center">
+  <table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Member</th>
+        <th>Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hidalgo Bustamante, Josue Omar</td>
+        <td>u202119880</td>
+      </tr>
+      <tr>
+        <td>cambiar</td>
+        <td>u202019038</td>
+      </tr>
+      <tr>
+        <td>cambiar</td>
+        <td>u202014468</td>
+      </tr>
+      <tr>
+        <td>cambiar</td>
+        <td>u20201e840</td>
+      </tr>
+      <tr>
+        <td>cambiar</td>
+        <td>u202121875</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
+
+</div>
+
 <br>
 
 Abril del 2025
@@ -51,7 +78,7 @@ Abril del 2025
 
 - **TB1:** Para esta entrega, realizamos las actividades correspondientes a los capítulos asignados en nuestro repositorio:
 
-[Github - Informe Final GreenGrow](https://github.com/GrowEasy-IOT-WX71/Informe-Final)
+[Github - Informe Final HydroLink](https://github.com/GrowEasy-IOT-WX71/Informe-Final)
 
 <br>
 
@@ -250,10 +277,10 @@ Abril del 2025
 
 ## Student Outcome  - remplazar 
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :------------------: | :------------------ | :---------- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Paolo Sebastián Checa Apolinario (TB1, TP, TB2, TF):** Definición del proyecto, despliegue de Landing Page y aplicación web, explicación técnica y video demostrativo.<br><br>**Jesús Lazo Tapia (TB1, TP, TB2, TF):** Participación activa en reuniones, diseño web y actualización para Wokwi.<br><br>**Farid Hinostroza Mavila (TB1, TP, TB2, TF):** Análisis de usuarios, liderazgo UI/UX, comunicación efectiva y video demostrativo.<br><br>**Leonardo Taype Fernandez (TB1, TP, TB2, TF):** Arquitectura software, prototipos, presentación de flujos y video demostrativo.<br><br>**Jack Arana Ramos (TB1, TP, TB2, TF):** Gestión del proyecto, diseño UX/UI, integración backend-IoT, actualización de documentación. | Colaboración efectiva y liderazgo compartido. Comunicación adaptada a distintos públicos. Resultados técnicos claros y prácticos. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Paolo Sebastián Checa Apolinario (TB1, TP, TB2, TF):** Documentación en Github, implementación web, integración tecnológica y funcionalidad final.<br><br>**Jesús Lazo Tapia (TB1, TP, TB2, TF):** Markdown colaborativo, diseño web, desarrollo frontend en Angular, visualización de datos Wokwi.<br><br>**Farid Hinostroza Mavila (TB1, TP, TB2, TF):** Informes técnicos, coordinación UI/UX, backend notification-management, informe final y métricas técnicas.<br><br>**Leonardo Taype Fernandez (TB1, TP, TB2, TF):** Planificación del proyecto, línea de diseño coherente, optimización del rendimiento de software, mejoras continuas en funcionalidades.<br><br>**Jack Arana Ramos (TB1, TP, TB2, TF):** Establecimiento de objetivos claros, documentación markdown, seguridad de datos e integración backend-frontend. | Planificación estructurada, colaboración activa en documentación y desarrollo. Implementación exitosa de mejoras técnicas y comunicativas. |
+| Criterio específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones |
+| :------------------: |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :---------- |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | **Josue Omar Hidalgo Bustamante <br> TB1:<br>** Contribuí al equipo asegurando prácticas responsables en el desarrollo, promoviendo decisiones técnicas éticas, evaluando riesgos de escalabilidad y priorizando la calidad del software. Fomenté un enfoque colaborativo orientado a soluciones sostenibles y alineadas con los principios profesionales de la ingeniería.                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Colaboración efectiva y liderazgo compartido. Comunicación adaptada a distintos públicos. Resultados técnicos claros y prácticos. |
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | **Josue Omar Hidalgo Bustamante <br> TB1:<br>** Aporté al equipo evaluando nuestras soluciones considerando su viabilidad técnica y su impacto en el entorno social, económico y ambiental. Propuse decisiones informadas que equilibraran eficiencia, sostenibilidad y accesibilidad, alineando el desarrollo con necesidades reales en contextos globales y locales.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ---
 
@@ -281,13 +308,13 @@ Nuestra propuesta no solo se basa en la tecnología, sino también en la accesib
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-| Nombre | Código | Carrera | Conocimiento y habilidades |
-|--------|--------|---------|----------------------------|
-| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Con experiencia en C++, Python y Java. Capacidad de adaptación, liderazgo en el equipo y pensamiento lógico para la creación de soluciones innovadoras. |
-| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Conocimientos en redes, electrónica básica y desarrollo de software, con un interés particular en sistemas inteligentes aplicados a entornos reales. |
-| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Especialista en backend y estructuración de bases de datos. Entusiasta de la IA aplicada a sistemas agrícolas y del trabajo colaborativo. |
-| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Amplia experiencia en diseño de interfaces, aplicaciones móviles y desarrollo web, con enfoque en experiencia de usuario y accesibilidad. |
-| <span style="color:blue">CAMBIAR</span> | Ucambiar20 | Ingeniería de Software | Perfil full-stack con habilidades en automatización de procesos, control de versiones y cultura DevOps. Alta orientación a resultados. |
+| Nombre                                                                                                                                       | Código     | Carrera | Conocimiento y habilidades                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------------------------------------------------------------------------------------------------------------------|------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="images/img.png" alt="logo" style="margin-bottom: 5px;" width="500"/> <span >Josue Omar Hidalgo Bustamante</span> | u202119880 | Ingeniería de Software | Experiencia en desarrollo de software con lenguajes como Python, Java y C++, combinada con una sólida comprensión de arquitectura en la nube, redes y escalabilidad. Me destaco por mi capacidad de análisis, pensamiento lógico y liderazgo técnico orientado a construir soluciones eficientes y adaptables a escenarios reales de alto rendimiento. |
+| <span style="color:blue">CAMBIAR</span>                                                                                                      | Ucambiar20 | Ingeniería de Software | Conocimientos en redes, electrónica básica y desarrollo de software, con un interés particular en sistemas inteligentes aplicados a entornos reales.                                                                                                                                                                                                   |
+| <span style="color:blue">CAMBIAR</span>                                                                                                      | Ucambiar20 | Ingeniería de Software | Especialista en backend y estructuración de bases de datos. Entusiasta de la IA aplicada a sistemas agrícolas y del trabajo colaborativo.                                                                                                                                                                                                              |
+| <span style="color:blue">CAMBIAR</span>                                                                                                      | Ucambiar20 | Ingeniería de Software | Amplia experiencia en diseño de interfaces, aplicaciones móviles y desarrollo web, con enfoque en experiencia de usuario y accesibilidad.                                                                                                                                                                                                              |
+| <span style="color:blue">CAMBIAR</span>                                                                                                      | Ucambiar20 | Ingeniería de Software | Perfil full-stack con habilidades en automatización de procesos, control de versiones y cultura DevOps. Alta orientación a resultados.                                                                                                                                                                                                                 |
 
 ### 1.2. Solution Profile
 
@@ -338,13 +365,76 @@ Aunque la hidroponía se presenta como una solución viable ante la escasez de r
 - Preferencia por sistemas que ofrezcan recomendaciones y alertas sin requerir supervisión constante.
 - Necesidad de comparar variables para tomar decisiones preventivas y correctivas.
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+### 1.2.2.3. Lean UX Hypothesis Statements
 
-1. Creemos que más del 70% de los usuarios principiantes experimentarán una mejora significativa en el rendimiento de sus cultivos al utilizar HydroLink.
-2. Suponemos que al menos el 75% de los usuarios expertos encontrarán valioso el análisis avanzado de datos ofrecido por la plataforma.
-3. Anticipamos que el 85% de nuestra base de usuarios estará conformada por personas mayores de 18 años.
-4. Consideramos que la facilidad de uso llevará a que más del 85% de los usuarios califiquen la experiencia como satisfactoria.
-5. Estimamos que un 65% de los usuarios activos interactuará de forma regular con la comunidad digital integrada en la plataforma.
+En esta sección planteamos las hipótesis que buscan resolver los problemas detectados en el proyecto *HydroLynk*, orientado al monitoreo de cultivos mediante tecnología IoT. Cada hipótesis incluye métricas específicas que nos permitirán medir objetivamente el éxito, basándonos en promedios de referencia de aplicaciones y sistemas IoT agrícolas.
+
+
+
+### Hipótesis 1
+- Consideramos que nuestra aplicación y sistema IoT serán esenciales para aficionados de la hidroponía, facilitándoles el monitoreo y la gestión de sus cultivos.
+- Éxito esperado: Más del 70% de los usuarios aficionados reportarán mejoras notables en la salud y producción de sus cultivos.
+
+**Métricas:**
+- Porcentaje de usuarios aficionados que reportan mejoras:
+  - Actual: 0%
+  - Deseado: 70%
+- Número de sesiones de monitoreo activas por usuario aficionado por semana:
+  - Actual: 1
+  - Deseado: 5
+
+---
+
+### Hipótesis 2
+- Creemos que la participación de expertos agrícolas será clave para perfeccionar las funciones avanzadas de la plataforma.
+- Éxito esperado: Más del 75% de los expertos utilizarán y recomendarán nuestras herramientas analíticas y de personalización.
+
+**Métricas:**
+- Porcentaje de expertos que utilizan funcionalidades avanzadas:
+  - Actual: 0%
+  - Deseado: 75%
+- Número de configuraciones personalizadas creadas por expertos:
+  - Actual: 0
+  - Deseado: 50 por mes
+
+---
+
+### Hipótesis 3
+- Estimamos que la mayoría de usuarios de la aplicación serán personas mayores de 18 años, nuestro segmento principal.
+- Éxito esperado: El 85% de nuestros usuarios activos estarán en este grupo de edad.
+
+**Métricas:**
+- Porcentaje de usuarios mayores de 18 años:
+  - Actual: 0%
+  - Deseado: 85%
+- Tasa de retención mensual de usuarios mayores de 18 años:
+  - Actual: 0%
+  - Deseado: 70%
+
+---
+
+### Hipótesis 4
+- Suponemos que nuestra aplicación será intuitiva y fácil de usar para todos los perfiles de usuarios.
+- Éxito esperado: Más del 85% de los usuarios reflejarán una alta satisfacción con la usabilidad en encuestas periódicas.
+
+**Métricas:**
+- Porcentaje de usuarios satisfechos con la usabilidad:
+  - Actual: 0%
+  - Deseado: 85%
+- Tiempo promedio de configuración inicial del sistema IoT:
+  - Actual: 60 minutos
+  - Deseado: 20 minutos
+
+---
+
+### Hipótesis 5
+- Apostamos a que la función de comunidad será un pilar para el intercambio de experiencias, consejos y soluciones entre usuarios.
+- Éxito esperado: Más del 65% de los usuarios activos participarán regularmente en la comunidad.
+
+**Métricas:**
+- Porcentaje de usuarios activos que interactúan en la comunidad:
+  - Actual: 0%
+  - Deseado: 65%
 
 #### 1.2.2.4. Lean UX Canvas
 
