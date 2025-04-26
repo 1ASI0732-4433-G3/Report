@@ -78,7 +78,7 @@ Abril del 2025
 
 - **TB1:** Para esta entrega, realizamos las actividades correspondientes a los capítulos asignados en nuestro repositorio:
 
-[Github - Informe Final HydroLink](https://github.com/GrowEasy-IOT-WX71/Informe-Final)
+[Github - Informe Final HydroLink](https://github.com)
 
 <br>
 
