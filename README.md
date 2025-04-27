@@ -34,8 +34,8 @@
         <td>u202119880</td>
       </tr>
       <tr>
-        <td>cambiar</td>
-        <td>u202019038</td>
+        <td>Martinez Valdivia, José Luis </td>
+        <td>u202213989</td>
       </tr>
       <tr>
         <td>cambiar</td>
@@ -70,7 +70,7 @@ Abril del 2025
 
 | Versión |   Fecha    |                   Autor(es)                    | Descripción de modificación                                                                                                                                                                                                                                               |
 | :-----: | :--------: |:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TB1** | 28/08/2024 | Josue Hidalgo Bustamante <br> Jack Arana Ramos | Se realizaron los capítulos:<br>- **Capítulo I:** Introducción<br>- **Capítulo II:** Requirements Elicitation & Analysis<br>- **Capítulo III:** Requirements Specification<br>- **Capítulo IV:** Product Design <br>- **Capítulo V:** Product Implementation |
+| **TB1** | 28/08/2024 | Josue Hidalgo Bustamante <br> Jack Arana Ramos <br> Jose Luis Martinez Valdivia | Se realizaron los capítulos:<br>- **Capítulo I:** Introducción<br>- **Capítulo II:** Requirements Elicitation & Analysis<br>- **Capítulo III:** Requirements Specification<br>- **Capítulo IV:** Product Design <br>- **Capítulo V:** Product Implementation |
 
 ---
 
