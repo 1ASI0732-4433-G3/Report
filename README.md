@@ -87,12 +87,12 @@ Abril del 2025
 - **Capítulo I:** Introducción (Josue Hidalgo)
 - **Capítulo II:** Requirements Elicitation & Analysis (Farid Rolando)
 - **Capítulo III:** Requirements Specification (Jesús Antonio)
-- **Capítulo IV:** Solution Software Design (Leonardo y Jack)
+- **Capítulo IV:** Solution Software Design (Jack)
 - **Capítulo V:** Product Implementation (Josue Hidalgo)
 
-![insight1TB1](images/insight1TB1.png)
+![insight1TB1](images/insights.png)
 
-![insight2TB1](images/insight2TB1.png)
+![insight2TB1](images/contributors.png)
 
 ---
 
@@ -1145,6 +1145,7 @@ Este mockup fue creado para reflejar la esencia de HydroLink Tech —una soluci�
 
 ### 4.4. Mobile Applications UX/UI Design
 
+
 #### 4.4.1. Mobile Applications Wireframes
 
 En esta sección se muestran los wireframes de las aplicaciones, los cuales ofrecen una representación visual preliminar de la estructura y disposición de los elementos en las distintas pantallas. Estos esquemas permiten anticipar la organización de la interfaz, asegurando una navegación intuitiva y una experiencia de usuario coherente y eficiente desde las primeras etapas del diseño.
@@ -1633,6 +1634,7 @@ Esta sección expone de forma precisa cómo se llevó a cabo la documentación d
 
 
 ### 5.2.7. Team Collaboration Insights
+![Mockup de la aplicación](images/insights.png)
 
 ## 5.3. Video About-the-Product
 
