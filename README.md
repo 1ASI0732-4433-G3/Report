@@ -38,12 +38,8 @@
         <td>u202213989</td>
       </tr>
       <tr>
-        <td>cambiar</td>
+        <td>Mel Andree Orellana Rodriguez</td>
         <td>u202014468</td>
-      </tr>
-      <tr>
-        <td>cambiar</td>
-        <td>u20201e840</td>
       </tr>
       <tr>
         <td>Arana Ramos, Jack</td>
