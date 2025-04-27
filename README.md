@@ -1549,7 +1549,7 @@ La aplicación web fue desplegada usando **Firebase Hosting**, una solución de 
   <tr>
     <td>Agregar el contenido de cada uno de los servicios.</td>
     <td>1</td>
-    <td>CAMBIAR</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
   </tr>
   <tr>
     <td rowspan="2">US03</td>
@@ -1557,14 +1557,14 @@ La aplicación web fue desplegada usando **Firebase Hosting**, una solución de 
     <td rowspan="2">Como aficionado y/o experto Quiero visualizar los beneficios del producto inteligente Para entender las funcionalidades que esta ofrece.</td>
     <td>Crear una sección de beneficios donde se describan las ventajas de usar las aplicaciones.</td>
     <td>4</td>
-    <td>CAMBIAR</td>
+    <td>Mel Andre Orellana</td>
     <td rowspan="2">5</td>
     <td rowspan="2">Done</td>
   </tr>
   <tr>
     <td>Creación del contenido de los beneficios.</td>
     <td>1</td>
-    <td>CAMBIAR</td>
+    <td>Jorge Luis Martiez</td>
   </tr>
   <tr>
     <td rowspan="2">US04</td>
