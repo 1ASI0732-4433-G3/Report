@@ -1,0 +1,224 @@
+# Capítulo I: Introducción
+
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
+
+Nuestra startup recibe el nombre de **GrowEasy Innovators**, la cual nace para ofrecer soluciones avanzadas en el monitoreo y gestión de cultivos mediante tecnología IoT. Nos dedicamos a fortalecer a los agricultores y aficionados de la hidroponía con herramientas tecnológicas que permiten un control preciso y automatizado de sus cultivos. A través de sensores inteligentes, los usuarios pueden monitorear en tiempo real parámetros críticos como la temperatura, humedad, intensidad del viento y la iluminación, optimizando el crecimiento de las plantas y garantizando cosechas de alta calidad. Además, ofrecemos una plataforma intuitiva que permite la gestión remota de estos factores, facilitando la toma de decisiones y reduciendo el margen de error.
+
+**Visión:** Nos proponemos ser líderes en la integración de tecnología IoT en la agricultura, facilitando el acceso a soluciones inteligentes que promuevan prácticas sostenibles y eficientes en el cultivo de alimentos, independientemente del entorno.
+
+**Misión:** Nuestra misión es proporcionar una solución integral que permita a los agricultores, tanto expertos como aficionados, monitorear y gestionar sus cultivos de manera eficiente y sostenible a través de tecnología IoT, mejorando así la productividad y reduciendo el impacto ambiental.
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+**Martinez Valdivia, Jose Luis**  
+**Código:** U202213989  
+**Carrera:** Ingeniería de Software  
+**Conocimientos y habilidades:** C++, Python, Java. Buenas ideas, organización y responsabilidad.
+
+**Nombre**  
+**Código:** U202...
+**Carrera:** Ingeniería de Software  
+**Conocimientos y habilidades:** Tecnología inteligente, redes y comunicaciones de datos. Apoyo activo al equipo.
+
+**Nombre**  
+**Código:** U2020...
+**Carrera:** Ingeniería de Software  
+**Conocimientos y habilidades:** Inteligencia artificial, bases de datos. Trabajo colaborativo y proactividad.
+
+**Nombre**  
+**Código:** U202... 
+**Carrera:** Ingeniería de Software  
+**Conocimientos y habilidades:** Desarrollo web, móvil y desktop. Compromiso y responsabilidad.
+
+**Nombre**  
+**Código:** U2021.... 
+**Carrera:** Ingeniería de Software  
+**Conocimientos y habilidades:** Full Stack, DevOps, Git, UI/UX. Rápida adaptación y resolución de problemas.
+
+### 1.2. Solution Profile
+
+**Nombre del Producto:**  
+Nuestro servicio tiene el nombre de **“GrowEasy”**, reflejando nuestro compromiso de facilitar el monitoreo y la gestión eficiente de cultivos para nuestros usuarios. Con la tecnología IoT, los usuarios podrán supervisar y optimizar el crecimiento de sus plantas de manera sencilla, creciendo junto con nosotros a medida que aprovechan al máximo nuestras herramientas tecnológicas.
+
+**Descripción del Producto:**  
+Proponemos un servicio innovador y tecnológico que permite a los usuarios monitorear y gestionar sus cultivos a través de sensores IoT que capturan datos en tiempo real sobre parámetros como temperatura, humedad, y luz. Con esta información, los usuarios pueden tomar decisiones informadas para mejorar la salud y productividad de sus plantas, ya sea en un entorno doméstico o a mayor escala. Nuestro enfoque es hacer que la tecnología sea accesible y fácil de usar, priorizando la simplicidad y la efectividad para todos los usuarios de nuestra plataforma.
+
+**Monetización:**  
+Nuestro servicio generará ingresos a través de la venta de hardware IoT (sensores y dispositivos de control) y suscripciones a la plataforma que ofrecen acceso a funcionalidades avanzadas, como análisis de datos y recomendaciones personalizadas. Además, consideramos alianzas con empresas de insumos y equipamiento agrícola para ofrecer publicidad dirigida y relevante dentro de nuestra aplicación, brindando a los usuarios acceso a productos y servicios que complementen su experiencia de cultivo.
+
+---
+
+### 1.2.1 Antecedentes y problemática
+
+Para este segmento, utilizamos la técnica **5W y 2H**, lo que nos permite identificar los aspectos clave relacionados con nuestro proyecto.
+
+#### ● Who
+Nuestros usuarios son agricultores, tanto aficionados como expertos, interesados en utilizar tecnología avanzada para monitorear y optimizar sus cultivos. Están comprometidos con la adopción de soluciones innovadoras que les permitan mejorar la eficiencia y la sostenibilidad de sus procesos agrícolas.
+
+#### ● What
+El desafío principal para nuestros usuarios radica en la falta de herramientas accesibles y fáciles de usar que les permitan monitorear en tiempo real y gestionar eficientemente los diferentes factores que afectan el crecimiento de sus cultivos, como la temperatura, humedad, viento e iluminación.
+
+#### ● Where
+Este problema surge principalmente en áreas rurales y urbanas donde los agricultores y aficionados a la hidroponía no tienen acceso a soluciones tecnológicas integradas, lo que dificulta el control eficiente de las condiciones de cultivo.
+
+#### ● When
+La dificultad se presenta constantemente, especialmente cuando los usuarios buscan maximizar la productividad y la calidad de sus cultivos, pero no cuentan con los medios para monitorear y ajustar las variables ambientales de manera precisa y en tiempo real.
+
+#### ● Why
+Los usuarios suelen enfrentar obstáculos debido a la falta de soluciones IoT asequibles y comprensibles que les permitan realizar un monitoreo continuo y automatizado de sus cultivos. Esto los obliga a recurrir a métodos tradicionales o manuales que no siempre son eficaces para asegurar un crecimiento óptimo.
+
+#### ● How
+Para abordar esta problemática, hemos desarrollado una plataforma IoT que integra sensores inteligentes con una aplicación móvil y web. Esta solución permite a los usuarios monitorear en tiempo real las condiciones de sus cultivos, recibir alertas y recomendaciones, y ajustar automáticamente los parámetros necesarios para asegurar un crecimiento saludable y sostenible.
+
+#### ● How much
+De acuerdo con información del **Instituto Nacional de Estadística e Informática (INEI)**, el sector agrícola en el Perú mostró un aumento significativo en la tasa de empleo durante el segundo y tercer trimestre de 2020. En el segundo trimestre, el empleo en este sector creció un 22.6%, y en el tercer trimestre, un 20.5%. Esto es especialmente destacable si se considera que, en esos mismos periodos, la población empleada a nivel nacional disminuyó en un 39.6% y un 17.1%, respectivamente, en comparación con 2019. Además, según **El Comercio (2019)**, la hidroponía se considera el futuro de la agricultura sostenible, ya que requiere un 90% menos de agua que las técnicas agrícolas tradicionales. Esto representa una gran ventaja para quienes desean iniciar su propio proyecto, ya que la hidroponía permite el cultivo en espacios reducidos, optimizando tanto el espacio como los recursos.
+
+
+### 1.2.2 Lean UX Process
+
+#### 1.2.2.1 Lean UX Problem Statements
+
+De acuerdo con **El Comercio (2019)**, la hidroponía es el futuro de la agricultura sostenible, utilizando un 90% menos de agua que los métodos tradicionales y adaptándose eficientemente a espacios reducidos, lo que permite un crecimiento más rápido de los cultivos. Sin embargo, muchos agricultores, tanto aficionados como expertos, enfrentan barreras para acceder a soluciones tecnológicas integradas que faciliten el monitoreo y la optimización de sus cultivos. Como startup, nuestro objetivo es abordar la siguiente interrogante: **¿Cómo podemos emplear tecnologías IoT para ofrecer un servicio innovador que brinde herramientas accesibles y avanzadas, permitiendo a los aficionados y expertos en hidroponía gestionar sus cultivos de manera eficiente?**
+
+#### 1.2.2.2 Lean UX Assumptions
+
+##### Business outcomes:
+- Los usuarios están interesados en monitorear y optimizar sus cultivos utilizando tecnología IoT.
+- Los usuarios buscan orientación y soporte para configurar y utilizar sensores IoT en sus proyectos agrícolas.
+- Los usuarios desean una interfaz intuitiva y fácil de usar para configurar sensores, visualizar datos en tiempo real, y recibir alertas.
+- Los usuarios deben poder interpretar los datos de manera clara y precisa para tomar decisiones informadas sobre sus cultivos.
+- Las aplicaciones deben ser compatibles con los múltiples dispositivos y navegadores actuales.
+
+##### User assumptions:
+
+- **¿Quién es el usuario?**
+  Los usuarios son agricultores, tanto aficionados como expertos, que buscan mejorar la gestión de sus cultivos mediante la implementación de tecnología IoT. Incluye tanto a aficionados que están aprendiendo sobre agricultura tecnológica como a expertos que desean optimizar sus procesos.
+
+- **¿Dónde encaja nuestro producto en su trabajo o vida?**
+  Nuestra aplicación puede ser una herramienta esencial para la gestión diaria de cultivos hidropónicos, permitiendo a los usuarios monitorear factores críticos como temperatura, humedad y luz, optimizando el uso de recursos y mejorando la productividad.
+
+- **¿Qué problema tiene nuestro producto? ¿Cómo se resuelve?**
+  El problema es la falta de herramientas accesibles para monitorear cultivos en tiempo real, lo que puede llevar a ineficiencias en el uso de recursos. Se resuelve ofreciendo una plataforma que permite la configuración y monitoreo de sensores IoT, proporcionando alertas y recomendaciones basadas en datos.
+
+- **¿Cuándo y cómo es usado nuestro producto?**
+  Nuestro producto es utilizado tanto en tiempo real como de forma periódica, permitiendo a los usuarios revisar el estado de sus cultivos, recibir notificaciones y ajustar configuraciones según las necesidades cambiantes de sus plantas. Los expertos pueden usar la plataforma para gestionar múltiples cultivos simultáneamente.
+
+- **¿Qué características son importantes?**
+  Las características más importantes incluyen la capacidad de conectar y configurar múltiples sensores IoT, visualización de datos en tiempo real, alertas automáticas ante condiciones adversas, y un sistema de recomendaciones basado en análisis de datos históricos.
+
+- **¿Cómo debe verse nuestro producto y comportarse?**
+  El producto debe ser visualmente atractivo y fácil de usar, con una interfaz que permita a los usuarios navegar y configurar sensores rápidamente. Debe ser robusto, eficiente, y garantizar un rendimiento estable incluso al manejar grandes volúmenes de datos.
+
+
+### 1.2.2.3. Lean UX Hypothesis Statements
+
+En esta sección, presentaremos hipótesis que proponen soluciones a las problemáticas identificadas previamente en nuestro proyecto enfocado en el monitoreo de cultivos mediante tecnología IoT. Estas hipótesis serán específicas y contarán con métricas claras para garantizar que el éxito pueda ser evaluado de manera objetiva. Las métricas utilizadas se basan en promedios generales de aplicaciones y sistemas IoT existentes en el sector agrícola.
+
+---
+
+#### Hipótesis 1
+
+Creemos que nuestra aplicación y sistema IoT serán una herramienta invaluable para aficionados en el cultivo hidropónico, permitiéndoles monitorear y gestionar eficientemente sus cultivos.  
+Sabremos que tuvimos éxito cuando **más del 70% de los usuarios aficionados reporten mejoras significativas** en la salud y rendimiento de sus cultivos.
+
+**Métricas:**
+
+1. **Porcentaje de usuarios aficionados que reportan mejoras en sus cultivos**
+   - Métrica actual: 0%
+   - Métrica deseada: 70%
+
+2. **Número de sesiones de monitoreo activas por usuario aficionado por semana**
+   - Métrica actual: 1
+   - Métrica deseada: 5
+
+---
+
+#### Hipótesis 2
+
+Creemos que la contribución de expertos en agricultura será fundamental para optimizar las funcionalidades avanzadas de nuestra plataforma.  
+Sabremos que tuvimos éxito cuando **más del 75% de los expertos utilicen y recomienden** nuestras herramientas analíticas y de personalización avanzada.
+
+**Métricas:**
+
+1. **Porcentaje de expertos que utilizan funcionalidades avanzadas**
+   - Métrica actual: 0%
+   - Métrica deseada: 75%
+
+2. **Número de configuraciones personalizadas creadas por expertos**
+   - Métrica actual: 0
+   - Métrica deseada: 50 por mes
+
+---
+
+#### Hipótesis 3
+
+Creemos que nuestra aplicación será utilizada principalmente por personas mayores de 18 años, siendo este nuestro segmento objetivo principal.  
+Sabremos que tuvimos éxito cuando **el 85% de nuestros usuarios activos pertenezcan a este grupo de edad**.
+
+**Métricas:**
+
+1. **Porcentaje de usuarios mayores de 18 años**
+   - Métrica actual: 0%
+   - Métrica deseada: 85%
+
+2. **Tasa de retención de usuarios mayores de 18 años**
+   - Métrica actual: 0%
+   - Métrica deseada: 70% mensual
+
+---
+
+#### Hipótesis 4
+
+Creemos que nuestra aplicación será sencilla y fácil de usar para todos nuestros usuarios.  
+Sabremos que tuvimos éxito cuando **más del 85% de los usuarios reporten una alta satisfacción con la usabilidad** de la aplicación en encuestas periódicas.
+
+**Métricas:**
+
+1. **Porcentaje de usuarios satisfechos con la usabilidad**
+   - Métrica actual: 0%
+   - Métrica deseada: 85%
+
+2. **Tiempo promedio para configurar el sistema IoT por parte de nuevos usuarios**
+   - Métrica actual: 60 minutos
+   - Métrica deseada: 20 minutos
+
+
+- ### Hipótesis 5
+
+Creemos que la función de comunidad será una característica significativa donde los usuarios puedan compartir experiencias, consejos y soluciones relacionadas con sus proyectos de cultivo.  
+Sabremos que tuvimos éxito cuando **más del 65% de los usuarios activos participen regularmente en la comunidad**.
+
+---
+
+#### Métricas
+
+1. **Porcentaje de usuarios activos que participan en la comunidad**  
+   - **Métrica actual:** 0%  
+   - **Métrica deseada:** 65%  
+
+2. **Número de publicaciones y comentarios en la comunidad por mes**  
+   - **Métrica actual:** 0  
+   - **Métrica deseada:** 100 publicaciones y 300 comentarios  
+
+---
+
+### 1.2.2.4. Lean UX Canvas
+
+*(Contenido a definir)*
+
+---
+
+### Segmentos objetivo
+
+| **Tipo de Usuario**           | **Aficionados a la hidroponía**                                                                                                                                               | **Expertos en la hidroponía**                                                                                                                                                |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Geográfico**                 | País: Perú <br> Zona residencial: No es relevante, ya que pueden ser de diferentes zonas del país.                                                                            | País: Perú <br> Zona residencial: No es relevante, ya que pueden ser de diferentes zonas del país.                                                                         |
+| **Psicográfico**               | **Clase Social:** Principalmente de clase media a clase media alta, interesados en aprovechar tecnologías accesibles para mejorar sus cultivos.                                | **Clase Social:** Desde clase media hasta clase alta, con recursos para invertir en tecnologías avanzadas.                                                                 |
+|                               | **Estilo de Vida:** Personas interesadas en la agricultura y sostenibilidad, que buscan aprender a utilizar tecnologías IoT para mejorar sus cultivos, pero carecen del conocimiento técnico necesario para comenzar por su cuenta. | **Estilo de Vida:** Agricultores con experiencia que buscan optimizar sus procesos de cultivo mediante herramientas IoT.                                                    |
+| **Demográfico**                | **Edad:** Personas mayores de 18 años.                                                                                                                                       | **Edad:** Preferiblemente mayores de 30 años.                                                                                                                                |
+|                               | **Nivel de Ingreso:** Varía según la capacidad de inversión en tecnologías IoT, desde ingresos medios a altos.                                                                | **Nivel de Ingreso:** Ingresos medios a altos, con capacidad para invertir en tecnología avanzada.                                                                         |
+|                               | **Nacionalidad:** Principalmente peruanos; extranjeros pueden acceder.                                                                                                       | **Nacionalidad:** Principalmente peruanos; extranjeros deben identificarse con pasaporte.                                                                                    |
+|                               | **Estudios:** Secundaria completa o estudios superiores, idealmente con formación en agricultura o tecnología.                                                                |                                                                                                                                                                            |
+
