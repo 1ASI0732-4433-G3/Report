@@ -70,7 +70,7 @@ Abril del 2025
 
 | Versión |   Fecha    |                   Autor(es)                    | Descripción de modificación                                                                                                                                                                                                                                               |
 | :-----: | :--------: |:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TB1** | 28/08/2024 | Josue Hidalgo Bustamante <br> Jack Arana Ramos <br> Jose Luis Martinez Valdivia | Se realizaron los capítulos:<br>- **Capítulo I:** Introducción<br>- **Capítulo II:** Requirements Elicitation & Analysis<br>- **Capítulo III:** Requirements Specification<br>- **Capítulo IV:** Product Design <br>- **Capítulo V:** Product Implementation |
+| **TB1** | 26/04/2025 | Josue Hidalgo Bustamante  <br> Mel Andree Orellana | Se realizaron los capítulos:<br>- **Capítulo I:** Introducción<br>- **Capítulo II:** Requirements Elicitation & Analysis<br>- **Capítulo III:** Requirements Specification<br>- **Capítulo IV:** Product Design <br>- **Capítulo V:** Product Implementation |
 
 ---
 
