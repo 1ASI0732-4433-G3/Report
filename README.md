@@ -5,7 +5,7 @@
 # Universidad Peruana de Ciencias Aplicadas
 
 ### Ingeniería de Software
-### Ciclo 2024-02
+### Ciclo 2025-01
 
 ---
 
