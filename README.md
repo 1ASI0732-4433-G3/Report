@@ -1579,7 +1579,7 @@ La aplicación web fue desplegada usando **Firebase Hosting**, una solución de 
   <tr>
     <td>Implementar la sección de testimonios para exponer las experiencias de los usuarios.</td>
     <td>2</td>
-    <td>CCAMBIAR</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
   </tr>
 </table>
 
