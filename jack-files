@@ -1,0 +1,298 @@
+//---------------------------------------------------------
+
+## 7.3 Continuous Deployment
+
+### 7.3.1 Tools and Practices
+Para **Continuous Deployment (CDP)**, confiamos en las capacidades de Netlify y Koyeb para ejecutar implementaciones directas a producción sin intervención manual después de que el código pasa las etapas anteriores.
+
+Las herramientas y prácticas clave incluyen:
+- **Despliegue automático post-merge:** Al fusionar en la rama principal, Netlify despliega automáticamente el frontend y Koyeb actualiza el backend.
+- **Rollback sencillo:** Si ocurre un error, Netlify y Koyeb permiten restaurar versiones anteriores con un solo clic.
+- **Monitorización básica:** Netlify ofrece estadísticas de tráfico y errores en frontend; Koyeb proporciona logs de ejecución y alertas de fallos en el backend.
+
+### 7.3.2 Production Deployment Pipeline Components
+Los componentes principales de nuestro pipeline de despliegue en producción son:
+
+- **Hospedaje del Frontend:** Netlify aloja nuestra aplicación de frontend en servidores distribuidos (CDN) para alta disponibilidad y bajo tiempo de respuesta.
+- **Hospedaje del Backend:** Koyeb ejecuta instancias de backend desplegadas en contenedores automáticamente actualizados.
+- **Notificaciones de despliegue:** Tanto Netlify como Koyeb envían registros de éxito o error tras cada despliegue a producción, facilitando la verificación inmediata del estado.
+- **Rollback y control de versiones:** Cada despliegue genera un historial que permite retroceder en caso de incidentes.
+
+A continuación, proporcionamos capturas de pantalla que ilustran implementaciones exitosas en producción utilizando Netlify (frontend) y Koyeb (backend):
+
+![Despliegue exitoso del frontend en Netlify](images/cd_netlify.jpg)
+*Figura X. Despliegue exitoso del frontend en Netlify a partir de cambios en GitHub.*
+
+![Despliegue exitoso del backend en Koyeb](images/cd_koyeb.jpg)
+*Figura X+1. Despliegue exitoso del backend en Koyeb a partir de cambios en GitHub.*
+
+//---------------------------------------------------------
+
+## Conclusiones
+
+#### TB1
+
+- **Perfil de la Startup**: Definir el perfil de la startup permite tener una visión clara del alcance del proyecto, lo que facilita cumplir con las necesidades y expectativas de los usuarios.
+- **Análisis Competitivo**: El análisis competitivo es crucial para entender el panorama del mercado, identificar oportunidades de diferenciación y establecer estrategias sólidas para mejorar la competitividad.
+- **Lean UX Process**: El uso del Lean UX Canvas permite identificar rápidamente problemas y oportunidades, ayudando a formular hipótesis de soluciones de manera ágil y centrada en el usuario final.
+- **Segmentación de Usuarios**: La segmentación precisa de los usuarios facilita la creación de soluciones más personalizadas y efectivas, ajustando el diseño y la funcionalidad según las necesidades de los distintos perfiles.
+
+#### TP
+
+- **Desarrollo e Implementación Iterativa**: La implementación de Sprint Backlogs y la ejecución de sprints de manera iterativa han permitido avanzar en el desarrollo del producto, ajustando continuamente las soluciones en función de los resultados obtenidos en cada revisión.
+- **Gestión del Código y Estándares**: La implementación de guías de estilo y convenciones en el código ha facilitado la gestión y el mantenimiento del software, asegurando su calidad y reduciendo el riesgo de errores a largo plazo.
+- **Validación de Servicios y Documentación**: La validación continua de los servicios y la documentación generada en cada Sprint garantiza que el producto cumpla con los estándares de calidad y funcionalidad definidos al inicio del proyecto.
+
+## Bibliografía
+
+- Agencia Agraria (2023, junio 19). Las nuevas variedades y la hidroponía impulsarán el sector del arándano en Perú. Agencia Agraria de Noticias. Recuperado 23 de septiembre de 2023, de [https://agraria.pe/noticias/las-nuevas-variedades-y-la-hidroponia-impulsaran-el-sector-d-32209](https://agraria.pe/noticias/las-nuevas-variedades-y-la-hidroponia-impulsaran-el-sector-d-32209) [Consulta: 31/10/2024]
+- Beltrano, J., & Gimenez, D. O. (2015). Cultivo en hidroponía. Editorial de la Universidad Nacional de La Plata (EDULP). Recuperado de [http://sedici.unlp.edu.ar/bitstream/handle/10915/46752/documento_completo.pdf?sequence=1](http://sedici.unlp.edu.ar/bitstream/handle/10915/46752/documento_completo.pdf?sequence=1) [Consulta: 31/10/2024]
+- Carrijo, O. A., Makishima, N., CARRIJO, O. A., & MAKISHIMA, N. (2000). Principios de hidroponia. Recuperado de [https://www.infoteca.cnptia.embrapa.br/bitstream/doc/769981/1/CNPHDOCUMENTOS22PRINCIPIOSDEHIDROPONIA.pdf](https://www.infoteca.cnptia.embrapa.br/bitstream/doc/769981/1/CNPHDOCUMENTOS22PRINCIPIOSDEHIDROPONIA.pdf) [Consulta: 31/10/2024]
+- del Campo González, F. F., Millán, C. C. G., & Sullivan, S. A. (2022). Métodos de Cultivo Para Producir Alimentos en Casa Durante el Año Internacional de las Frutas y Verduras. Recuperado de [https://www.esfm.ipn.mx/assets/files/esfm/docs/jornadas/Revista-JADC-V-ch.pdf#page=23](https://www.esfm.ipn.mx/assets/files/esfm/docs/jornadas/Revista-JADC-V-ch.pdf#page=23) [Consulta: 31/10/2024]
+- Díaz, G. G. (2010). Hidroponía en casa: una actividad familiar. Recuperado de [https://www.mag.go.cr/bibliotecavirtual/F08-8691.pdf](https://www.mag.go.cr/bibliotecavirtual/F08-8691.pdf) [Consulta: 27/10/2024]
+- El comercio (2019). Alternativas sostenibles para un mejor futuro de la agricultura. El Comercio. Recuperado de [https://archivo.elcomercio.pe/labuenavecindad/comunidad/alternativas-sostenibles-mejor-futuro-agricultura-noticia-1994510](https://archivo.elcomercio.pe/labuenavecindad/comunidad/alternativas-sostenibles-mejor-futuro-agricultura-noticia-1994510) [Consulta: 28/10/2024]
+- Salas, M. F. (2020). Identificación de los factores que determinan la calidad del agua en los cultivos hidropónicos. Recuperado de [https://repository.unad.edu.co/bitstream/handle/10596/34845/mfsalas.pdf?sequence=1&isAllowed=y](https://repository.unad.edu.co/bitstream/handle/10596/34845/mfsalas.pdf?sequence=1&isAllowed=y) [Consulta: 31/03/2024]
+- UPB Sostenible (2021, mayo 4). Cultivos hidropónicos en casa, alternativas sostenibles. UPB. Recuperado de: [https://www.upb.edu.co/es/central-blogs/sostenibilidad/cultivos-hidroponicos-en-casa](https://www.upb.edu.co/es/central-blogs/sostenibilidad/cultivos-hidroponicos-en-casa) [Consulta: 31/03/2024]
+
+
+
+//__________________________________ACTUALIZAR______________________________
+
+//---------------------------------------------------------
+
+### 5.2.1. Sprint Backlogs
+
+Para esta entrega, se inició con el desarrollo del Landing Page, para luego avanzar de manera paralela en la implementación del frontend y backend de la aplicación, incluyendo también el desarrollo de la versión móvil nativa. Cada integrante del equipo asumió tareas específicas definidas en los Sprint Backlogs, desarrollando las funcionalidades asignadas, realizando pruebas de validación e implementación, y registrando evidencias de cada avance. La colaboración del equipo se mantuvo constante a través de herramientas digitales, lo que permitió una adecuada organización y el cumplimiento de los objetivos planteados.
+
+#### Sprint Backlog 1
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Tareas</th>
+    <th>Estimación</th>
+    <th>Persona Asignada</th>
+    <th>Total Estimation (Hours)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td rowspan="2">US02</td>
+    <td rowspan="2">Visualización del Landing Page</td>
+    <td rowspan="2">Como aficionado y/o experto Quiero visualizar toda la información de las funcionalidades del producto inteligente Para conocer a fondo los beneficios para mis cultivos.</td>
+    <td>Desarrollo de la sección servicios en la página web.</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Agregar el contenido de cada uno de los servicios.</td>
+    <td>1</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US03</td>
+    <td rowspan="2">Visualización de las funcionalidades que ofrecen en el landing page</td>
+    <td rowspan="2">Como aficionado y/o experto Quiero visualizar los beneficios del producto inteligente Para entender las funcionalidades que esta ofrece.</td>
+    <td>Crear una sección de beneficios donde se describan las ventajas de usar las aplicaciones.</td>
+    <td>4</td>
+    <td>Mel Andre Orellana</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Creación del contenido de los beneficios.</td>
+    <td>1</td>
+    <td>Jorge Luis Martiez</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US04</td>
+    <td rowspan="2">Visualización de los testimonios de personas sobre la landing page</td>
+    <td rowspan="2">Como aficionado y/o experto Quiero visualizar los testimonios de distintas personas acerca del producto inteligente para saber si cumple con su objetivo.</td>
+    <td>Realizar encuestas a usuarios para obtener la información necesaria.</td>
+    <td>1</td>
+    <td>Arana Ramos Jack</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Implementar la sección de testimonios para exponer las experiencias de los usuarios.</td>
+    <td>2</td>
+    <td>Arana Ramos Jack</td>
+  </tr>
+</table>
+
+#### Sprint Backlog 2
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Tareas</th>
+    <th>Estimación</th>
+    <th>Persona Asignada</th>
+    <th>Total Estimation (Hours)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Registro de Usuario</td>
+    <td rowspan="2">Como aficionado y/o experto quiero registrarme en la página para observar todo lo que ofrece el servicio.</td>
+    <td>Crear la interfaz de registro de usuario</td>
+    <td>1</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">2</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Implementar la lógica de registro en el backend</td>
+    <td>1</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US05</td>
+    <td rowspan="3">Monitoreo en tiempo real de los parámetros del cultivo</td>
+    <td rowspan="3">Como aficionado, quiero monitorear en tiempo real los parámetros de mi cultivo (como temperatura, humedad y luz), para poder ajustar las condiciones y asegurarme de que mis plantas crezcan saludables.</td>
+    <td>Implementar los sensores IoT con la plataforma Wokwi para capturar datos de temperatura, humedad y luz</td>
+    <td>3</td>
+    <td>Mel Andre Orellana</td>
+    <td rowspan="3">8</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Configurar la API en el backend que reciba los datos de los sensores IoT y los almacene en la base de datos</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+  <tr>
+    <td>Desarrollar la funcionalidad en el frontend para visualizar datos en tiempo real</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US07</td>
+    <td rowspan="2">Gestión de dispositivos IoT</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero poder gestionar los dispositivos IoT vinculados para optimizar la supervisión de mis cultivos.</td>
+    <td>Crear una sección en el frontend donde los usuarios puedan ver una lista de dispositivos IoT conectados</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Configurar el backend para almacenar y gestionar la relación entre los usuarios y sus dispositivos IoT</td>
+    <td>3</td>
+    <td>Arana Ramos Jack</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Seguridad de datos</td>
+    <td>Como aficionado y/o experto, quiero asegurarme de que mis datos personales y de cultivos están protegidos contra accesos no autorizados.</td>
+    <td>Realizar pruebas de seguridad y verificar la protección contra accesos no autorizados</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+    <td>2</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US19</td>
+    <td rowspan="2">Validación de datos ingresados</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero que los datos ingresados en la aplicación sean validados automáticamente para evitar errores.</td>
+    <td>Implementar validaciones de entrada en el frontend para datos ingresados por el usuario</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">4</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Probar las validaciones con diferentes escenarios de datos incorrectos y validar las respuestas de error</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+</table>
+
+#### Sprint Backlog 3
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Tareas</th>
+    <th>Estimación</th>
+    <th>Persona Asignada</th>
+    <th>Total Estimation (Hours)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td rowspan="3">US09</td>
+    <td rowspan="3">Análisis de datos históricos</td>
+    <td rowspan="3">Como aficionado y/o experto, quiero acceder a datos históricos de mis cultivos para analizar tendencias y tomar mejores decisiones.</td>
+    <td>Implementar la funcionalidad para recuperar datos históricos desde la base de datos.</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+    <td rowspan="3">7</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Crear una interfaz en la app para acceder a los datos históricos.</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+  <tr>
+    <td>Realizar pruebas para verificar la precisión de los datos históricos mostrados.</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US12</td>
+    <td rowspan="3">Comparación de datos históricos</td>
+    <td rowspan="3">Como aficionado y/o experto, quiero comparar los datos actuales de mis cultivos con datos históricos para identificar tendencias.</td>
+    <td>Implementar lógica para seleccionar y comparar datos actuales con históricos.</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+    <td rowspan="3">7</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Diseñar una sección en la interfaz para la comparación de datos.</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td>Probar la funcionalidad para garantizar que las comparaciones sean precisas y comprensibles.</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US14</td>
+    <td rowspan="2">Visualización de datos en gráficos</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero visualizar los datos de mis cultivos en gráficos intuitivos para comprender mejor la información.</td>
+    <td>Diseñar los gráficos en función de los tipos de datos del sistema (temperatura, humedad, luminosidad, etc.).</td>
+    <td>3</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Realizar pruebas con usuarios para validar la claridad y utilidad de los gráficos.</td>
+    <td>2</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+</table>
+
+//---------------------------------------------------------
+
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+Para la implementación del servicio web de HidroLynk, se utilizó la plataforma Koyeb. A través de su servicio de despliegue automático, se configuró la integración continua conectando directamente el repositorio de GitHub donde se encuentra el código de la API RESTful.
+
+Gracias a esta configuración, cada actualización del repositorio desencadena automáticamente una nueva versión del servicio en producción, facilitando la gestión del backend y asegurando la disponibilidad constante de los endpoints. Además, la plataforma proporciona un dominio público mediante el cual se accede a los servicios, incluyendo la visualización de la documentación dinámica en Swagger.
+
+A continuación, se presentan capturas de la configuración del entorno y evidencia del despliegue exitoso:
+
+![Despliegue en Koyeb - Configuración](images/koyeb_settings.png)
+![Despliegue en Koyeb - Detalles del Servicio](images/koyeb_overview.png)
