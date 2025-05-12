@@ -1,0 +1,25 @@
+## 7.3 Continuous Deployment
+
+### 7.3.1 Tools and Practices
+Para **Continuous Deployment (CDP)**, confiamos en las capacidades de Netlify y Koyeb para ejecutar implementaciones directas a producción sin intervención manual después de que el código pasa las etapas anteriores.
+
+Las herramientas y prácticas clave incluyen:
+- **Despliegue automático post-merge:** Al fusionar en la rama principal, Netlify despliega automáticamente el frontend y Koyeb actualiza el backend.
+- **Rollback sencillo:** Si ocurre un error, Netlify y Koyeb permiten restaurar versiones anteriores con un solo clic.
+- **Monitorización básica:** Netlify ofrece estadísticas de tráfico y errores en frontend; Koyeb proporciona logs de ejecución y alertas de fallos en el backend.
+
+### 7.3.2 Production Deployment Pipeline Components
+Los componentes principales de nuestro pipeline de despliegue en producción son:
+
+- **Hospedaje del Frontend:** Netlify aloja nuestra aplicación de frontend en servidores distribuidos (CDN) para alta disponibilidad y bajo tiempo de respuesta.
+- **Hospedaje del Backend:** Koyeb ejecuta instancias de backend desplegadas en contenedores automáticamente actualizados.
+- **Notificaciones de despliegue:** Tanto Netlify como Koyeb envían registros de éxito o error tras cada despliegue a producción, facilitando la verificación inmediata del estado.
+- **Rollback y control de versiones:** Cada despliegue genera un historial que permite retroceder en caso de incidentes.
+
+A continuación, proporcionamos capturas de pantalla que ilustran implementaciones exitosas en producción utilizando Netlify (frontend) y Koyeb (backend):
+
+![Despliegue exitoso del frontend en Netlify](images/cd_netlify.jpg)
+*Figura X. Despliegue exitoso del frontend en Netlify a partir de cambios en GitHub.*
+
+![Despliegue exitoso del backend en Koyeb](images/cd_koyeb.jpg)
+*Figura X+1. Despliegue exitoso del backend en Koyeb a partir de cambios en GitHub.*
