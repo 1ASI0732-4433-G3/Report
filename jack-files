@@ -1,3 +1,5 @@
+//---------------------------------------------------------
+
 ## 7.3 Continuous Deployment
 
 ### 7.3.1 Tools and Practices
@@ -23,6 +25,35 @@ A continuación, proporcionamos capturas de pantalla que ilustran implementacion
 
 ![Despliegue exitoso del backend en Koyeb](images/cd_koyeb.jpg)
 *Figura X+1. Despliegue exitoso del backend en Koyeb a partir de cambios en GitHub.*
+
+//---------------------------------------------------------
+
+## Conclusiones
+
+#### TB1
+
+- **Perfil de la Startup**: Definir el perfil de la startup permite tener una visión clara del alcance del proyecto, lo que facilita cumplir con las necesidades y expectativas de los usuarios.
+- **Análisis Competitivo**: El análisis competitivo es crucial para entender el panorama del mercado, identificar oportunidades de diferenciación y establecer estrategias sólidas para mejorar la competitividad.
+- **Lean UX Process**: El uso del Lean UX Canvas permite identificar rápidamente problemas y oportunidades, ayudando a formular hipótesis de soluciones de manera ágil y centrada en el usuario final.
+- **Segmentación de Usuarios**: La segmentación precisa de los usuarios facilita la creación de soluciones más personalizadas y efectivas, ajustando el diseño y la funcionalidad según las necesidades de los distintos perfiles.
+
+#### TP
+
+- **Desarrollo e Implementación Iterativa**: La implementación de Sprint Backlogs y la ejecución de sprints de manera iterativa han permitido avanzar en el desarrollo del producto, ajustando continuamente las soluciones en función de los resultados obtenidos en cada revisión.
+- **Gestión del Código y Estándares**: La implementación de guías de estilo y convenciones en el código ha facilitado la gestión y el mantenimiento del software, asegurando su calidad y reduciendo el riesgo de errores a largo plazo.
+- **Validación de Servicios y Documentación**: La validación continua de los servicios y la documentación generada en cada Sprint garantiza que el producto cumpla con los estándares de calidad y funcionalidad definidos al inicio del proyecto.
+
+## Bibliografía
+
+- Agencia Agraria (2023, junio 19). Las nuevas variedades y la hidroponía impulsarán el sector del arándano en Perú. Agencia Agraria de Noticias. Recuperado 23 de septiembre de 2023, de [https://agraria.pe/noticias/las-nuevas-variedades-y-la-hidroponia-impulsaran-el-sector-d-32209](https://agraria.pe/noticias/las-nuevas-variedades-y-la-hidroponia-impulsaran-el-sector-d-32209) [Consulta: 31/10/2024]
+- Beltrano, J., & Gimenez, D. O. (2015). Cultivo en hidroponía. Editorial de la Universidad Nacional de La Plata (EDULP). Recuperado de [http://sedici.unlp.edu.ar/bitstream/handle/10915/46752/documento_completo.pdf?sequence=1](http://sedici.unlp.edu.ar/bitstream/handle/10915/46752/documento_completo.pdf?sequence=1) [Consulta: 31/10/2024]
+- Carrijo, O. A., Makishima, N., CARRIJO, O. A., & MAKISHIMA, N. (2000). Principios de hidroponia. Recuperado de [https://www.infoteca.cnptia.embrapa.br/bitstream/doc/769981/1/CNPHDOCUMENTOS22PRINCIPIOSDEHIDROPONIA.pdf](https://www.infoteca.cnptia.embrapa.br/bitstream/doc/769981/1/CNPHDOCUMENTOS22PRINCIPIOSDEHIDROPONIA.pdf) [Consulta: 31/10/2024]
+- del Campo González, F. F., Millán, C. C. G., & Sullivan, S. A. (2022). Métodos de Cultivo Para Producir Alimentos en Casa Durante el Año Internacional de las Frutas y Verduras. Recuperado de [https://www.esfm.ipn.mx/assets/files/esfm/docs/jornadas/Revista-JADC-V-ch.pdf#page=23](https://www.esfm.ipn.mx/assets/files/esfm/docs/jornadas/Revista-JADC-V-ch.pdf#page=23) [Consulta: 31/10/2024]
+- Díaz, G. G. (2010). Hidroponía en casa: una actividad familiar. Recuperado de [https://www.mag.go.cr/bibliotecavirtual/F08-8691.pdf](https://www.mag.go.cr/bibliotecavirtual/F08-8691.pdf) [Consulta: 27/10/2024]
+- El comercio (2019). Alternativas sostenibles para un mejor futuro de la agricultura. El Comercio. Recuperado de [https://archivo.elcomercio.pe/labuenavecindad/comunidad/alternativas-sostenibles-mejor-futuro-agricultura-noticia-1994510](https://archivo.elcomercio.pe/labuenavecindad/comunidad/alternativas-sostenibles-mejor-futuro-agricultura-noticia-1994510) [Consulta: 28/10/2024]
+- Salas, M. F. (2020). Identificación de los factores que determinan la calidad del agua en los cultivos hidropónicos. Recuperado de [https://repository.unad.edu.co/bitstream/handle/10596/34845/mfsalas.pdf?sequence=1&isAllowed=y](https://repository.unad.edu.co/bitstream/handle/10596/34845/mfsalas.pdf?sequence=1&isAllowed=y) [Consulta: 31/03/2024]
+- UPB Sostenible (2021, mayo 4). Cultivos hidropónicos en casa, alternativas sostenibles. UPB. Recuperado de: [https://www.upb.edu.co/es/central-blogs/sostenibilidad/cultivos-hidroponicos-en-casa](https://www.upb.edu.co/es/central-blogs/sostenibilidad/cultivos-hidroponicos-en-casa) [Consulta: 31/03/2024]
+
 
 
 //__________________________________ACTUALIZAR______________________________
