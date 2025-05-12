@@ -23,3 +23,245 @@ A continuación, proporcionamos capturas de pantalla que ilustran implementacion
 
 ![Despliegue exitoso del backend en Koyeb](images/cd_koyeb.jpg)
 *Figura X+1. Despliegue exitoso del backend en Koyeb a partir de cambios en GitHub.*
+
+
+//__________________________________ACTUALIZAR______________________________
+
+//---------------------------------------------------------
+
+### 5.2.1. Sprint Backlogs
+
+Para esta entrega, se inició con el desarrollo del Landing Page, para luego avanzar de manera paralela en la implementación del frontend y backend de la aplicación, incluyendo también el desarrollo de la versión móvil nativa. Cada integrante del equipo asumió tareas específicas definidas en los Sprint Backlogs, desarrollando las funcionalidades asignadas, realizando pruebas de validación e implementación, y registrando evidencias de cada avance. La colaboración del equipo se mantuvo constante a través de herramientas digitales, lo que permitió una adecuada organización y el cumplimiento de los objetivos planteados.
+
+#### Sprint Backlog 1
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Tareas</th>
+    <th>Estimación</th>
+    <th>Persona Asignada</th>
+    <th>Total Estimation (Hours)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td rowspan="2">US02</td>
+    <td rowspan="2">Visualización del Landing Page</td>
+    <td rowspan="2">Como aficionado y/o experto Quiero visualizar toda la información de las funcionalidades del producto inteligente Para conocer a fondo los beneficios para mis cultivos.</td>
+    <td>Desarrollo de la sección servicios en la página web.</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Agregar el contenido de cada uno de los servicios.</td>
+    <td>1</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US03</td>
+    <td rowspan="2">Visualización de las funcionalidades que ofrecen en el landing page</td>
+    <td rowspan="2">Como aficionado y/o experto Quiero visualizar los beneficios del producto inteligente Para entender las funcionalidades que esta ofrece.</td>
+    <td>Crear una sección de beneficios donde se describan las ventajas de usar las aplicaciones.</td>
+    <td>4</td>
+    <td>Mel Andre Orellana</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Creación del contenido de los beneficios.</td>
+    <td>1</td>
+    <td>Jorge Luis Martiez</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US04</td>
+    <td rowspan="2">Visualización de los testimonios de personas sobre la landing page</td>
+    <td rowspan="2">Como aficionado y/o experto Quiero visualizar los testimonios de distintas personas acerca del producto inteligente para saber si cumple con su objetivo.</td>
+    <td>Realizar encuestas a usuarios para obtener la información necesaria.</td>
+    <td>1</td>
+    <td>Arana Ramos Jack</td>
+    <td rowspan="2">3</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Implementar la sección de testimonios para exponer las experiencias de los usuarios.</td>
+    <td>2</td>
+    <td>Arana Ramos Jack</td>
+  </tr>
+</table>
+
+#### Sprint Backlog 2
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Tareas</th>
+    <th>Estimación</th>
+    <th>Persona Asignada</th>
+    <th>Total Estimation (Hours)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Registro de Usuario</td>
+    <td rowspan="2">Como aficionado y/o experto quiero registrarme en la página para observar todo lo que ofrece el servicio.</td>
+    <td>Crear la interfaz de registro de usuario</td>
+    <td>1</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">2</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Implementar la lógica de registro en el backend</td>
+    <td>1</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US05</td>
+    <td rowspan="3">Monitoreo en tiempo real de los parámetros del cultivo</td>
+    <td rowspan="3">Como aficionado, quiero monitorear en tiempo real los parámetros de mi cultivo (como temperatura, humedad y luz), para poder ajustar las condiciones y asegurarme de que mis plantas crezcan saludables.</td>
+    <td>Implementar los sensores IoT con la plataforma Wokwi para capturar datos de temperatura, humedad y luz</td>
+    <td>3</td>
+    <td>Mel Andre Orellana</td>
+    <td rowspan="3">8</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Configurar la API en el backend que reciba los datos de los sensores IoT y los almacene en la base de datos</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+  <tr>
+    <td>Desarrollar la funcionalidad en el frontend para visualizar datos en tiempo real</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US07</td>
+    <td rowspan="2">Gestión de dispositivos IoT</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero poder gestionar los dispositivos IoT vinculados para optimizar la supervisión de mis cultivos.</td>
+    <td>Crear una sección en el frontend donde los usuarios puedan ver una lista de dispositivos IoT conectados</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Configurar el backend para almacenar y gestionar la relación entre los usuarios y sus dispositivos IoT</td>
+    <td>3</td>
+    <td>Arana Ramos Jack</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Seguridad de datos</td>
+    <td>Como aficionado y/o experto, quiero asegurarme de que mis datos personales y de cultivos están protegidos contra accesos no autorizados.</td>
+    <td>Realizar pruebas de seguridad y verificar la protección contra accesos no autorizados</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+    <td>2</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US19</td>
+    <td rowspan="2">Validación de datos ingresados</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero que los datos ingresados en la aplicación sean validados automáticamente para evitar errores.</td>
+    <td>Implementar validaciones de entrada en el frontend para datos ingresados por el usuario</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">4</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Probar las validaciones con diferentes escenarios de datos incorrectos y validar las respuestas de error</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+</table>
+
+#### Sprint Backlog 3
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Tareas</th>
+    <th>Estimación</th>
+    <th>Persona Asignada</th>
+    <th>Total Estimation (Hours)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td rowspan="3">US09</td>
+    <td rowspan="3">Análisis de datos históricos</td>
+    <td rowspan="3">Como aficionado y/o experto, quiero acceder a datos históricos de mis cultivos para analizar tendencias y tomar mejores decisiones.</td>
+    <td>Implementar la funcionalidad para recuperar datos históricos desde la base de datos.</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+    <td rowspan="3">7</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Crear una interfaz en la app para acceder a los datos históricos.</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+  <tr>
+    <td>Realizar pruebas para verificar la precisión de los datos históricos mostrados.</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US12</td>
+    <td rowspan="3">Comparación de datos históricos</td>
+    <td rowspan="3">Como aficionado y/o experto, quiero comparar los datos actuales de mis cultivos con datos históricos para identificar tendencias.</td>
+    <td>Implementar lógica para seleccionar y comparar datos actuales con históricos.</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+    <td rowspan="3">7</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Diseñar una sección en la interfaz para la comparación de datos.</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td>Probar la funcionalidad para garantizar que las comparaciones sean precisas y comprensibles.</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US14</td>
+    <td rowspan="2">Visualización de datos en gráficos</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero visualizar los datos de mis cultivos en gráficos intuitivos para comprender mejor la información.</td>
+    <td>Diseñar los gráficos en función de los tipos de datos del sistema (temperatura, humedad, luminosidad, etc.).</td>
+    <td>3</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Realizar pruebas con usuarios para validar la claridad y utilidad de los gráficos.</td>
+    <td>2</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+</table>
+
+//---------------------------------------------------------
+
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+Para la implementación del servicio web de HidroLynk, se utilizó la plataforma Koyeb. A través de su servicio de despliegue automático, se configuró la integración continua conectando directamente el repositorio de GitHub donde se encuentra el código de la API RESTful.
+
+Gracias a esta configuración, cada actualización del repositorio desencadena automáticamente una nueva versión del servicio en producción, facilitando la gestión del backend y asegurando la disponibilidad constante de los endpoints. Además, la plataforma proporciona un dominio público mediante el cual se accede a los servicios, incluyendo la visualización de la documentación dinámica en Swagger.
+
+A continuación, se presentan capturas de la configuración del entorno y evidencia del despliegue exitoso:
+
+![Despliegue en Koyeb - Configuración](images/koyeb_settings.png)
+![Despliegue en Koyeb - Detalles del Servicio](images/koyeb_overview.png)
