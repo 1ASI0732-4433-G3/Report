@@ -1,0 +1,327 @@
+### 6.1 Core Entities Unit Tests
+
+## Backlog #:6.1.1-M1
+
+**Descripción:**
+Esta prueba unitaria valida la correcta conversión de una entidad `Metric` a su DTO correspondiente `MetricResponse`. Se asegura que los valores de `value`, `unit` y `timestamp` se transfieran correctamente y se formatee el campo `metric` como una cadena combinada (`valor unidad`).
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se crea una instancia de `Metric` con valores controlados (`10.0`, `"kg"`, `"2023-10-01T12:00"`) y se convierte a `MetricResponse` mediante el método `fromEntity()`. Se utilizan aserciones para verificar que el valor formateado de `metric` y la fecha-hora sean correctos.
+
+**Resultado esperado:**
+- `metric` debe contener la cadena `"10.0 kg"`
+- `timestamp` debe conservar el formato ISO local `"2023-10-01T12:00"`
+
+**Estado:** ✅ Prueba satisfactoria
+
+<img src="images/test_1.png" alt="test_1"/>
+
+## Backlog #: 6.1.1-M2
+**Descripción:**
+Este caso de prueba unitaria valida que el método `fromEntityList` de la clase `MetricResponse` convierte correctamente una lista de entidades `Metric` en una lista de objetos de respuesta (`MetricResponse`). Se verifica que cada entidad sea transformada con precisión en cuanto a su valor métrico formateado y su marca de tiempo.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+El test crea dos objetos `Metric` simulados con datos distintos. Luego, llama al método `MetricResponse.fromEntityList(List<Metric>)` para obtener la lista de respuestas. Se realizan aserciones para comprobar:
+- Que la cantidad de elementos convertidos es la correcta.
+- Que el contenido de cada objeto `MetricResponse` representa fielmente la unidad, valor y timestamp original formateado según lo esperado.
+
+Este test asegura que la lógica de transformación masiva de métricas mantiene la integridad de los datos y el formato de salida para su uso posterior en la capa de presentación o API.
+
+**Resultado esperado:**
+El método debe retornar una lista de tamaño 2, donde:
+- La primera entrada es `"10.0 kg"` con timestamp `"2023-10-01T12:00"`.
+- La segunda entrada es `"5.5 g"` con timestamp `"2023-10-01T13:00"`.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+<img src="images/test_2.png" alt="test_2"/>
+
+## Backlog #: 6.1.1-M3
+**Descripción:**
+Este caso de prueba unitaria asegura que al instanciar un objeto `DeviceConfig` asociado a un `Device`, se inicialicen correctamente todos los valores predeterminados esperados para los parámetros de configuración: temperatura, humedad y luminosidad, así como el intervalo de muestreo.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se crea una instancia de `Device` mediante su método estático `create(mac, user)`. Luego, se crea un objeto `DeviceConfig` con ese dispositivo. El test valida que cada campo tenga el valor por defecto esperado:
+- Temperatura mínima: `15.0`, máxima: `30.0`, umbral: `28.0`.
+- Humedad mínima: `40.0`, máxima: `60.0`, umbral: `55.0`.
+- Luminosidad mínima: `300`, máxima: `1000`, umbral: `900`.
+- Intervalo de muestreo: `10`.
+
+**Resultado esperado:**
+Todos los valores deben coincidir con los definidos por defecto en el constructor de `DeviceConfig`.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+<img src="images/test_3.png" alt="test_3"/>
+
+
+## Backlog #: 6.1.1-M4
+**Descripción:**
+Esta prueba unitaria verifica que el método `update` de la clase `DeviceConfig` puede recibir una configuración de sensor (`SensorConfig`) sin alterar los valores existentes, a menos que la lógica de actualización lo requiera explícitamente. En este caso, se evalúa que al pasar un `SensorConfig` de tipo HUMIDITY, los valores predefinidos de `DeviceConfig` se mantengan sin cambios.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se crea un `Device` con dirección MAC, se instancia un `DeviceConfig` con ese dispositivo y se simula una actualización con un objeto `SensorConfig` del tipo `HUMIDITY`. El objetivo es confirmar que, al invocar el método `update`, las configuraciones del dispositivo no se ven afectadas si el `SensorConfig` no proporciona nuevos valores o la lógica no lo permite.
+
+**Resultado esperado:**
+Todos los valores de configuración del `DeviceConfig` deben mantenerse iguales a sus valores por defecto después de la actualización.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M4](images/test_6.1.1-M4.png)
+
+
+## Backlog #: 6.1.1-M5
+**Descripción:**
+Esta prueba unitaria valida que la creación de un nuevo dispositivo mediante el método estático `Device.create(mac, null)` inicializa correctamente los valores por defecto. Específicamente, se espera que el dispositivo tenga su dirección MAC asignada, una ubicación predeterminada (`"Living Room"`), estado `INACTIVE`, y una lista de sensores no nula pero vacía.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se construye un objeto `Device` con una dirección MAC específica, omitiendo la asignación de usuario. Luego, se verifican los valores predeterminados del dispositivo: ubicación, estado, y estructura de sensores, para asegurar que el constructor estático encapsula correctamente la lógica de inicialización.
+
+**Resultado esperado:**
+El dispositivo debe tener el estado `INACTIVE`, la ubicación `"Living Room"`, y una lista de sensores vacía pero inicializada.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M5](images/test_6.1.1-M5.png)
+
+
+## Backlog #: 6.1.1-M6
+**Descripción:**
+Esta prueba unitaria verifica que el método `update(min, max, threshold)` de la clase `SensorConfig` actualiza correctamente los valores mínimos, máximos y de umbral de una configuración de sensor previamente construida.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se instancia un objeto `SensorConfig` con valores iniciales (`min = 10.0`, `max = 30.0`, `threshold = 20.0`). Luego, se invoca el método `update()` para modificar estos valores a `min = 15.0`, `max = 35.0` y `threshold = 25.0`. Finalmente, se verifica que los atributos internos del objeto reflejen correctamente los nuevos valores.
+
+**Resultado esperado:**
+El objeto debe actualizar sus tres atributos (`min`, `max`, `threshold`) a los valores proporcionados en la llamada `update`.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M6](images/test_6.1.1-M6.png)
+
+
+## Backlog #: 6.1.1-M7
+**Descripción:**
+Esta prueba unitaria valida que al crear un `SensorConfig` asociado a un sensor de tipo HUMIDITY, se asignen correctamente los valores por defecto de configuración (mínimo, máximo y umbral).
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se crea un sensor del tipo `HUMIDITY` usando el método estático `Sensor.create()`. A continuación, se instancia `SensorConfig` con este sensor y se comprueba que:
+- `min` = 40.0
+- `max` = 60.0
+- `threshold` = 55.0
+- El sensor asociado es exactamente el mismo que se pasó en el constructor.
+
+**Resultado esperado:**
+Los valores predeterminados de configuración de humedad se inicializan correctamente al crear una nueva configuración de sensor.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M7](images/test_6.1.1-M7.png)
+
+
+## Backlog #: 6.1.1-M8
+**Descripción:**
+Esta prueba unitaria verifica que al agregar una métrica (`Metric`) a un sensor (`Sensor`), dicha métrica se almacene correctamente dentro de la lista de métricas del sensor.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+- Se crea un sensor del tipo `HUMIDITY` usando `Sensor.create()`.
+- Se instancia una métrica (`Metric.create`) asociada a ese sensor con valor `10.0` y unidad `g/m3`.
+- Se ejecuta `sensor.addMetric(metric)`.
+- Se verifica que la primera métrica en la lista del sensor sea la misma que la agregada.
+
+**Resultado esperado:**
+El sensor debe contener la métrica agregada correctamente como primer (y único) elemento en su colección de métricas.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M8](images/test_6.1.1-M8.png)
+
+
+## Backlog #: 6.1.1-M9
+**Descripción:**
+Esta prueba unitaria verifica que al eliminar una métrica (`Metric`) previamente agregada a un sensor (`Sensor`), la lista de métricas quede vacía.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+- Se crea un sensor del tipo `HUMIDITY` usando `Sensor.create()`.
+- Se instancia y agrega una métrica asociada a este sensor con `sensor.addMetric(metric)`.
+- Luego, se elimina la misma métrica con `sensor.removeMetric(metric)`.
+- Finalmente, se comprueba que la lista de métricas del sensor tenga tamaño `0`.
+
+**Resultado esperado:**
+La métrica debe eliminarse correctamente, dejando vacía la colección de métricas del sensor.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M9](images/test_6.1.1-M9.png)
+
+
+## Backlog #: 6.1.1-M10
+**Descripción:**
+Esta prueba unitaria valida que un sensor del tipo `TEMPERATURE` creado con un dispositivo asociado se inicialice correctamente con los valores por defecto.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+- Se crea un objeto `Device` con una dirección MAC.
+- Se crea un sensor con tipo `SensorType.TEMPERATURE` asociado al dispositivo.
+- Se verifica que:
+  - El tipo del sensor sea `TEMPERATURE`.
+  - El estado del sensor sea `ACTIVE` por defecto.
+  - El dispositivo asignado sea el mismo que el proporcionado al crear el sensor.
+
+**Resultado esperado:**
+El sensor debe estar correctamente inicializado con estado `ACTIVE` y vinculado al dispositivo proporcionado.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M10](images/test_6.1.1-M10.png)
+
+
+### 6.1.2 Core Integration Tests.
+
+**Descripción:**
+Esta prueba de integración funcional valida que el servicio `DeviceService` pueda conectar correctamente un dispositivo físico con dirección MAC registrada. La prueba incluye la verificación del estado, la asignación al usuario autenticado, y la generación automática de sensores.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Contexto:**
+El sistema HydroLink permite que los dispositivos de monitoreo ambiental sean registrados y vinculados a un usuario. Una funcionalidad crítica es permitir que un usuario active un dispositivo desde el frontend, momento en el cual se deben configurar automáticamente los sensores y asociar al usuario autenticado.
+
+**Objetivo de la prueba:**
+Verificar el flujo completo de conexión de un dispositivo:
+- El dispositivo pasa de estado INACTIVO a ACTIVO.
+- Se asigna correctamente al usuario autenticado.
+- Se crean automáticamente 3 sensores predefinidos.
+
+**Entidades involucradas:**
+- `DeviceRepository`
+- `UserRepository`
+- `DeviceService`
+- `AuthenticationFacade` (mockeado)
+
+**Pasos ejecutados:**
+1. Se limpia la base de datos H2 embebida.
+2. Se crea y guarda un usuario en la base.
+3. Se crea un dispositivo con dirección MAC.
+4. Se ejecuta el método `connectDevice` del servicio.
+5. Se recupera el dispositivo actualizado y se validan:
+   - Estado: `ACTIVE`.
+   - Asociación al usuario.
+   - Número de sensores creados.
+
+**Resultado esperado:**
+- El dispositivo debe estar en estado ACTIVO.
+- El ID del usuario asignado debe coincidir con el autenticado.
+- El dispositivo debe contener exactamente 3 sensores.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_i_1](images/test_i_1.png)
+![test_i_2](images/test_i_2.png)
+![test_i_3](images/test_i_3.png)
+![test_results](images/test_results.png)
+
+
+### 6.1.2 Core Behavior-Driven
+
+
+**Descripción:**
+Esta prueba utiliza el enfoque de Desarrollo Guiado por Comportamiento (BDD) para validar el flujo principal del caso de uso "Conexión de Dispositivo". Utiliza Cucumber con pasos escritos en lenguaje natural (Gherkin) y enlazados a métodos Java que verifican el comportamiento esperado del sistema HydroLink.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Contexto:**
+Se desea comprobar, desde una perspectiva de usuario final, que un dispositivo puede ser conectado exitosamente a su cuenta, pasando por el proceso completo: registro, activación y asignación automática de sensores. Esta prueba representa un escenario de aceptación, fundamental para el monitoreo en campo.
+
+**Objetivo del escenario:**
+Verificar que un usuario autenticado pueda conectar un dispositivo con dirección MAC válida y que, al hacerlo:
+- El dispositivo cambie su estado a ACTIVO.
+- El dispositivo se asigne correctamente al usuario autenticado.
+- Se generen automáticamente 3 sensores predefinidos.
+
+**Escenario (Gherkin):**
+```gherkin
+Scenario: Usuario conecta un nuevo dispositivo a su cuenta
+  Given un usuario autenticado con ID 1 y datos válidos
+  And un dispositivo con dirección MAC "AA:BB:CC:DD:EE:99"
+  When el usuario solicita conectar el dispositivo
+  Then el dispositivo se marca como ACTIVO
+  And se asigna correctamente al usuario
+  And el dispositivo contiene 3 sensores predefinidos
+
+
+![test_cucumber](images/test_cucumber.png)
+![test_feature](images/test_feature.png)
+![test_steps_1](images/test_steps_1.png)
+![test_steps_2](images/test_steps_2.png)
+![test_context](images/test_context.png)
+![test_result_613](images/test_result_613.png)
+
+
+### 6.1.4. Core System Tests.
+
+
+## Backlog #: 6.1.4-SystemTest1
+**Descripción:**
+Esta prueba representa un **test de sistema completo**, abarcando tanto backend como frontend desplegados. Se realizó manualmente a través de la interfaz web publicada, simulando el comportamiento real de un usuario final interactuando con HydroLink mediante su navegador.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Objetivo de la prueba:**
+Verificar que al iniciar sesión en la aplicación y dirigirse a la funcionalidad "Conectar dispositivo", el sistema notifica correctamente que no hay dispositivos disponibles cuando ningún equipo está encendido o registrado en modo activo.
+
+**Pasos realizados:**
+1. Acceder a: [https://hydrolinkweb.netlify.app/login](https://hydrolinkweb.netlify.app/login)
+2. Iniciar sesión con las siguientes credenciales:
+   - Usuario: `josue`
+   - Contraseña: `josue200`
+3. Pulsar el botón **“Sign In”**.
+4. Acceder al módulo “Conectar Dispositivo”.
+5. Observar el mensaje en pantalla.
+
+**Resultado esperado:**
+El sistema muestra el texto:
+> **"No hay dispositivos encendidos."**
+
+**Resultado obtenido:**
+✅ El mensaje fue mostrado correctamente y la experiencia de usuario se comportó según lo esperado.
+
+**Tecnologías involucradas:**
+- Frontend desplegado en Netlify (Angular + PrimeNG)
+- Backend desplegado en Render (Spring Boot)
+- Base de datos en entorno productivo de pruebas (PostgreSQL)
+
+**Estado:** ✅ Prueba manual de sistema satisfactoria.
+
+![test_6.1.4-SystemTest1](images/test_6.1.4-SystemTest1.png)
