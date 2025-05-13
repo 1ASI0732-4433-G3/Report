@@ -465,6 +465,71 @@ Diego Jesús, de 28 años y experto en hidroponía, colaboró en la realización
 En cuanto a la visualización de datos, sugiere que incluir gráficos más detallados sería beneficioso para un análisis en profundidad. Diego recomendaría esta aplicación a otros profesionales, ya que facilita el monitoreo y la toma de decisiones informadas. Finalmente, menciona que para un uso más técnico, sería ideal integrar análisis predictivo, compatibilidad con sensores más avanzados y la capacidad de exportar datos para otros tipos de análisis.
 
 
+## 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.1. Auditoría realizada
+
+#### 6.4.1.1. Información del grupo auditado
+
+| Elemento                    | Descripción |
+|----------------------------|-------------|
+| **Nombre del Grupo Auditado**  | Segmento objetivo de GrowEasy, el cual incluye tanto aficionados como expertos en hidroponía. |
+| **Descripción del Grupo**      | El grupo auditado está compuesto por personas interesadas en la hidroponía, incluyendo principiantes que buscan soluciones accesibles y expertos que buscan precisión y control detallado sobre sus cultivos. |
+| **Objetivos de la Auditoría**  | Evaluar la funcionalidad, usabilidad e impacto visual de las soluciones web y móviles ofrecidas por GrowEasy para recopilar feedback y proponer mejoras centradas en el usuario. |
+
+#### 6.4.1.2. Cronograma de auditoría realizada
+
+| Elemento | Descripción |
+|---------|-------------|
+| **Fechas de Inicio y Finalización** | Inicio: Miércoles 08 de mayo de 2025<br>Finalización: Sábado 11 de mayo de 2025 |
+| **Duración Total de la Auditoría** | Entre 5 y 10 minutos por usuario evaluado |
+| **Actividades Realizadas** | Entrevistas con usuarios del segmento objetivo, análisis de experiencia, navegación y comprensión de la interfaz en la app y landing page. |
+
+#### 6.4.1.3. Contenido de auditoría realizada
+
+| Elemento | Detalles |
+|---------|----------|
+| **Elementos Evaluados** | - Aplicación Web de GrowEasy<br>- Landing Page de GrowEasy |
+| **Metodología de Evaluación** | - Entrevistas semi-estructuradas<br>- Observación del uso en tiempo real<br>- Análisis de experiencia de usuario |
+| **Criterios de Evaluación** | - Claridad del contenido<br>- Facilidad de navegación<br>- Comprensión del “Call to Action”<br>- Interfaz visual |
+| **Resultados y Hallazgos** | - La mayoría de usuarios encontró la app intuitiva y fácil de usar.<br>- Se sugirió mejorar ayuda contextual y agregar tutoriales.<br>- El diseño fue bien recibido por ambos segmentos. |
+
+---
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+| Elemento | Descripción |
+|---------|-------------|
+| **Nombre del grupo auditor** | GrowEasy Innovators |
+| **Descripción del grupo** | Equipo de estudiantes de ingeniería que desarrolla soluciones IoT para hidroponía |
+| **Experiencia del grupo auditor** | Experiencia en desarrollo web, pruebas con usuarios, análisis de usabilidad y entrevistas |
+| **Metodología de auditoría** | Entrevistas y análisis cualitativo de experiencia |
+| **Autores Principales** | Paolo Checa, Jesús Lazo, Farid Hinostroza, Leonardo Taype, Jack Arana |
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+| Elemento | Descripción |
+|---------|-------------|
+| **Fechas de Inicio y Finalización** | Inicio: Lunes 06 de mayo de 2025<br>Finalización: Jueves 09 de mayo de 2025 |
+| **Duración Total de la Auditoría** | Promedio de 5 a 10 minutos por sesión |
+| **Actividades Realizadas** | Diseño de entrevistas, contacto con entrevistados, entrevistas y análisis posterior |
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+| Elemento | Detalles |
+|---------|----------|
+| **Resumen Ejecutivo** | Se identificaron oportunidades de mejora en la ayuda contextual y presentación de información para nuevos usuarios. |
+| **Evaluación Aplicación y Landing Page** | Navegación satisfactoria; se recomienda añadir guía o asistente virtual para primerizos. |
+| **Hallazgos y Recomendaciones** | - Rediseño de la sección de ayuda<br>- Tutoriales interactivos<br>- Claridad en mensajes clave |
+| **Conclusiones Finales** | Las mejoras propuestas pueden aumentar la retención, satisfacción y facilitar la adopción por nuevos usuarios. |
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+1. Se añadirá una sección de ayuda interactiva con guías visuales paso a paso.
+2. Se optimizarán los textos en secciones clave para mejorar la claridad.
+3. Se planifican nuevas rondas de prueba con usuarios reales para validar cambios.
 
 
 
