@@ -1,11 +1,13 @@
-### 6.1 Core Entities Unit Tests
+##6.1 Testing Suites & Validation
+
+### 6.1.1 Core Entities Unit Tests
 
 ## Backlog #:6.1.1-M1
 
 **Descripción:**
 Esta prueba unitaria valida la correcta conversión de una entidad `Metric` a su DTO correspondiente `MetricResponse`. Se asegura que los valores de `value`, `unit` y `timestamp` se transfieran correctamente y se formatee el campo `metric` como una cadena combinada (`valor unidad`).
 
-**Autor:** Josue Omar Hidalgo Bustamante
+**Autor:** Arana Ramos Jack
 **Fecha de creación:** 13/05/2025
 
 **Detalles técnicos:**
@@ -23,7 +25,7 @@ Se crea una instancia de `Metric` con valores controlados (`10.0`, `"kg"`, `"202
 **Descripción:**
 Este caso de prueba unitaria valida que el método `fromEntityList` de la clase `MetricResponse` convierte correctamente una lista de entidades `Metric` en una lista de objetos de respuesta (`MetricResponse`). Se verifica que cada entidad sea transformada con precisión en cuanto a su valor métrico formateado y su marca de tiempo.
 
-**Autor:** Josue Omar Hidalgo Bustamante
+**Autor:** Arana Ramos Jack
 **Fecha de creación:** 13/05/2025
 
 **Detalles técnicos:**
@@ -46,7 +48,7 @@ El método debe retornar una lista de tamaño 2, donde:
 **Descripción:**
 Este caso de prueba unitaria asegura que al instanciar un objeto `DeviceConfig` asociado a un `Device`, se inicialicen correctamente todos los valores predeterminados esperados para los parámetros de configuración: temperatura, humedad y luminosidad, así como el intervalo de muestreo.
 
-**Autor:** Josue Omar Hidalgo Bustamante
+**Autor:** Arana Ramos Jack
 **Fecha de creación:** 13/05/2025
 
 **Detalles técnicos:**
@@ -68,7 +70,7 @@ Todos los valores deben coincidir con los definidos por defecto en el constructo
 **Descripción:**
 Esta prueba unitaria verifica que el método `update` de la clase `DeviceConfig` puede recibir una configuración de sensor (`SensorConfig`) sin alterar los valores existentes, a menos que la lógica de actualización lo requiera explícitamente. En este caso, se evalúa que al pasar un `SensorConfig` de tipo HUMIDITY, los valores predefinidos de `DeviceConfig` se mantengan sin cambios.
 
-**Autor:** Josue Omar Hidalgo Bustamante
+**Autor:** Arana Ramos Jack
 **Fecha de creación:** 13/05/2025
 
 **Detalles técnicos:**
@@ -86,7 +88,7 @@ Todos los valores de configuración del `DeviceConfig` deben mantenerse iguales 
 **Descripción:**
 Esta prueba unitaria valida que la creación de un nuevo dispositivo mediante el método estático `Device.create(mac, null)` inicializa correctamente los valores por defecto. Específicamente, se espera que el dispositivo tenga su dirección MAC asignada, una ubicación predeterminada (`"Living Room"`), estado `INACTIVE`, y una lista de sensores no nula pero vacía.
 
-**Autor:** Josue Omar Hidalgo Bustamante
+**Autor:** Arana Ramos Jack
 **Fecha de creación:** 13/05/2025
 
 **Detalles técnicos:**
