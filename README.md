@@ -1508,22 +1508,9 @@ La aplicación web fue desplegada usando **Firebase Hosting**, una solución de 
 
 ### 5.2.1. Sprint Backlogs
 
-#### 5.2.1.1 Sprint Planning 1
+Para esta entrega, se inició con el desarrollo del Landing Page, para luego avanzar de manera paralela en la implementación del frontend y backend de la aplicación, incluyendo también el desarrollo de la versión móvil nativa. Cada integrante del equipo asumió tareas específicas definidas en los Sprint Backlogs, desarrollando las funcionalidades asignadas, realizando pruebas de validación e implementación, y registrando evidencias de cada avance. La colaboración del equipo se mantuvo constante a través de herramientas digitales, lo que permitió una adecuada organización y el cumplimiento de los objetivos planteados.
 
-| **Sprint 1** | **Diseño de la aplicación y funcionalidades**                                                                                                                                                                                                                                                                                               |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint Planning Background** |                                                                                                                                                                                                                                                                                                                                             |
-| **Date** | 18/09/2024                                                                                                                                                                                                                                                                                                                                  |
-| **Time** | 19:00                                                                                                                                                                                                                                                                                                                                       |
-| **Location** | Reunión realizada mediante Discord                                                                                                                                                                                                                                                                                                          |
-| **Prepared By** | Checa Apolinario, Paolo Sebastián                                                                                                                                                                                                                                                                                                           |
-| **Attendees (to planning meeting)** | Josue Omar Hidalgo Bustamante/ Arana Ramos, Jack                                                                                                                                                                                                                                                                                            |
-| **Sprint Goal & User Stories**  |
-| **Sprint 1 Goal** | Nuestro foco es realizar y desplegar la Landing Page de nuestro proyecto. <br> Creemos que esto permitirá una experiencia inicial de navegación para los usuarios y facilitará la visibilidad del producto. <br> Confirmaremos esto cuando los usuarios puedan acceder a la Landing Page y navegar por la información del producto en ella. |
-| **Sprint 1 Velocity** | 7                                                                                                                                                                                                                                                                                                                                           |
-| **Sum of Story Points** | 5                                                                                                                                                                                                                                                                                                                                           |
-
-#### 6.2.1.2. Sprint Backlog 1
+#### Sprint Backlog 1
 
 <table>
   <tr>
@@ -1579,19 +1566,187 @@ La aplicación web fue desplegada usando **Firebase Hosting**, una solución de 
   <tr>
     <td>Implementar la sección de testimonios para exponer las experiencias de los usuarios.</td>
     <td>2</td>
+    <td>Arana Ramos Jack</td>
+  </tr>
+</table>
+
+**Evidencia del Sprint Backlog en Trello** [Ver tablero](https://trello.com/b/St7T5lm0/hidrolink-sprint-1)
+
+![Sprint Backlog 1 en Trello](images/sprint-backlog-1.png)
+
+*Figura 1. Sprint Backlog 1 gestionado en Trello, donde se visualiza el estado y progreso de las tareas planificadas.*
+
+#### Sprint Backlog 2
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Tareas</th>
+    <th>Estimación</th>
+    <th>Persona Asignada</th>
+    <th>Total Estimation (Hours)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Registro de Usuario</td>
+    <td rowspan="2">Como aficionado y/o experto quiero registrarme en la página para observar todo lo que ofrece el servicio.</td>
+    <td>Crear la interfaz de registro de usuario</td>
+    <td>1</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">2</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Implementar la lógica de registro en el backend</td>
+    <td>1</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US05</td>
+    <td rowspan="3">Monitoreo en tiempo real de los parámetros del cultivo</td>
+    <td rowspan="3">Como aficionado, quiero monitorear en tiempo real los parámetros de mi cultivo (como temperatura, humedad y luz), para poder ajustar las condiciones y asegurarme de que mis plantas crezcan saludables.</td>
+    <td>Implementar los sensores IoT con la plataforma Wokwi para capturar datos de temperatura, humedad y luz</td>
+    <td>3</td>
+    <td>Mel Andre Orellana</td>
+    <td rowspan="3">8</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Configurar la API en el backend que reciba los datos de los sensores IoT y los almacene en la base de datos</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+  <tr>
+    <td>Desarrollar la funcionalidad en el frontend para visualizar datos en tiempo real</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US07</td>
+    <td rowspan="2">Gestión de dispositivos IoT</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero poder gestionar los dispositivos IoT vinculados para optimizar la supervisión de mis cultivos.</td>
+    <td>Crear una sección en el frontend donde los usuarios puedan ver una lista de dispositivos IoT conectados</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Configurar el backend para almacenar y gestionar la relación entre los usuarios y sus dispositivos IoT</td>
+    <td>3</td>
+    <td>Arana Ramos Jack</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Seguridad de datos</td>
+    <td>Como aficionado y/o experto, quiero asegurarme de que mis datos personales y de cultivos están protegidos contra accesos no autorizados.</td>
+    <td>Realizar pruebas de seguridad y verificar la protección contra accesos no autorizados</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+    <td>2</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US19</td>
+    <td rowspan="2">Validación de datos ingresados</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero que los datos ingresados en la aplicación sean validados automáticamente para evitar errores.</td>
+    <td>Implementar validaciones de entrada en el frontend para datos ingresados por el usuario</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">4</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Probar las validaciones con diferentes escenarios de datos incorrectos y validar las respuestas de error</td>
+    <td>2</td>
     <td>Josue Omar Hidalgo Bustamante</td>
   </tr>
 </table>
 
-**Repositorio:** `1ASI0732-4433-G3/Landing-Page`
-**Branch:** `main`
+**Evidencia del Sprint Backlog en Trello** [Ver tablero](https://trello.com/b/hqek1w2l/hidrolink-sprint-2)
 
-| Commit ID | Commit Message | Commit Message Body | Commited on |
-|-----------|----------------|----------------------|-------------|
-| f356e78 | Primera versión de la landing page | - | 25/04/2025 |
-| 359bbe8 | feature: seccion hero | - | 25/04/2025 |
-| 96edf19 | feat: update hero section | - | 25/04/2025 |
-| ee29772 | feat: update styles and add groweasy.png | - | 25/04/2025 |
+![Sprint Backlog 2 en Trello](images/sprint-backlog-2.png)
+
+*Figura 2. Sprint Backlog 2 gestionado en Trello, donde se visualiza el estado y progreso de las tareas planificadas.*
+
+#### Sprint Backlog 3
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Tareas</th>
+    <th>Estimación</th>
+    <th>Persona Asignada</th>
+    <th>Total Estimation (Hours)</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td rowspan="3">US09</td>
+    <td rowspan="3">Análisis de datos históricos</td>
+    <td rowspan="3">Como aficionado y/o experto, quiero acceder a datos históricos de mis cultivos para analizar tendencias y tomar mejores decisiones.</td>
+    <td>Implementar la funcionalidad para recuperar datos históricos desde la base de datos.</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+    <td rowspan="3">7</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Crear una interfaz en la app para acceder a los datos históricos.</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+  <tr>
+    <td>Realizar pruebas para verificar la precisión de los datos históricos mostrados.</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US12</td>
+    <td rowspan="3">Comparación de datos históricos</td>
+    <td rowspan="3">Como aficionado y/o experto, quiero comparar los datos actuales de mis cultivos con datos históricos para identificar tendencias.</td>
+    <td>Implementar lógica para seleccionar y comparar datos actuales con históricos.</td>
+    <td>3</td>
+    <td>Arana Ramos, Jack</td>
+    <td rowspan="3">7</td>
+    <td rowspan="3">Done</td>
+  </tr>
+  <tr>
+    <td>Diseñar una sección en la interfaz para la comparación de datos.</td>
+    <td>2</td>
+    <td>Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td>Probar la funcionalidad para garantizar que las comparaciones sean precisas y comprensibles.</td>
+    <td>2</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US14</td>
+    <td rowspan="2">Visualización de datos en gráficos</td>
+    <td rowspan="2">Como aficionado y/o experto, quiero visualizar los datos de mis cultivos en gráficos intuitivos para comprender mejor la información.</td>
+    <td>Diseñar los gráficos en función de los tipos de datos del sistema (temperatura, humedad, luminosidad, etc.).</td>
+    <td>3</td>
+    <td>Josue Omar Hidalgo Bustamante</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>Realizar pruebas con usuarios para validar la claridad y utilidad de los gráficos.</td>
+    <td>2</td>
+    <td>Arana Ramos, Jack</td>
+  </tr>
+</table>
+
+**Evidencia del Sprint Backlog en Trello** [Ver tablero](https://trello.com/b/ImZd6U5s/hidrolink-sprint-3)
+
+![Sprint Backlog 3 en Trello](images/sprint-backlog-3.png)
+
+*Figura 3. Sprint Backlog 3 gestionado en Trello, donde se visualiza el estado y progreso de las tareas planificadas.*
 
 ### 5.2.2. Implemented Landing Page Evidence
 
@@ -1612,14 +1767,14 @@ En esta fase del proyecto se completó la implementación de la aplicación movi
 ![Mockup de la aplicación](images/img_3523.png)
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-Para la implementación del servicio web de HidroLynk, se utilizó la plataforma Microsoft Azure. A través de App Service, se configuró un despliegue continuo integrando directamente el repositorio de GitHub donde se encuentra el código de la API RESTful.
+Para la implementación del servicio web de HidroLynk, se utilizó la plataforma Koyeb. A través de su servicio de despliegue automático, se configuró la integración continua conectando directamente el repositorio de GitHub donde se encuentra el código de la API RESTful.
 
 Gracias a esta configuración, cada actualización del repositorio desencadena automáticamente una nueva versión del servicio en producción, facilitando la gestión del backend y asegurando la disponibilidad constante de los endpoints. Además, la plataforma proporciona un dominio público mediante el cual se accede a los servicios, incluyendo la visualización de la documentación dinámica en Swagger.
 
 A continuación, se presentan capturas de la configuración del entorno y evidencia del despliegue exitoso:
-![Mockup de la aplicación](images/img_525.png)
-![Mockup de la aplicación](images/img_6.png)
-![Mockup de la aplicación](images/datab.png)
+
+![Despliegue en Koyeb - Configuración](images/koyeb_settings.png)
+![Despliegue en Koyeb - Detalles del Servicio](images/koyeb_overview.png)
 
 
 ### 5.2.6. RESTful API documentation
@@ -1632,6 +1787,667 @@ Esta sección expone de forma precisa cómo se llevó a cabo la documentación d
 ![Mockup de la aplicación](images/insights.png)
 
 ## 5.3. Video About-the-Product
+
+
+## Capítulo VI: Product Verification & Validation
+
+##6.1 Testing Suites & Validation
+
+### 6.1.1 Core Entities Unit Tests
+
+## Backlog #:6.1.1-M1
+
+**Descripción:**
+Esta prueba unitaria valida la correcta conversión de una entidad `Metric` a su DTO correspondiente `MetricResponse`. Se asegura que los valores de `value`, `unit` y `timestamp` se transfieran correctamente y se formatee el campo `metric` como una cadena combinada (`valor unidad`).
+
+**Autor:** Arana Ramos Jack
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se crea una instancia de `Metric` con valores controlados (`10.0`, `"kg"`, `"2023-10-01T12:00"`) y se convierte a `MetricResponse` mediante el método `fromEntity()`. Se utilizan aserciones para verificar que el valor formateado de `metric` y la fecha-hora sean correctos.
+
+**Resultado esperado:**
+- `metric` debe contener la cadena `"10.0 kg"`
+- `timestamp` debe conservar el formato ISO local `"2023-10-01T12:00"`
+
+**Estado:** ✅ Prueba satisfactoria
+
+<img src="images/test_1.png" alt="test_1"/>
+
+## Backlog #: 6.1.1-M2
+**Descripción:**
+Este caso de prueba unitaria valida que el método `fromEntityList` de la clase `MetricResponse` convierte correctamente una lista de entidades `Metric` en una lista de objetos de respuesta (`MetricResponse`). Se verifica que cada entidad sea transformada con precisión en cuanto a su valor métrico formateado y su marca de tiempo.
+
+**Autor:** Arana Ramos Jack
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+El test crea dos objetos `Metric` simulados con datos distintos. Luego, llama al método `MetricResponse.fromEntityList(List<Metric>)` para obtener la lista de respuestas. Se realizan aserciones para comprobar:
+- Que la cantidad de elementos convertidos es la correcta.
+- Que el contenido de cada objeto `MetricResponse` representa fielmente la unidad, valor y timestamp original formateado según lo esperado.
+
+Este test asegura que la lógica de transformación masiva de métricas mantiene la integridad de los datos y el formato de salida para su uso posterior en la capa de presentación o API.
+
+**Resultado esperado:**
+El método debe retornar una lista de tamaño 2, donde:
+- La primera entrada es `"10.0 kg"` con timestamp `"2023-10-01T12:00"`.
+- La segunda entrada es `"5.5 g"` con timestamp `"2023-10-01T13:00"`.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+<img src="images/test_2.png" alt="test_2"/>
+
+## Backlog #: 6.1.1-M3
+**Descripción:**
+Este caso de prueba unitaria asegura que al instanciar un objeto `DeviceConfig` asociado a un `Device`, se inicialicen correctamente todos los valores predeterminados esperados para los parámetros de configuración: temperatura, humedad y luminosidad, así como el intervalo de muestreo.
+
+**Autor:** Arana Ramos Jack
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se crea una instancia de `Device` mediante su método estático `create(mac, user)`. Luego, se crea un objeto `DeviceConfig` con ese dispositivo. El test valida que cada campo tenga el valor por defecto esperado:
+- Temperatura mínima: `15.0`, máxima: `30.0`, umbral: `28.0`.
+- Humedad mínima: `40.0`, máxima: `60.0`, umbral: `55.0`.
+- Luminosidad mínima: `300`, máxima: `1000`, umbral: `900`.
+- Intervalo de muestreo: `10`.
+
+**Resultado esperado:**
+Todos los valores deben coincidir con los definidos por defecto en el constructor de `DeviceConfig`.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+<img src="images/test_3.png" alt="test_3"/>
+
+
+## Backlog #: 6.1.1-M4
+**Descripción:**
+Esta prueba unitaria verifica que el método `update` de la clase `DeviceConfig` puede recibir una configuración de sensor (`SensorConfig`) sin alterar los valores existentes, a menos que la lógica de actualización lo requiera explícitamente. En este caso, se evalúa que al pasar un `SensorConfig` de tipo HUMIDITY, los valores predefinidos de `DeviceConfig` se mantengan sin cambios.
+
+**Autor:** Arana Ramos Jack
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se crea un `Device` con dirección MAC, se instancia un `DeviceConfig` con ese dispositivo y se simula una actualización con un objeto `SensorConfig` del tipo `HUMIDITY`. El objetivo es confirmar que, al invocar el método `update`, las configuraciones del dispositivo no se ven afectadas si el `SensorConfig` no proporciona nuevos valores o la lógica no lo permite.
+
+**Resultado esperado:**
+Todos los valores de configuración del `DeviceConfig` deben mantenerse iguales a sus valores por defecto después de la actualización.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M4](images/test_6.1.1-M4.png)
+
+
+## Backlog #: 6.1.1-M5
+**Descripción:**
+Esta prueba unitaria valida que la creación de un nuevo dispositivo mediante el método estático `Device.create(mac, null)` inicializa correctamente los valores por defecto. Específicamente, se espera que el dispositivo tenga su dirección MAC asignada, una ubicación predeterminada (`"Living Room"`), estado `INACTIVE`, y una lista de sensores no nula pero vacía.
+
+**Autor:** Arana Ramos Jack
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se construye un objeto `Device` con una dirección MAC específica, omitiendo la asignación de usuario. Luego, se verifican los valores predeterminados del dispositivo: ubicación, estado, y estructura de sensores, para asegurar que el constructor estático encapsula correctamente la lógica de inicialización.
+
+**Resultado esperado:**
+El dispositivo debe tener el estado `INACTIVE`, la ubicación `"Living Room"`, y una lista de sensores vacía pero inicializada.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M5](images/test_6.1.1-M5.png)
+
+
+## Backlog #: 6.1.1-M6
+**Descripción:**
+Esta prueba unitaria verifica que el método `update(min, max, threshold)` de la clase `SensorConfig` actualiza correctamente los valores mínimos, máximos y de umbral de una configuración de sensor previamente construida.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se instancia un objeto `SensorConfig` con valores iniciales (`min = 10.0`, `max = 30.0`, `threshold = 20.0`). Luego, se invoca el método `update()` para modificar estos valores a `min = 15.0`, `max = 35.0` y `threshold = 25.0`. Finalmente, se verifica que los atributos internos del objeto reflejen correctamente los nuevos valores.
+
+**Resultado esperado:**
+El objeto debe actualizar sus tres atributos (`min`, `max`, `threshold`) a los valores proporcionados en la llamada `update`.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M6](images/test_6.1.1-M6.png)
+
+
+## Backlog #: 6.1.1-M7
+**Descripción:**
+Esta prueba unitaria valida que al crear un `SensorConfig` asociado a un sensor de tipo HUMIDITY, se asignen correctamente los valores por defecto de configuración (mínimo, máximo y umbral).
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+Se crea un sensor del tipo `HUMIDITY` usando el método estático `Sensor.create()`. A continuación, se instancia `SensorConfig` con este sensor y se comprueba que:
+- `min` = 40.0
+- `max` = 60.0
+- `threshold` = 55.0
+- El sensor asociado es exactamente el mismo que se pasó en el constructor.
+
+**Resultado esperado:**
+Los valores predeterminados de configuración de humedad se inicializan correctamente al crear una nueva configuración de sensor.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M7](images/test_6.1.1-M7.png)
+
+
+## Backlog #: 6.1.1-M8
+**Descripción:**
+Esta prueba unitaria verifica que al agregar una métrica (`Metric`) a un sensor (`Sensor`), dicha métrica se almacene correctamente dentro de la lista de métricas del sensor.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+- Se crea un sensor del tipo `HUMIDITY` usando `Sensor.create()`.
+- Se instancia una métrica (`Metric.create`) asociada a ese sensor con valor `10.0` y unidad `g/m3`.
+- Se ejecuta `sensor.addMetric(metric)`.
+- Se verifica que la primera métrica en la lista del sensor sea la misma que la agregada.
+
+**Resultado esperado:**
+El sensor debe contener la métrica agregada correctamente como primer (y único) elemento en su colección de métricas.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M8](images/test_6.1.1-M8.png)
+
+
+## Backlog #: 6.1.1-M9
+**Descripción:**
+Esta prueba unitaria verifica que al eliminar una métrica (`Metric`) previamente agregada a un sensor (`Sensor`), la lista de métricas quede vacía.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+- Se crea un sensor del tipo `HUMIDITY` usando `Sensor.create()`.
+- Se instancia y agrega una métrica asociada a este sensor con `sensor.addMetric(metric)`.
+- Luego, se elimina la misma métrica con `sensor.removeMetric(metric)`.
+- Finalmente, se comprueba que la lista de métricas del sensor tenga tamaño `0`.
+
+**Resultado esperado:**
+La métrica debe eliminarse correctamente, dejando vacía la colección de métricas del sensor.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M9](images/test_6.1.1-M9.png)
+
+
+## Backlog #: 6.1.1-M10
+**Descripción:**
+Esta prueba unitaria valida que un sensor del tipo `TEMPERATURE` creado con un dispositivo asociado se inicialice correctamente con los valores por defecto.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Detalles técnicos:**
+- Se crea un objeto `Device` con una dirección MAC.
+- Se crea un sensor con tipo `SensorType.TEMPERATURE` asociado al dispositivo.
+- Se verifica que:
+  - El tipo del sensor sea `TEMPERATURE`.
+  - El estado del sensor sea `ACTIVE` por defecto.
+  - El dispositivo asignado sea el mismo que el proporcionado al crear el sensor.
+
+**Resultado esperado:**
+El sensor debe estar correctamente inicializado con estado `ACTIVE` y vinculado al dispositivo proporcionado.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_6.1.1-M10](images/test_6.1.1-M10.png)
+
+
+### 6.1.2 Core Integration Tests.
+
+**Descripción:**
+Esta prueba de integración funcional valida que el servicio `DeviceService` pueda conectar correctamente un dispositivo físico con dirección MAC registrada. La prueba incluye la verificación del estado, la asignación al usuario autenticado, y la generación automática de sensores.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Contexto:**
+El sistema HydroLink permite que los dispositivos de monitoreo ambiental sean registrados y vinculados a un usuario. Una funcionalidad crítica es permitir que un usuario active un dispositivo desde el frontend, momento en el cual se deben configurar automáticamente los sensores y asociar al usuario autenticado.
+
+**Objetivo de la prueba:**
+Verificar el flujo completo de conexión de un dispositivo:
+- El dispositivo pasa de estado INACTIVO a ACTIVO.
+- Se asigna correctamente al usuario autenticado.
+- Se crean automáticamente 3 sensores predefinidos.
+
+**Entidades involucradas:**
+- `DeviceRepository`
+- `UserRepository`
+- `DeviceService`
+- `AuthenticationFacade` (mockeado)
+
+**Pasos ejecutados:**
+1. Se limpia la base de datos H2 embebida.
+2. Se crea y guarda un usuario en la base.
+3. Se crea un dispositivo con dirección MAC.
+4. Se ejecuta el método `connectDevice` del servicio.
+5. Se recupera el dispositivo actualizado y se validan:
+  - Estado: `ACTIVE`.
+  - Asociación al usuario.
+  - Número de sensores creados.
+
+**Resultado esperado:**
+- El dispositivo debe estar en estado ACTIVO.
+- El ID del usuario asignado debe coincidir con el autenticado.
+- El dispositivo debe contener exactamente 3 sensores.
+
+**Estado:** ✅ Prueba satisfactoria.
+
+![test_i_1](images/test_i_1.png)
+![test_i_2](images/test_i_2.png)
+![test_i_3](images/test_i_3.png)
+![test_results](images/test_results.png)
+
+
+### 6.1.2 Core Behavior-Driven
+
+
+**Descripción:**
+Esta prueba utiliza el enfoque de Desarrollo Guiado por Comportamiento (BDD) para validar el flujo principal del caso de uso "Conexión de Dispositivo". Utiliza Cucumber con pasos escritos en lenguaje natural (Gherkin) y enlazados a métodos Java que verifican el comportamiento esperado del sistema HydroLink.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Contexto:**
+Se desea comprobar, desde una perspectiva de usuario final, que un dispositivo puede ser conectado exitosamente a su cuenta, pasando por el proceso completo: registro, activación y asignación automática de sensores. Esta prueba representa un escenario de aceptación, fundamental para el monitoreo en campo.
+
+**Objetivo del escenario:**
+Verificar que un usuario autenticado pueda conectar un dispositivo con dirección MAC válida y que, al hacerlo:
+- El dispositivo cambie su estado a ACTIVO.
+- El dispositivo se asigne correctamente al usuario autenticado.
+- Se generen automáticamente 3 sensores predefinidos.
+
+**Escenario (Gherkin):**
+
+Scenario: Usuario conecta un nuevo dispositivo a su cuenta
+  Given un usuario autenticado con ID 1 y datos válidos
+  And un dispositivo con dirección MAC "AA:BB:CC:DD:EE:99"
+  When el usuario solicita conectar el dispositivo
+  Then el dispositivo se marca como ACTIVO
+  And se asigna correctamente al usuario
+  And el dispositivo contiene 3 sensores predefinidos
+
+
+![test_cucumber](images/test_cucumber.png)
+![test_feature](images/test_feature.png)
+![test_steps_1](images/test_steps_1.png)
+![test_steps_2](images/test_steps_2.png)
+![test_context](images/test_context.png)
+![test_result_613](images/test_result_613.png)
+
+
+### 6.1.4. Core System Tests.
+
+
+## Backlog #: 6.1.4-SystemTest1
+**Descripción:**
+Esta prueba representa un **test de sistema completo**, abarcando tanto backend como frontend desplegados. Se realizó manualmente a través de la interfaz web publicada, simulando el comportamiento real de un usuario final interactuando con HydroLink mediante su navegador.
+
+**Autor:** Josue Omar Hidalgo Bustamante
+**Fecha de creación:** 13/05/2025
+
+**Objetivo de la prueba:**
+Verificar que al iniciar sesión en la aplicación y dirigirse a la funcionalidad "Conectar dispositivo", el sistema notifica correctamente que no hay dispositivos disponibles cuando ningún equipo está encendido o registrado en modo activo.
+
+**Pasos realizados:**
+1. Acceder a: [https://hydrolinkweb.netlify.app/login](https://hydrolinkweb.netlify.app/login)
+2. Iniciar sesión con las siguientes credenciales:
+   - Usuario: `josue`
+   - Contraseña: `josue200`
+3. Pulsar el botón **“Sign In”**.
+4. Acceder al módulo “Conectar Dispositivo”.
+5. Observar el mensaje en pantalla.
+
+**Resultado esperado:**
+El sistema muestra el texto:
+> **"No hay dispositivos encendidos."**
+
+**Resultado obtenido:**
+✅ El mensaje fue mostrado correctamente y la experiencia de usuario se comportó según lo esperado.
+
+**Tecnologías involucradas:**
+- Frontend desplegado en Netlify (Angular + PrimeNG)
+- Backend desplegado en Render (Spring Boot)
+- Base de datos en entorno productivo de pruebas (PostgreSQL)
+
+**Estado:** ✅ Prueba manual de sistema satisfactoria.
+
+![test_6.1.4-SystemTest1](images/test_6.1.4-SystemTest1.png)
+
+
+
+
+
+## 6.2. Static Testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+Durante el desarrollo del backend de HydroLink se siguieron las convenciones de codificación de Java utilizando la estructura modular por paquetes (`model`, `repository`, `service`, `controller`, etc.) y aplicando los principios de nombrado apropiado para clases, métodos y atributos.
+
+Se priorizó el uso de anotaciones estándar como `@Entity`, `@Service`, `@Repository`, y se evitó el acoplamiento excesivo entre clases. Además, se estructuraron los tests unitarios con nombres que indican claramente su propósito (por ejemplo: `shouldAddMetricToSensor`, `shouldConvertMetricEntityToResponseCorrectly`, etc.).
+
+Durante el proceso de revisión, se verificó:
+
+- Que no haya métodos innecesariamente públicos.
+- Que los nombres de métodos sigan la convención `camelCase`.
+- Que no exista código muerto o sin uso.
+- Que las clases no excedan responsabilidades innecesarias (principio de SRP).
+- Que cada clase esté en el paquete que le corresponde.
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Para evaluar la calidad del código, se realizó una inspección manual del repositorio, además de habilitar los chequeos automáticos del IDE (IntelliJ IDEA) como:
+
+- Detección de posibles `NullPointerException`.
+- Advertencias sobre expresiones innecesarias o variables no utilizadas.
+- Uso correcto de constantes y valores inmutables (`final`).
+
+En cuanto a seguridad de código:
+
+- Se evitó exponer datos sensibles como contraseñas en consola o logs.
+- Se aplicó cifrado en contraseñas de usuarios mediante la configuración de seguridad de Spring Security.
+- En los endpoints críticos se utilizó validación de usuario autenticado y roles mediante anotaciones como `@PreAuthorize`.
+
+Este proceso de validación estática ayudó a mantener un código más limpio, seguro y mantenible antes de ejecutar las pruebas dinámicas del sistema.
+
+---
+
+> **Nota:** Todo el código fue validado usando las herramientas integradas del IDE y revisado por el equipo antes de su integración continua.
+
+
+
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+**Segmento objetivo: Aficionados a la Hidroponía**
+
+- ¿Te pareció fácil de usar la aplicación sin conocimientos técnicos avanzados?
+- ¿Qué tan útil fue para ti la app para comprender las necesidades de tus cultivos?
+- ¿Hay elementos en la interfaz que te resultaron difíciles de comprender?
+- ¿Consideras que podrías usar la app a diario para controlar tus cultivos?
+- ¿Recomendarías esta app a otros principiantes? ¿Por qué?
+- ¿Hay algún aspecto que cambiarías o agregarías para hacerla más fácil de usar?
+
+**Segmento objetivo: Expertos en Hidroponía**
+
+- ¿La aplicación cumple con tus expectativas en cuanto a precisión y datos detallados?
+- ¿Consideras que la opción de elegir los umbrales de temperatura, humedad y luz es adecuada para tus cultivos?
+- ¿Te gustaría tener controles adicionales o configuraciones avanzadas?
+- ¿Consideras que la visualización de datos es suficiente o prefieres gráficos más detallados?
+- ¿Recomendarías esta aplicación a otros profesionales? ¿Por qué?
+- ¿Qué mejoras o funciones adicionales considerarías necesarias para un uso más técnico?
+
+### 6.3.2. Registro de Entrevistas
+
+**Segmento objetivo: Aficionados a la Hidroponía**
+
+**Entrevistado 1:**
+
+- Nombre y apellidos: Carlos Dueñas
+- Edad: 21 años
+- Ubicación: Santiago de Surco, Lima
+- Evidencia de la reunión:
+
+![entrevista_63](images/entrevista_63.png)
+
+**Resumen de la entrevista:**
+
+Realizamos una entrevista a Carlos Dueñas, quien ya había probado nuestra aplicación. Carlos señaló que la app le pareció bastante intuitiva, facilitándole la comprensión de los niveles de luz, humedad y temperatura requeridos por sus plantas. Aunque en general le resultó fácil de usar, mencionó que al inicio tuvo dificultades para encontrar algunas configuraciones avanzadas, por lo que sugirió incluir una guía breve en cada sección. Considera que la aplicación es adecuada para un uso diario, valorando especialmente la posibilidad de monitorear desde el celular y recibir alertas ante problemas. Destacó su utilidad para personas que están comenzando en hidroponía y recomendó añadir una sección con consejos básicos o ayuda para interpretar los datos visualizados.
+
+
+**Entrevistado 2:**
+
+- Nombre y apellidos: Juan Reyes
+- Edad: 23 años
+- Ubicación: San Isidro, Lima
+- Evidencia de la reunión:
+![entrevista_631](images/entrevista_631.png)
+
+
+**Resumen de la entrevista:**
+
+Juan Reyes compartió una experiencia muy positiva con la aplicación *GrowEasy*, destacando su facilidad de uso incluso sin conocimientos técnicos avanzados, gracias a un diseño intuitivo. Comentó que la app fue muy útil para comprender las necesidades de sus cultivos, ya que proporciona datos en tiempo real sobre temperatura, humedad y luz, permitiéndole tomar decisiones informadas. La interfaz le pareció clara, sin elementos difíciles de comprender. Afirmó que podría usarla diariamente y la recomendaría a otros principiantes por su accesibilidad. Como mejora, sugirió incluir más tutoriales interactivos o una sección de preguntas frecuentes para facilitar el aprendizaje de nuevos usuarios.
+
+
+
+**Entrevistado 3:**
+
+- Nombre y apellidos: Michael Carrillo
+- Edad: 21
+- Ubicación: Surco, Lima
+- Evidencia de la reunión:
+![entrevista_632](images/entrevista_632.png)
+
+- Inicio:
+- Fin:
+- Enlace de entrevista:
+
+**Resumen de la entrevista:**
+
+Michael Carrillo, un aficionado a la hidroponía, encontró la aplicación fácil de usar e intuitiva, incluso sin conocimientos técnicos avanzados. Destacó su utilidad para comprender las necesidades de sus cultivos, gracias a datos claros sobre humedad, temperatura y luz, así como recomendaciones prácticas. Aunque mencionó que algunos íconos y términos técnicos pueden ser confusos, sugirió incluir tutoriales interactivos, explicaciones detalladas y una sección de preguntas frecuentes para mejorar la experiencia. Considera que usaría la app diariamente por su conveniencia y la recomendaría a principiantes por su capacidad para simplificar procesos y hacer la hidroponía más accesible.
+
+**Segmento objetivo: Expertos en Hidroponía**
+
+**Entrevistado 1:**
+
+- Nombre y apellidos: Diego Jesus Alonso
+- Edad: 28
+- Ubicación: Lima - San Martin de Porres
+- Evidencia de la reunión:
+![entrevista_633](images/entrevista_633.png)
+
+- Inicio: 22:24
+- Fin: 22:27
+- Enlace de entrevista:
+
+**Resumen de la entrevista:**
+
+Diego Jesús, de 28 años y experto en hidroponía, colaboró en la realización de esta entrevista sobre la aplicación. En su opinión, la app cumple con las expectativas en cuanto a precisión de datos, aunque siempre se puede afinar más. Considera que la opción de configurar los umbrales de temperatura, humedad y luz es muy útil para adaptar la aplicación a las necesidades específicas de cada cultivo. Diego cree que contar con controles adicionales o configuraciones avanzadas mejoraría la experiencia, permitiendo ajustes más precisos.
+
+En cuanto a la visualización de datos, sugiere que incluir gráficos más detallados sería beneficioso para un análisis en profundidad. Diego recomendaría esta aplicación a otros profesionales, ya que facilita el monitoreo y la toma de decisiones informadas. Finalmente, menciona que para un uso más técnico, sería ideal integrar análisis predictivo, compatibilidad con sensores más avanzados y la capacidad de exportar datos para otros tipos de análisis.
+
+
+## 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.1. Auditoría realizada
+
+#### 6.4.1.1. Información del grupo auditado
+
+| Elemento                    | Descripción |
+|----------------------------|-------------|
+| **Nombre del Grupo Auditado**  | Segmento objetivo de GrowEasy, el cual incluye tanto aficionados como expertos en hidroponía. |
+| **Descripción del Grupo**      | El grupo auditado está compuesto por personas interesadas en la hidroponía, incluyendo principiantes que buscan soluciones accesibles y expertos que buscan precisión y control detallado sobre sus cultivos. |
+| **Objetivos de la Auditoría**  | Evaluar la funcionalidad, usabilidad e impacto visual de las soluciones web y móviles ofrecidas por GrowEasy para recopilar feedback y proponer mejoras centradas en el usuario. |
+
+#### 6.4.1.2. Cronograma de auditoría realizada
+
+| Elemento | Descripción |
+|---------|-------------|
+| **Fechas de Inicio y Finalización** | Inicio: Miércoles 08 de mayo de 2025<br>Finalización: Sábado 11 de mayo de 2025 |
+| **Duración Total de la Auditoría** | Entre 5 y 10 minutos por usuario evaluado |
+| **Actividades Realizadas** | Entrevistas con usuarios del segmento objetivo, análisis de experiencia, navegación y comprensión de la interfaz en la app y landing page. |
+
+#### 6.4.1.3. Contenido de auditoría realizada
+
+| Elemento | Detalles |
+|---------|----------|
+| **Elementos Evaluados** | - Aplicación Web de GrowEasy<br>- Landing Page de GrowEasy |
+| **Metodología de Evaluación** | - Entrevistas semi-estructuradas<br>- Observación del uso en tiempo real<br>- Análisis de experiencia de usuario |
+| **Criterios de Evaluación** | - Claridad del contenido<br>- Facilidad de navegación<br>- Comprensión del “Call to Action”<br>- Interfaz visual |
+| **Resultados y Hallazgos** | - La mayoría de usuarios encontró la app intuitiva y fácil de usar.<br>- Se sugirió mejorar ayuda contextual y agregar tutoriales.<br>- El diseño fue bien recibido por ambos segmentos. |
+
+---
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+| Elemento | Descripción |
+|---------|-------------|
+| **Nombre del grupo auditor** | GrowEasy Innovators |
+| **Descripción del grupo** | Equipo de estudiantes de ingeniería que desarrolla soluciones IoT para hidroponía |
+| **Experiencia del grupo auditor** | Experiencia en desarrollo web, pruebas con usuarios, análisis de usabilidad y entrevistas |
+| **Metodología de auditoría** | Entrevistas y análisis cualitativo de experiencia |
+| **Autores Principales** | Paolo Checa, Jesús Lazo, Farid Hinostroza, Leonardo Taype, Jack Arana |
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+| Elemento | Descripción |
+|---------|-------------|
+| **Fechas de Inicio y Finalización** | Inicio: Lunes 06 de mayo de 2025<br>Finalización: Jueves 09 de mayo de 2025 |
+| **Duración Total de la Auditoría** | Promedio de 5 a 10 minutos por sesión |
+| **Actividades Realizadas** | Diseño de entrevistas, contacto con entrevistados, entrevistas y análisis posterior |
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+| Elemento | Detalles |
+|---------|----------|
+| **Resumen Ejecutivo** | Se identificaron oportunidades de mejora en la ayuda contextual y presentación de información para nuevos usuarios. |
+| **Evaluación Aplicación y Landing Page** | Navegación satisfactoria; se recomienda añadir guía o asistente virtual para primerizos. |
+| **Hallazgos y Recomendaciones** | - Rediseño de la sección de ayuda<br>- Tutoriales interactivos<br>- Claridad en mensajes clave |
+| **Conclusiones Finales** | Las mejoras propuestas pueden aumentar la retención, satisfacción y facilitar la adopción por nuevos usuarios. |
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+1. Se añadirá una sección de ayuda interactiva con guías visuales paso a paso.
+2. Se optimizarán los textos en secciones clave para mejorar la claridad.
+3. Se planifican nuevas rondas de prueba con usuarios reales para validar cambios.
+
+
+
+## Capítulo VII: DevOps Practices
+
+ ###  7.1. Continuous Integration
+
+ #### 7.1.1. Tools and Practices.
+
+
+
+En cuanto al **despliegue de la aplicación web**, se utilizó **Nelify**, una plataforma que permite realizar el hosting de forma gratuita, rápida y eficiente. Por otro lado, el **backend** fue desplegado en **Koyeb**, un servicio que brinda almacenamiento seguro, escalable y sin costo.
+
+![img_711](images/img_711.png)
+
+
+Para implementar un enfoque de **integración continua**, el equipo adoptó varias prácticas clave, fundamentales para mantener la estabilidad del sistema:
+
+- Ejecutar todas las pruebas localmente antes de realizar un commit.
+- Esperar a que estas pruebas finalicen con éxito antes de continuar con nuevas tareas.
+- Asegurarse de no dejar el proyecto con errores de compilación o builds rotas al finalizar la jornada.
+- Estar preparados para revertir cambios en caso de que alguna versión introduzca fallos.
+- Asignar un tiempo prudente para corregir errores relacionados con el check-in y, si este se sobrepasa, volver a la versión anterior estable.
+- Evitar realizar observaciones sobre pruebas mal diseñadas si no se cuenta con los conocimientos necesarios.
+- Asumir la responsabilidad por cualquier problema que se derive de los cambios personales realizados en el código.
+
+
+ #### 7.1.2. Build & Test Suite Pipeline Components.
+
+![jenki](images/jenki.png)
+
+
+ #### 7.2. Continuous Delivery
+
+ #### 7.2.1. Tools and Practices.
+Para implementar la **entrega continua** de manera efectiva, se identificaron diversas herramientas disponibles en el ecosistema actual que podrían facilitar este proceso.
+
+![img_721](images/img_721.png)
+
+Al igual que con la integración continua, nuestro equipo también aplicó **buenas prácticas** enfocadas en la automatización de distintas etapas del ciclo de vida del proyecto, con el objetivo de lograr una entrega más eficiente y confiable. Entre las principales prácticas destacan:
+
+- Automatización de los cambios en la base de datos mediante el uso de scripts controlados.
+- Ejecución de pruebas automatizadas para asegurar la calidad del software en cada actualización.
+- Procesos de despliegue automatizados que permiten lanzar nuevas versiones del sistema sin intervención manual.
+
+
+#### 7.2.2. Stages Deployment Pipeline Components.
+
+![img_722](images/img_722.png)
+
+
+//---------------------------------------------------------
+
+## 7.3 Continuous Deployment
+
+### 7.3.1 Tools and Practices
+Para **Continuous Deployment (CDP)**, confiamos en las capacidades de Netlify y Koyeb para ejecutar implementaciones directas a producción sin intervención manual después de que el código pasa las etapas anteriores.
+
+Las herramientas y prácticas clave incluyen:
+- **Despliegue automático post-merge:** Al fusionar en la rama principal, Netlify despliega automáticamente el frontend y Koyeb actualiza el backend.
+- **Rollback sencillo:** Si ocurre un error, Netlify y Koyeb permiten restaurar versiones anteriores con un solo clic.
+- **Monitorización básica:** Netlify ofrece estadísticas de tráfico y errores en frontend; Koyeb proporciona logs de ejecución y alertas de fallos en el backend.
+
+### 7.3.2 Production Deployment Pipeline Components
+Los componentes principales de nuestro pipeline de despliegue en producción son:
+
+- **Hospedaje del Frontend:** Netlify aloja nuestra aplicación de frontend en servidores distribuidos (CDN) para alta disponibilidad y bajo tiempo de respuesta.
+- **Hospedaje del Backend:** Koyeb ejecuta instancias de backend desplegadas en contenedores automáticamente actualizados.
+- **Notificaciones de despliegue:** Tanto Netlify como Koyeb envían registros de éxito o error tras cada despliegue a producción, facilitando la verificación inmediata del estado.
+- **Rollback y control de versiones:** Cada despliegue genera un historial que permite retroceder en caso de incidentes.
+
+A continuación, proporcionamos capturas de pantalla que ilustran implementaciones exitosas en producción utilizando Netlify (frontend) y Koyeb (backend):
+
+![Despliegue exitoso del frontend en Netlify](images/cd_netlify.jpg)
+*Figura X. Despliegue exitoso del frontend en Netlify a partir de cambios en GitHub.*
+
+![Despliegue exitoso del backend en Koyeb](images/cd_koyeb.jpg)
+*Figura X+1. Despliegue exitoso del backend en Koyeb a partir de cambios en GitHub.*
+
+//---------------------------------------------------------
+
+## Conclusiones
+
+#### TB1
+
+- **Perfil de la Startup**: Definir el perfil de la startup permite tener una visión clara del alcance del proyecto, lo que facilita cumplir con las necesidades y expectativas de los usuarios.
+- **Análisis Competitivo**: El análisis competitivo es crucial para entender el panorama del mercado, identificar oportunidades de diferenciación y establecer estrategias sólidas para mejorar la competitividad.
+- **Lean UX Process**: El uso del Lean UX Canvas permite identificar rápidamente problemas y oportunidades, ayudando a formular hipótesis de soluciones de manera ágil y centrada en el usuario final.
+- **Segmentación de Usuarios**: La segmentación precisa de los usuarios facilita la creación de soluciones más personalizadas y efectivas, ajustando el diseño y la funcionalidad según las necesidades de los distintos perfiles.
+
+#### TP
+
+- **Desarrollo e Implementación Iterativa**: La implementación de Sprint Backlogs y la ejecución de sprints de manera iterativa han permitido avanzar en el desarrollo del producto, ajustando continuamente las soluciones en función de los resultados obtenidos en cada revisión.
+- **Gestión del Código y Estándares**: La implementación de guías de estilo y convenciones en el código ha facilitado la gestión y el mantenimiento del software, asegurando su calidad y reduciendo el riesgo de errores a largo plazo.
+- **Validación de Servicios y Documentación**: La validación continua de los servicios y la documentación generada en cada Sprint garantiza que el producto cumpla con los estándares de calidad y funcionalidad definidos al inicio del proyecto.
+
+## Bibliografía
+
+- Agencia Agraria (2023, junio 19). Las nuevas variedades y la hidroponía impulsarán el sector del arándano en Perú. Agencia Agraria de Noticias. Recuperado 23 de septiembre de 2023, de [https://agraria.pe/noticias/las-nuevas-variedades-y-la-hidroponia-impulsaran-el-sector-d-32209](https://agraria.pe/noticias/las-nuevas-variedades-y-la-hidroponia-impulsaran-el-sector-d-32209) [Consulta: 31/10/2024]
+- Beltrano, J., & Gimenez, D. O. (2015). Cultivo en hidroponía. Editorial de la Universidad Nacional de La Plata (EDULP). Recuperado de [http://sedici.unlp.edu.ar/bitstream/handle/10915/46752/documento_completo.pdf?sequence=1](http://sedici.unlp.edu.ar/bitstream/handle/10915/46752/documento_completo.pdf?sequence=1) [Consulta: 31/10/2024]
+- Carrijo, O. A., Makishima, N., CARRIJO, O. A., & MAKISHIMA, N. (2000). Principios de hidroponia. Recuperado de [https://www.infoteca.cnptia.embrapa.br/bitstream/doc/769981/1/CNPHDOCUMENTOS22PRINCIPIOSDEHIDROPONIA.pdf](https://www.infoteca.cnptia.embrapa.br/bitstream/doc/769981/1/CNPHDOCUMENTOS22PRINCIPIOSDEHIDROPONIA.pdf) [Consulta: 31/10/2024]
+- del Campo González, F. F., Millán, C. C. G., & Sullivan, S. A. (2022). Métodos de Cultivo Para Producir Alimentos en Casa Durante el Año Internacional de las Frutas y Verduras. Recuperado de [https://www.esfm.ipn.mx/assets/files/esfm/docs/jornadas/Revista-JADC-V-ch.pdf#page=23](https://www.esfm.ipn.mx/assets/files/esfm/docs/jornadas/Revista-JADC-V-ch.pdf#page=23) [Consulta: 31/10/2024]
+- Díaz, G. G. (2010). Hidroponía en casa: una actividad familiar. Recuperado de [https://www.mag.go.cr/bibliotecavirtual/F08-8691.pdf](https://www.mag.go.cr/bibliotecavirtual/F08-8691.pdf) [Consulta: 27/10/2024]
+- El comercio (2019). Alternativas sostenibles para un mejor futuro de la agricultura. El Comercio. Recuperado de [https://archivo.elcomercio.pe/labuenavecindad/comunidad/alternativas-sostenibles-mejor-futuro-agricultura-noticia-1994510](https://archivo.elcomercio.pe/labuenavecindad/comunidad/alternativas-sostenibles-mejor-futuro-agricultura-noticia-1994510) [Consulta: 28/10/2024]
+- Salas, M. F. (2020). Identificación de los factores que determinan la calidad del agua en los cultivos hidropónicos. Recuperado de [https://repository.unad.edu.co/bitstream/handle/10596/34845/mfsalas.pdf?sequence=1&isAllowed=y](https://repository.unad.edu.co/bitstream/handle/10596/34845/mfsalas.pdf?sequence=1&isAllowed=y) [Consulta: 31/03/2024]
+- UPB Sostenible (2021, mayo 4). Cultivos hidropónicos en casa, alternativas sostenibles. UPB. Recuperado de: [https://www.upb.edu.co/es/central-blogs/sostenibilidad/cultivos-hidroponicos-en-casa](https://www.upb.edu.co/es/central-blogs/sostenibilidad/cultivos-hidroponicos-en-casa) [Consulta: 31/03/2024]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

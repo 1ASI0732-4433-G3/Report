@@ -1,3 +1,6 @@
+
+## Capítulo VI: Product Verification & Validation
+
 ##6.1 Testing Suites & Validation
 
 ### 6.1.1 Core Entities Unit Tests
@@ -530,6 +533,61 @@ En cuanto a la visualización de datos, sugiere que incluir gráficos más detal
 1. Se añadirá una sección de ayuda interactiva con guías visuales paso a paso.
 2. Se optimizarán los textos en secciones clave para mejorar la claridad.
 3. Se planifican nuevas rondas de prueba con usuarios reales para validar cambios.
+
+
+
+## Capítulo VII: DevOps Practices
+
+ ###  7.1. Continuous Integration
+
+ #### 7.1.1. Tools and Practices.
+
+
+
+En cuanto al **despliegue de la aplicación web**, se utilizó **Nelify**, una plataforma que permite realizar el hosting de forma gratuita, rápida y eficiente. Por otro lado, el **backend** fue desplegado en **Koyeb**, un servicio que brinda almacenamiento seguro, escalable y sin costo.
+
+![img_711](images/img_711.png)
+
+
+Para implementar un enfoque de **integración continua**, el equipo adoptó varias prácticas clave, fundamentales para mantener la estabilidad del sistema:
+
+- Ejecutar todas las pruebas localmente antes de realizar un commit.
+- Esperar a que estas pruebas finalicen con éxito antes de continuar con nuevas tareas.
+- Asegurarse de no dejar el proyecto con errores de compilación o builds rotas al finalizar la jornada.
+- Estar preparados para revertir cambios en caso de que alguna versión introduzca fallos.
+- Asignar un tiempo prudente para corregir errores relacionados con el check-in y, si este se sobrepasa, volver a la versión anterior estable.
+- Evitar realizar observaciones sobre pruebas mal diseñadas si no se cuenta con los conocimientos necesarios.
+- Asumir la responsabilidad por cualquier problema que se derive de los cambios personales realizados en el código.
+
+
+ #### 7.1.2. Build & Test Suite Pipeline Components.
+
+![jenki](images/jenki.png)
+
+
+ #### 7.2. Continuous Delivery
+
+ #### 7.2.1. Tools and Practices.
+Para implementar la **entrega continua** de manera efectiva, se identificaron diversas herramientas disponibles en el ecosistema actual que podrían facilitar este proceso.
+
+![img_721](images/img_721.png)
+
+Al igual que con la integración continua, nuestro equipo también aplicó **buenas prácticas** enfocadas en la automatización de distintas etapas del ciclo de vida del proyecto, con el objetivo de lograr una entrega más eficiente y confiable. Entre las principales prácticas destacan:
+
+- Automatización de los cambios en la base de datos mediante el uso de scripts controlados.
+- Ejecución de pruebas automatizadas para asegurar la calidad del software en cada actualización.
+- Procesos de despliegue automatizados que permiten lanzar nuevas versiones del sistema sin intervención manual.
+
+
+#### 7.2.2. Stages Deployment Pipeline Components.
+
+![img_722](images/img_722.png)
+
+
+
+
+
+
 
 
 
