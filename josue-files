@@ -327,3 +327,155 @@ El sistema muestra el texto:
 **Estado:** ✅ Prueba manual de sistema satisfactoria.
 
 ![test_6.1.4-SystemTest1](images/test_6.1.4-SystemTest1.png)
+
+
+
+
+
+## 6.2. Static Testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+Durante el desarrollo del backend de HydroLink se siguieron las convenciones de codificación de Java utilizando la estructura modular por paquetes (`model`, `repository`, `service`, `controller`, etc.) y aplicando los principios de nombrado apropiado para clases, métodos y atributos.
+
+Se priorizó el uso de anotaciones estándar como `@Entity`, `@Service`, `@Repository`, y se evitó el acoplamiento excesivo entre clases. Además, se estructuraron los tests unitarios con nombres que indican claramente su propósito (por ejemplo: `shouldAddMetricToSensor`, `shouldConvertMetricEntityToResponseCorrectly`, etc.).
+
+Durante el proceso de revisión, se verificó:
+
+- Que no haya métodos innecesariamente públicos.
+- Que los nombres de métodos sigan la convención `camelCase`.
+- Que no exista código muerto o sin uso.
+- Que las clases no excedan responsabilidades innecesarias (principio de SRP).
+- Que cada clase esté en el paquete que le corresponde.
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Para evaluar la calidad del código, se realizó una inspección manual del repositorio, además de habilitar los chequeos automáticos del IDE (IntelliJ IDEA) como:
+
+- Detección de posibles `NullPointerException`.
+- Advertencias sobre expresiones innecesarias o variables no utilizadas.
+- Uso correcto de constantes y valores inmutables (`final`).
+
+En cuanto a seguridad de código:
+
+- Se evitó exponer datos sensibles como contraseñas en consola o logs.
+- Se aplicó cifrado en contraseñas de usuarios mediante la configuración de seguridad de Spring Security.
+- En los endpoints críticos se utilizó validación de usuario autenticado y roles mediante anotaciones como `@PreAuthorize`.
+
+Este proceso de validación estática ayudó a mantener un código más limpio, seguro y mantenible antes de ejecutar las pruebas dinámicas del sistema.
+
+---
+
+> **Nota:** Todo el código fue validado usando las herramientas integradas del IDE y revisado por el equipo antes de su integración continua.
+
+
+
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+**Segmento objetivo: Aficionados a la Hidroponía**
+
+- ¿Te pareció fácil de usar la aplicación sin conocimientos técnicos avanzados?
+- ¿Qué tan útil fue para ti la app para comprender las necesidades de tus cultivos?
+- ¿Hay elementos en la interfaz que te resultaron difíciles de comprender?
+- ¿Consideras que podrías usar la app a diario para controlar tus cultivos?
+- ¿Recomendarías esta app a otros principiantes? ¿Por qué?
+- ¿Hay algún aspecto que cambiarías o agregarías para hacerla más fácil de usar?
+
+**Segmento objetivo: Expertos en Hidroponía**
+
+- ¿La aplicación cumple con tus expectativas en cuanto a precisión y datos detallados?
+- ¿Consideras que la opción de elegir los umbrales de temperatura, humedad y luz es adecuada para tus cultivos?
+- ¿Te gustaría tener controles adicionales o configuraciones avanzadas?
+- ¿Consideras que la visualización de datos es suficiente o prefieres gráficos más detallados?
+- ¿Recomendarías esta aplicación a otros profesionales? ¿Por qué?
+- ¿Qué mejoras o funciones adicionales considerarías necesarias para un uso más técnico?
+
+### 6.3.2. Registro de Entrevistas
+
+**Segmento objetivo: Aficionados a la Hidroponía**
+
+**Entrevistado 1:**
+
+- Nombre y apellidos: Carlos Dueñas
+- Edad: 21 años
+- Ubicación: Santiago de Surco, Lima
+- Evidencia de la reunión:
+
+![entrevista_63](images/entrevista_63.png)
+
+**Resumen de la entrevista:**
+
+Realizamos una entrevista a Carlos Dueñas, quien ya había probado nuestra aplicación. Carlos señaló que la app le pareció bastante intuitiva, facilitándole la comprensión de los niveles de luz, humedad y temperatura requeridos por sus plantas. Aunque en general le resultó fácil de usar, mencionó que al inicio tuvo dificultades para encontrar algunas configuraciones avanzadas, por lo que sugirió incluir una guía breve en cada sección. Considera que la aplicación es adecuada para un uso diario, valorando especialmente la posibilidad de monitorear desde el celular y recibir alertas ante problemas. Destacó su utilidad para personas que están comenzando en hidroponía y recomendó añadir una sección con consejos básicos o ayuda para interpretar los datos visualizados.
+
+
+**Entrevistado 2:**
+
+- Nombre y apellidos: Juan Reyes
+- Edad: 23 años
+- Ubicación: San Isidro, Lima
+- Evidencia de la reunión:
+![entrevista_631](images/entrevista_631.png)
+
+
+**Resumen de la entrevista:**
+
+Juan Reyes compartió una experiencia muy positiva con la aplicación *GrowEasy*, destacando su facilidad de uso incluso sin conocimientos técnicos avanzados, gracias a un diseño intuitivo. Comentó que la app fue muy útil para comprender las necesidades de sus cultivos, ya que proporciona datos en tiempo real sobre temperatura, humedad y luz, permitiéndole tomar decisiones informadas. La interfaz le pareció clara, sin elementos difíciles de comprender. Afirmó que podría usarla diariamente y la recomendaría a otros principiantes por su accesibilidad. Como mejora, sugirió incluir más tutoriales interactivos o una sección de preguntas frecuentes para facilitar el aprendizaje de nuevos usuarios.
+
+
+
+**Entrevistado 3:**
+
+- Nombre y apellidos: Michael Carrillo
+- Edad: 21
+- Ubicación: Surco, Lima
+- Evidencia de la reunión:
+![entrevista_632](images/entrevista_632.png)
+
+- Inicio:
+- Fin:
+- Enlace de entrevista:
+
+**Resumen de la entrevista:**
+
+Michael Carrillo, un aficionado a la hidroponía, encontró la aplicación fácil de usar e intuitiva, incluso sin conocimientos técnicos avanzados. Destacó su utilidad para comprender las necesidades de sus cultivos, gracias a datos claros sobre humedad, temperatura y luz, así como recomendaciones prácticas. Aunque mencionó que algunos íconos y términos técnicos pueden ser confusos, sugirió incluir tutoriales interactivos, explicaciones detalladas y una sección de preguntas frecuentes para mejorar la experiencia. Considera que usaría la app diariamente por su conveniencia y la recomendaría a principiantes por su capacidad para simplificar procesos y hacer la hidroponía más accesible.
+
+**Segmento objetivo: Expertos en Hidroponía**
+
+**Entrevistado 1:**
+
+- Nombre y apellidos: Diego Jesus Alonso
+- Edad: 28
+- Ubicación: Lima - San Martin de Porres
+- Evidencia de la reunión:
+![entrevista_633](images/entrevista_633.png)
+
+- Inicio: 22:24
+- Fin: 22:27
+- Enlace de entrevista:
+
+**Resumen de la entrevista:**
+
+Diego Jesús, de 28 años y experto en hidroponía, colaboró en la realización de esta entrevista sobre la aplicación. En su opinión, la app cumple con las expectativas en cuanto a precisión de datos, aunque siempre se puede afinar más. Considera que la opción de configurar los umbrales de temperatura, humedad y luz es muy útil para adaptar la aplicación a las necesidades específicas de cada cultivo. Diego cree que contar con controles adicionales o configuraciones avanzadas mejoraría la experiencia, permitiendo ajustes más precisos.
+
+En cuanto a la visualización de datos, sugiere que incluir gráficos más detallados sería beneficioso para un análisis en profundidad. Diego recomendaría esta aplicación a otros profesionales, ya que facilita el monitoreo y la toma de decisiones informadas. Finalmente, menciona que para un uso más técnico, sería ideal integrar análisis predictivo, compatibilidad con sensores más avanzados y la capacidad de exportar datos para otros tipos de análisis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
