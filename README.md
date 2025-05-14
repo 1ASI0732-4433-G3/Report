@@ -1774,11 +1774,11 @@ Esta sección expone de forma precisa cómo se llevó a cabo la documentación d
 
 ## Capítulo VI: Product Verification & Validation
 
-##6.1 Testing Suites & Validation
+## 6.1 Testing Suites & Validation
 
-### 6.1.1 Core Entities Unit Tests
+## 6.1.1 Core Entities Unit Tests
 
-## Backlog #:6.1.1-M1
+## Backlog 1:
 
 **Descripción:**
 Esta prueba unitaria valida la correcta conversión de una entidad `Metric` a su DTO correspondiente `MetricResponse`. Se asegura que los valores de `value`, `unit` y `timestamp` se transfieran correctamente y se formatee el campo `metric` como una cadena combinada (`valor unidad`).
@@ -1797,7 +1797,7 @@ Se crea una instancia de `Metric` con valores controlados (`10.0`, `"kg"`, `"202
 
 <img src="images/test_1.png" alt="test_1"/>
 
-## Backlog #: 6.1.1-M2
+## Backlog 2: 
 **Descripción:**
 Este caso de prueba unitaria valida que el método `fromEntityList` de la clase `MetricResponse` convierte correctamente una lista de entidades `Metric` en una lista de objetos de respuesta (`MetricResponse`). Se verifica que cada entidad sea transformada con precisión en cuanto a su valor métrico formateado y su marca de tiempo.
 
@@ -1820,7 +1820,7 @@ El método debe retornar una lista de tamaño 2, donde:
 
 <img src="images/test_2.png" alt="test_2"/>
 
-## Backlog #: 6.1.1-M3
+## Backlog 1: 
 **Descripción:**
 Este caso de prueba unitaria asegura que al instanciar un objeto `DeviceConfig` asociado a un `Device`, se inicialicen correctamente todos los valores predeterminados esperados para los parámetros de configuración: temperatura, humedad y luminosidad, así como el intervalo de muestreo.
 
@@ -1842,7 +1842,7 @@ Todos los valores deben coincidir con los definidos por defecto en el constructo
 <img src="images/test_3.png" alt="test_3"/>
 
 
-## Backlog #: 6.1.1-M4
+## Backlog 1: 
 **Descripción:**
 Esta prueba unitaria verifica que el método `update` de la clase `DeviceConfig` puede recibir una configuración de sensor (`SensorConfig`) sin alterar los valores existentes, a menos que la lógica de actualización lo requiera explícitamente. En este caso, se evalúa que al pasar un `SensorConfig` de tipo HUMIDITY, los valores predefinidos de `DeviceConfig` se mantengan sin cambios.
 
@@ -1860,7 +1860,7 @@ Todos los valores de configuración del `DeviceConfig` deben mantenerse iguales 
 ![test_6.1.1-M4](images/test_4.png)
 
 
-## Backlog #: 6.1.1-M5
+## Backlog 2: 
 **Descripción:**
 Esta prueba unitaria valida que la creación de un nuevo dispositivo mediante el método estático `Device.create(mac, null)` inicializa correctamente los valores por defecto. Específicamente, se espera que el dispositivo tenga su dirección MAC asignada, una ubicación predeterminada (`"Living Room"`), estado `INACTIVE`, y una lista de sensores no nula pero vacía.
 
@@ -1878,7 +1878,7 @@ El dispositivo debe tener el estado `INACTIVE`, la ubicación `"Living Room"`, y
 ![test_6.1.1-M5](images/test_5.png)
 
 
-## Backlog #: 6.1.1-M6
+## Backlog 1: 
 **Descripción:**
 Esta prueba unitaria verifica que el método `update(min, max, threshold)` de la clase `SensorConfig` actualiza correctamente los valores mínimos, máximos y de umbral de una configuración de sensor previamente construida.
 
@@ -1896,7 +1896,7 @@ El objeto debe actualizar sus tres atributos (`min`, `max`, `threshold`) a los v
 ![test_6.1.1-M6](images/test_6.png)
 
 
-## Backlog #: 6.1.1-M7
+## Backlog 2: 
 **Descripción:**
 Esta prueba unitaria valida que al crear un `SensorConfig` asociado a un sensor de tipo HUMIDITY, se asignen correctamente los valores por defecto de configuración (mínimo, máximo y umbral).
 
@@ -1918,7 +1918,7 @@ Los valores predeterminados de configuración de humedad se inicializan correcta
 ![test_6.1.1-M7](images/test_7.png)
 
 
-## Backlog #: 6.1.1-M8
+## Backlog 3: 
 **Descripción:**
 Esta prueba unitaria verifica que al agregar una métrica (`Metric`) a un sensor (`Sensor`), dicha métrica se almacene correctamente dentro de la lista de métricas del sensor.
 
@@ -1939,7 +1939,7 @@ El sensor debe contener la métrica agregada correctamente como primer (y único
 ![test_6.1.1-M8](images/test_8.png)
 
 
-## Backlog #: 6.1.1-M9
+## Backlog 1: 
 **Descripción:**
 Esta prueba unitaria verifica que al eliminar una métrica (`Metric`) previamente agregada a un sensor (`Sensor`), la lista de métricas quede vacía.
 
@@ -1960,7 +1960,7 @@ La métrica debe eliminarse correctamente, dejando vacía la colección de métr
 ![test_6.1.1-M9](images/test_9.png)
 
 
-## Backlog #: 6.1.1-M10
+## Backlog 3:
 **Descripción:**
 Esta prueba unitaria valida que un sensor del tipo `TEMPERATURE` creado con un dispositivo asociado se inicialice correctamente con los valores por defecto.
 
