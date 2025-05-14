@@ -320,14 +320,14 @@ El sistema muestra el texto:
 > **"No hay dispositivos encendidos."**
 
 **Resultado obtenido:**
-✅ El mensaje fue mostrado correctamente y la experiencia de usuario se comportó según lo esperado.
+ El mensaje fue mostrado correctamente y la experiencia de usuario se comportó según lo esperado.
 
 **Tecnologías involucradas:**
 - Frontend desplegado en Netlify (Angular + PrimeNG)
 - Backend desplegado en Render (Spring Boot)
 - Base de datos en entorno productivo de pruebas (PostgreSQL)
 
-**Estado:** ✅ Prueba manual de sistema satisfactoria.
+**Estado:** Prueba manual de sistema satisfactoria.
 
 ![test_6.1.4-SystemTest1](images/test_6.1.4-SystemTest1.png)
 
