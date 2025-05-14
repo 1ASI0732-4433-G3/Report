@@ -1857,7 +1857,7 @@ Todos los valores de configuración del `DeviceConfig` deben mantenerse iguales 
 
 **Estado:** ✅ Prueba satisfactoria.
 
-![test_6.1.1-M4](images/test_6.1.1-M4.png)
+![test_6.1.1-M4](images/test_4.png)
 
 
 ## Backlog #: 6.1.1-M5
@@ -1875,7 +1875,7 @@ El dispositivo debe tener el estado `INACTIVE`, la ubicación `"Living Room"`, y
 
 **Estado:** ✅ Prueba satisfactoria.
 
-![test_6.1.1-M5](images/test_6.1.1-M5.png)
+![test_6.1.1-M5](images/test_5.png)
 
 
 ## Backlog #: 6.1.1-M6
@@ -1893,7 +1893,7 @@ El objeto debe actualizar sus tres atributos (`min`, `max`, `threshold`) a los v
 
 **Estado:** ✅ Prueba satisfactoria.
 
-![test_6.1.1-M6](images/test_6.1.1-M6.png)
+![test_6.1.1-M6](images/test_6.png)
 
 
 ## Backlog #: 6.1.1-M7
@@ -1915,7 +1915,7 @@ Los valores predeterminados de configuración de humedad se inicializan correcta
 
 **Estado:** ✅ Prueba satisfactoria.
 
-![test_6.1.1-M7](images/test_6.1.1-M7.png)
+![test_6.1.1-M7](images/test_7.png)
 
 
 ## Backlog #: 6.1.1-M8
@@ -1936,7 +1936,7 @@ El sensor debe contener la métrica agregada correctamente como primer (y único
 
 **Estado:** ✅ Prueba satisfactoria.
 
-![test_6.1.1-M8](images/test_6.1.1-M8.png)
+![test_6.1.1-M8](images/test_8.png)
 
 
 ## Backlog #: 6.1.1-M9
@@ -1957,7 +1957,7 @@ La métrica debe eliminarse correctamente, dejando vacía la colección de métr
 
 **Estado:** ✅ Prueba satisfactoria.
 
-![test_6.1.1-M9](images/test_6.1.1-M9.png)
+![test_6.1.1-M9](images/test_9.png)
 
 
 ## Backlog #: 6.1.1-M10
@@ -1980,7 +1980,7 @@ El sensor debe estar correctamente inicializado con estado `ACTIVE` y vinculado 
 
 **Estado:** ✅ Prueba satisfactoria.
 
-![test_6.1.1-M10](images/test_6.1.1-M10.png)
+![test_6.1.1-M10](images/test_10.png)
 
 
 ### 6.1.2 Core Integration Tests.
