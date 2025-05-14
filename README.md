@@ -42,31 +42,26 @@ Abril del 2025
 
 ## Registro de Versiones del Informe
 
-| Versión |   Fecha    |                                                    Autor(es)                                                     | Descripción de modificación                                                                                                                                                                                                                                               |
-| :-----: | :--------: |:----------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TB1** | 26/04/2025 | -Josue Hidalgo Bustamante  <br> - Mel Andree Orellana <br> - José Luis Martínez Valdivia <br> - Jack Arana Ramos | Se realizaron los capítulos:<br>- **Capítulo I:** Introducción<br>- **Capítulo II:** Requirements Elicitation & Analysis<br>- **Capítulo III:** Requirements Specification<br>- **Capítulo IV:** Product Design <br>- **Capítulo V:** Product Implementation |
+| Versión |   Fecha    |                                                    Autor(es)                                                    | Descripción de modificación                                                                                                                                                                                                                                                                                                                   |
+| :-----: | :--------: |:---------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **TB1** | 26/04/2025 |                               -Josue Hidalgo Bustamante   <br> - Jack Arana Ramos                               | Se realizaron los capítulos:<br>- **Capítulo I:** Introducción<br>- **Capítulo II:** Requirements Elicitation & Analysis<br>- **Capítulo III:** Requirements Specification<br>- **Capítulo IV:** Product Design <br>- **Capítulo V:** Product Implementation **Capítulo VI:** Product Verification & Validation **Capítulo VII:** DevOps Practices |
 
 ---
 
 ## Project Report Collaboration Insights
 
-- **TB1:** Para esta entrega, realizamos las actividades correspondientes a los capítulos asignados en nuestro repositorio:
+TB1: Se han desarrollado las actividades correspondientes para la entrega TB1 en el siguiente repositorio de Github dentro de la organización del equipo: Link de repositorio Github: https://github.com/1ASI0732-4433-G3/Report
 
-[Github - Informe Final HydroLink](https://github.com)
-
-<br>
-
-### Capturas de evidencia:
-
-- **Capítulo I:** Introducción (Josue Hidalgo)
-- **Capítulo II:** Requirements Elicitation & Analysis (Farid Rolando)
-- **Capítulo III:** Requirements Specification (Jesús Antonio)
-- **Capítulo IV:** Solution Software Design (Jack)
-- **Capítulo V:** Product Implementation (Josue Hidalgo)
-
+Registro de commits:
 ![insight1TB1](images/insights.png)
-
 ![insight2TB1](images/contributors.png)
+
+TP1: Se han desarrollado las actividades correspondientes para la entrega TP1 en el siguiente repositorio de GitHub dentro de la organización del equipo:
+
+Link de repositorio GitHub: https://github.com/1ASI0732-4433-G3/Report
+
+
+Registro de commits:
 
 ---
 
