@@ -50,21 +50,23 @@ Abril del 2025
 
 ## Project Report Collaboration Insights
 
-TB1: Se han desarrollado las actividades correspondientes para la entrega TB1 en el siguiente repositorio de Github dentro de la organización del equipo: Link de repositorio Github: https://github.com/1ASI0732-4433-G3/Report
+**TB1**: Se han desarrollado las actividades correspondientes para la entrega TB1 en el siguiente repositorio de Github dentro de la organización del equipo: 
+
+Link de repositorio Github: https://github.com/1ASI0732-4433-G3/Report
 
 Registro de commits:
 ![insight1TB1](images/insights.png)
 ![insight2TB1](images/contributors.png)
 
-TP1: Se han desarrollado las actividades correspondientes para la entrega TP1 en el siguiente repositorio de GitHub dentro de la organización del equipo:
+**TP1**: Se han desarrollado las actividades correspondientes para la entrega TP1 en el siguiente repositorio de GitHub dentro de la organización del equipo:
 
 Link de repositorio GitHub: https://github.com/1ASI0732-4433-G3/Report
 
-
 Registro de commits:
+![insight1TB1](images/insights2.png)
+![insight2TB1](images/contributors2.png)
 
 ---
-
 
 # Contenido
 
