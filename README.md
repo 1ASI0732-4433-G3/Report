@@ -1748,7 +1748,7 @@ En esta fase del proyecto se completó la implementación de la aplicación web.
 
 ---
 
-#### 🧑‍🌾 Tipos de acceso
+#### Tipos de acceso
 
 | Plan         | Precio mensual | Características clave                                                        |
 |--------------|----------------|------------------------------------------------------------------------------|
@@ -1758,7 +1758,7 @@ En esta fase del proyecto se completó la implementación de la aplicación web.
 
 ---
 
-#### 📄 Condiciones generales de uso
+#### Condiciones generales de uso
 
 - El sistema debe ser utilizado únicamente para fines agrícolas, educativos o experimentales relacionados con monitoreo de cultivos.
 - Los usuarios son responsables de mantener la confidencialidad de sus credenciales y los datos que registren en el sistema.
@@ -1766,7 +1766,7 @@ En esta fase del proyecto se completó la implementación de la aplicación web.
 
 ---
 
-#### 🔒 Privacidad y gestión de datos
+#### Privacidad y gestión de datos
 
 - Todos los datos generados por el usuario serán almacenados en servidores seguros con respaldo periódico.
 - El usuario podrá solicitar la **exportación o eliminación de sus datos** en cualquier momento desde la opción “Mi cuenta”.
@@ -1774,7 +1774,7 @@ En esta fase del proyecto se completó la implementación de la aplicación web.
 
 ---
 
-#### 🛠 Soporte técnico
+#### Soporte técnico
 
 - Correo de contacto: **soporte@hydrolink.tech**
 - Tiempo promedio de atención: **24 a 48 horas hábiles**
