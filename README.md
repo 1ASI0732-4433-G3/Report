@@ -1742,10 +1742,51 @@ En esta fase del proyecto se completó la implementación de la aplicación web.
 ![Mockup de la aplicación](images/img_2ddd.png)
 ![Mockup de la aplicación](images/img_3523.png)
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio – SaaA
+
+**HydroLink** es una plataforma digital ofrecida bajo el modelo **Software como Servicio (SaaS)**, diseñada para facilitar el monitoreo de cultivos mediante sensores IoT, accesible desde dispositivos web y móviles. La solución busca ofrecer control eficiente, visualización de datos y toma de decisiones automatizada en el sector agrícola e hidroponía.
+
+---
+
+#### 🧑‍🌾 Tipos de acceso
+
+| Plan         | Precio mensual | Características clave                                                        |
+|--------------|----------------|------------------------------------------------------------------------------|
+| Starter      | Gratuito       | Monitoreo de hasta 2 sensores IoT, acceso al panel básico, alertas generales. |
+| Pro          | S/ 29.90       | Hasta 10 sensores, panel personalizado, análisis histórico, exportación de datos. |
+| Expert       | A convenir     | Integración extendida, múltiples usuarios, soporte técnico avanzado.           |
+
+---
+
+#### 📄 Condiciones generales de uso
+
+- El sistema debe ser utilizado únicamente para fines agrícolas, educativos o experimentales relacionados con monitoreo de cultivos.
+- Los usuarios son responsables de mantener la confidencialidad de sus credenciales y los datos que registren en el sistema.
+- HydroLink no se responsabiliza por pérdidas derivadas de una configuración incorrecta de sensores o mal uso del sistema.
+
+---
+
+#### 🔒 Privacidad y gestión de datos
+
+- Todos los datos generados por el usuario serán almacenados en servidores seguros con respaldo periódico.
+- El usuario podrá solicitar la **exportación o eliminación de sus datos** en cualquier momento desde la opción “Mi cuenta”.
+- El tratamiento de datos se alinea con la Ley de Protección de Datos Personales vigente en el Perú.
+
+---
+
+#### 🛠 Soporte técnico
+
+- Correo de contacto: **soporte@hydrolink.tech**
+- Tiempo promedio de atención: **24 a 48 horas hábiles**
+- Comunidad de usuarios disponible dentro de la aplicación para resolución colaborativa de dudas y experiencias.
+
+---
+
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 En esta fase del proyecto se completó la implementación de la aplicación movil.
 ![Mockup de la aplicación](images/img_3523.png)
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 Para la implementación del servicio web de HidroLynk, se utilizó la plataforma Koyeb. A través de su servicio de despliegue automático, se configuró la integración continua conectando directamente el repositorio de GitHub donde se encuentra el código de la API RESTful.
 
@@ -1757,13 +1798,13 @@ A continuación, se presentan capturas de la configuración del entorno y eviden
 ![Despliegue en Koyeb - Detalles del Servicio](images/koyeb_overview.png)
 
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 Esta sección expone de forma precisa cómo se llevó a cabo la documentación de los servicios durante el desarrollo del sprint. A través del uso de Swagger, se generó una documentación interactiva y constantemente actualizada de los distintos endpoints de la API. Esta herramienta facilitó una revisión colaborativa durante la Sprint Review, permitiendo que tanto el equipo como los stakeholders comprendieran fácilmente las rutas disponibles, sus respectivas funciones, los métodos HTTP empleados y las posibles respuestas. La evidencia presentada respalda que los servicios están correctamente documentados, promoviendo una mayor claridad y comprensión del trabajo realizado.
 ![Mockup de la aplicación](images/img123.png)
 ![Mockup de la aplicación](images/img_13333.png)
 
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 ![Mockup de la aplicación](images/insights.png)
 
 ## 5.3. Video About-the-Product
