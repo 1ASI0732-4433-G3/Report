@@ -20,37 +20,11 @@
 
 <h3 align="center">Team Members</h3>
 
-<div align="center">
-  <table border="1" cellpadding="6" cellspacing="0">
-    <thead>
-      <tr>
-        <th>Member</th>
-        <th>Code</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Hidalgo Bustamante, Josue Omar</td>
-        <td>u202119880</td>
-      </tr>
-      <tr>
-        <td>Martinez Valdivia, José Luis </td>
-        <td>u202213989</td>
-      </tr>
-      <tr>
-        <td>Mel Andree Orellana Rodriguez</td>
-        <td>u202014468</td>
-      </tr>
-      <tr>
-        <td>Arana Ramos, Jack</td>
-        <td>u202121875</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
 
 
-</div>
+**Integrantes:**
+- Hidalgo Bustamante, Josue Omar        u202119880
+- Arana Ramos, Jack                      u202121875
 
 <br>
 
@@ -59,6 +33,10 @@ Abril del 2025
 <br>
 
 [Video de Exposición TF]()
+
+</div>
+
+<br>
 
 ---
 
@@ -271,12 +249,17 @@ Abril del 2025
 - [Video About-the-Team](#video-about-the-team)
 
 
-## Student Outcome  - remplazar 
+## Student Outcome  
 
-| Criterio específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Conclusiones |
-| :------------------: |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :---------- |
-| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | **Josue Omar Hidalgo Bustamante <br> TB1:<br>** Contribuí al equipo asegurando prácticas responsables en el desarrollo, promoviendo decisiones técnicas éticas, evaluando riesgos de escalabilidad y priorizando la calidad del software. Fomenté un enfoque colaborativo orientado a soluciones sostenibles y alineadas con los principios profesionales de la ingeniería. <br> <br> **Jack Arana Ramos** <br> **TB1:** <br> Al elaborar la especificación de requerimientos, estructuré los User Stories y el Product Backlog priorizando las necesidades reales de los usuarios, asegurando que las funcionalidades propuestas respeten principios éticos, de usabilidad y accesibilidad, fundamentales en el desarrollo responsable de software. <br> <br>  **Jose Luis Martínez Valdivia** <br> **TB1:** <br> Contribui con la realización de las entrevistas, lo cual permitió conocer mejor nuestros Segmentos Objetivos y el mercado al cual pretendemos llegar como StartUp                               | Colaboración efectiva y liderazgo compartido. Comunicación adaptada a distintos públicos. Resultados técnicos claros y prácticos. |
-| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | **Josue Omar Hidalgo Bustamante <br> TB1:<br>** Aporté al equipo evaluando nuestras soluciones considerando su viabilidad técnica y su impacto en el entorno social, económico y ambiental. Propuse decisiones informadas que equilibraran eficiencia, sostenibilidad y accesibilidad, alineando el desarrollo con necesidades reales en contextos globales y locales.   <br> <br>   **Mel Andree Orellana Rodriguez**<br>**TB1:**<br>En el área de Diseño Visual y Prototipado, trabajé en la creación de una propuesta visual coherente, aplicando principios de diseño que aseguraran una experiencia de usuario intuitiva. Además, diseñé y refiné prototipos interactivos que facilitaron la validación temprana de ideas.                  <br> <br> **Jack Arana Ramos** <br> **TB1:** <br> Durante la construcción del To-Be Scenario Map y del Impact Mapping, analicé y propuse soluciones orientadas a maximizar el valor para los usuarios y las partes interesadas, evaluando los posibles efectos de nuestras decisiones en diversos contextos, como el acceso equitativo a la tecnología, la eficiencia de recursos y la sostenibilidad del producto. <br> <br> **Jose Luis Martínez Valdivia** <br> **TB1:** <br> Aporte Al momento de conocer mejor nuestro público objetivo y saber cómo adaptar nuestro producto a ellos. Esto basándonos en sus necesidades y requerimientos. |Juicios equilibrados entre eficiencia, sostenibilidad y accesibilidad. Impacto positivo en usuarios, stakeholders y en la sostenibilidad a largo plazo. |
+**ABET – EAC - Student Outcome 4** <br><br>
+**Criterio:** La capacidad de reconocer responsabilidades éticas y  profesionales en situaciones de ingeniería y hacer juicios informados, que deben
+considerar el impacto de las soluciones de ingeniería en contextos globales, económicos,
+ambientales y sociales
+
+| Criterio específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones |
+| :------------------: |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :---------- |
+| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | **Josue Omar Hidalgo Bustamante <br> TB1:<br>** Contribuí al equipo asegurando prácticas responsables en el desarrollo, promoviendo decisiones técnicas éticas, evaluando riesgos de escalabilidad y priorizando la calidad del software. Fomenté un enfoque colaborativo orientado a soluciones sostenibles y alineadas con los principios profesionales de la ingeniería. <br> <br> **Jack Arana Ramos** <br> **TB1:** <br> Al elaborar la especificación de requerimientos, estructuré los User Stories y el Product Backlog priorizando las necesidades reales de los usuarios, asegurando que las funcionalidades propuestas respeten principios éticos, de usabilidad y accesibilidad, fundamentales en el desarrollo responsable de software. <br> <br>  **Josue Omar Hidalgo Bustamante** <br> **TP1:** <br>Durante el desarrollo de la TP1, aplicamos buenas prácticas éticas y profesionales al asegurar la calidad del software mediante pruebas y validaciones. Consideramos el impacto social y ambiental al facilitar el monitoreo eficiente de cultivos. Nuestras decisiones técnicas fueron guiadas por el bienestar del usuario y la sostenibilidad, demostrando responsabilidad en contextos reales de la ingeniería de software.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Colaboración efectiva y liderazgo compartido. Comunicación adaptada a distintos públicos. Resultados técnicos claros y prácticos. |
+| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | **Josue Omar Hidalgo Bustamante <br> TB1:<br>** Aporté al equipo evaluando nuestras soluciones considerando su viabilidad técnica y su impacto en el entorno social, económico y ambiental. Propuse decisiones informadas que equilibraran eficiencia, sostenibilidad y accesibilidad, alineando el desarrollo con necesidades reales en contextos globales y locales.   <br> <br>   **Josue Omar Hidalgo Bustamante**<br>**TP1:**<br>Durante el desarrollo del sistema HydroLink, evaluamos continuamente cómo nuestras decisiones de arquitectura, automatización de cultivos y visualización de datos impactan en contextos globales y locales. Aplicamos criterios éticos y profesionales para asegurar que la solución fuera sostenible, replicable y útil en entornos agrícolas reales. Este proceso fortaleció nuestra capacidad para emitir juicios informados que consideren no solo la eficiencia técnica, sino también el efecto social, económico y ambiental del software que creamos.             <br> <br> **Jack Arana Ramos** <br> **TB1:** <br> Durante la construcción del To-Be Scenario Map y del Impact Mapping, analicé y propuse soluciones orientadas a maximizar el valor para los usuarios y las partes interesadas, evaluando los posibles efectos de nuestras decisiones en diversos contextos, como el acceso equitativo a la tecnología, la eficiencia de recursos y la sostenibilidad del producto. <br> <br> **Jose Luis Martínez Valdivia** <br> **TB1:** <br> Aporte Al momento de conocer mejor nuestro público objetivo y saber cómo adaptar nuestro producto a ellos. Esto basándonos en sus necesidades y requerimientos. |Juicios equilibrados entre eficiencia, sostenibilidad y accesibilidad. Impacto positivo en usuarios, stakeholders y en la sostenibilidad a largo plazo. |
 
 ---
 
@@ -2373,9 +2356,6 @@ Al igual que con la integración continua, nuestro equipo también aplicó **bue
 
 ![img_722](images/img_722.png)
 
-
-//---------------------------------------------------------
-
 ## 7.3 Continuous Deployment
 
 ### 7.3.1 Tools and Practices
@@ -2402,7 +2382,6 @@ A continuación, proporcionamos capturas de pantalla que ilustran implementacion
 ![Despliegue exitoso del backend en Koyeb](images/cd_koyeb.jpg)
 *Figura X+1. Despliegue exitoso del backend en Koyeb a partir de cambios en GitHub.*
 
-//---------------------------------------------------------
 
 ## Conclusiones
 
