@@ -428,77 +428,32 @@ En esta sección planteamos las hipótesis que buscan resolver los problemas det
 
 Después de realizar un análisis en el mercado peruano, hemos identificado tres proyectos similares a **HydroLink** que consideramos como posibles competidores. Estos son:
 
----
+| Empresa           | Enfoque Principal                      | Tecnologías/Servicios Destacados                                                                                  | Público Objetivo                         |
+|-------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| AgroData Perú     | Gestión agrícola con tecnología IoT    | Plataforma IoT para monitoreo ambiental y del suelo, análisis de datos para optimizar producción y reducir riesgos | Agricultores de mediana y gran escala    |
+| Hydroponics Perú  | Sistemas hidropónicos automatizados    | Sistemas de riego, control de nutrientes, sensores IoT, asesoría técnica                                           | Usuarios domésticos y productores comerciales |
+| Smart Agro Perú   | Integración tecnológica en la agricultura | Sensores IoT (temperatura, humedad, agua), plataforma digital de gestión agrícola                                 | Agricultores interesados en digitalización |
 
-### ● AgroData Perú
-
-Empresa especializada en ofrecer herramientas tecnológicas para la gestión agrícola. Su principal producto es una plataforma IoT que permite a los agricultores monitorear condiciones ambientales y del suelo en tiempo real. También brindan análisis de datos para optimizar la producción y minimizar riesgos asociados con condiciones climáticas adversas.
-
----
-
-### ● Hydroponics Perú
-
-Se especializa en ofrecer soluciones completas para la práctica de la hidroponía, incluyendo sistemas automatizados de riego, control de nutrientes, y monitoreo ambiental a través de sensores IoT. Además de vender equipos, ofrecen asesoría técnica y soporte para la implementación de sistemas hidropónicos tanto a nivel doméstico como comercial.
-
----
-
-### ● Smart Agro Perú
-
-Smart Agro Perú es una empresa que se dedica a la integración de tecnología en el sector agrícola. Ofrecen soluciones que incluyen la implementación de sensores IoT para monitorear en tiempo real variables como temperatura, humedad del suelo, y niveles de agua en los cultivos. Además, proporcionan una plataforma digital que permite a los agricultores tomar decisiones informadas basadas en los datos recolectados por los sensores.
 
 ### 2.1.1. Análisis competitivo
 
-#### Competitive Analysis Landscape
-
 **¿Por qué llevar a cabo este análisis?**  
-Este análisis busca identificar las fortalezas, debilidades, oportunidades y amenazas de nuestra startup HydroLink Innovators frente a competidores directos en el mercado peruano, con el fin de establecer estrategias efectivas para posicionarnos y diferenciarnos.
+Para identificar fortalezas, debilidades y diferenciadores clave entre nuestra startup y los competidores en el sector agrícola basado en IoT, con el fin de posicionarnos estratégicamente.
 
----
+| Categoría                                                                 | HydroLink                                                                     | AgroData Perú                                              | Hydroponics Perú                                                                      | Smart Agro Perú                                                              |
+|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Overview**                                                              | Plataforma IoT accesible para monitoreo agrícola en tiempo real con interfaz web/móvil amigable. | Plataforma IoT para monitoreo de condiciones del suelo y ambiente. | Soluciones hidropónicas automatizadas con sensores y asesoría técnica.               | Integración de sensores IoT para variables de cultivo y análisis en plataforma digital. |
+| **Ventaja competitiva ¿Qué valor ofrece a los clientes?**                | Accesibilidad, automatización remota, análisis de datos y facilidad de uso para todo público. | Optimización de producción y reducción de riesgos climáticos. | Implementación personalizada y soporte técnico especializado.                          | Decisiones agrícolas basadas en datos recolectados en tiempo real.            |
+| **Mercado objetivo**                                                     | Agricultores tradicionales, hidropónicos y aficionados que buscan accesibilidad tecnológica. | Agricultores medianos y grandes.                             | Productores hidropónicos domésticos y comerciales.                                     | Agricultores digitales y tecnificados.                                       |
+| **Estrategias de marketing**                                             | Web y redes sociales, enfoque educativo, webinars para adopción tecnológica.               | Enfoque en eficiencia operativa y reducción de riesgos.      | Promociones en línea y asesorías personalizadas.                                       | Promoción del uso de datos en la agricultura.                               |
+| **Productos & Servicios**                                                | Plataforma IoT con sensores para temperatura, humedad, viento, luz; interfaz web/móvil; reportes inteligentes. | Plataforma de monitoreo ambiental y del suelo.              | Sistemas de riego automatizados, sensores, asesoría técnica.                          | Sensores IoT + plataforma digital para análisis agrícola.                   |
+| **Precios & Costos**                                                     | Precios accesibles con escalabilidad según necesidades del usuario.                        | No especificado.                                             | Varía según sistema y escala.                                                          | No especificado.                                                            |
+| **Canales de distribución (Web y/o Móvil)**                              | Web y App móvil.                                                                           | Plataforma Web.                                              | Venta directa y asesoría.                                                              | Plataforma digital.                                                        |
+| **Fortalezas**                                                           | Accesibilidad y usabilidad. Plataforma completa y móvil.                                  | Enfoque en reducción de riesgos.                            | Experiencia técnica en hidroponía.                                                     | Buen manejo de sensores y analítica digital.                                |
+| **Debilidades**                                                          | Nueva en el mercado.                                                                       | Enfoque limitado a variables climáticas.                     | Poco alcance fuera de hidroponía.                                                      | Puede necesitar mayor acompañamiento técnico.                               |
+| **Oportunidades**                                                        | Aumento en adopción de tecnología en agricultura.                                          | Expansión a nuevas regiones agrícolas.                       | Mayor interés en cultivo sin tierra.                                                  | Creciente demanda de agricultura de precisión.                              |
+| **Amenazas**                                                             | Competencia consolidada, velocidad de adopción en zonas rurales.                          | Nuevas startups tecnológicas.                                | Mercado limitado a hidropónicos.                                                      | Competencia con propuestas más completas.                                   |
 
-#### Perfil: **HydroLink Innovators**
-
-- **Overview:**  
-  Startup enfocada en soluciones IoT para monitoreo y gestión de cultivos con un enfoque en accesibilidad y facilidad de uso.
-
-- **Ventaja competitiva – ¿Qué valor ofrece a los clientes?:**  
-  Plataforma intuitiva y fácil de usar para usuarios de todos los niveles. Enfoque en sostenibilidad y reducción del impacto ambiental.
-
-- **Mercado objetivo:**  
-  Agricultores y aficionados a la hidroponía, tanto principiantes como expertos, interesados en soluciones sostenibles.
-
----
-
-#### Perfil de Producto: **HydroLink Innovators**
-
-- **Estrategias de marketing:**  
-  Campañas de concienciación sobre sostenibilidad y uso eficiente de recursos. Promociones orientadas a usuarios nuevos.
-
-- **Productos & Servicios:**  
-  Sensores IoT, plataforma de gestión remota, recomendaciones personalizadas, integración móvil y web.
-
-- **Precios & Costos:**  
-  Modelos de precios accesibles, con planes de suscripción escalonados para funcionalidades avanzadas.
-
-- **Canales de distribución (Web y/o Móvil):**  
-  Web, móvil, con enfoque en facilidad de acceso para todos los usuarios.
-
----
-
-#### Análisis SWOT – **HydroLink Innovators**
-
-- **Fortalezas:**  
-  Plataforma accesible, enfoque en sostenibilidad, fácil de usar para aficionados.
-
-- **Debilidades:**  
-  Menor presencia en mercados de gran escala.
-
-- **Oportunidades:**  
-  Expansión en mercados rurales y urbanos, alianzas con proveedores agrícolas.
-
-- **Amenazas:**  
-  Competencia de empresas con más recursos y enfoque en grandes productores.
-
----
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -551,11 +506,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 5. ¿Te resultaría útil una aplicación que ofrezca análisis avanzados de datos y opciones personalizadas para gestionar tu cultivo?
 6. ¿Qué funcionalidades consideras esenciales en una plataforma que te permita acceder y analizar datos complejos de tus cultivos en tiempo real?
 
----
-
 #### 2.2.2. Registro de entrevistas
-
----
 
 **Segmento 1: Aficionados a la hidroponía**
 
@@ -567,10 +518,11 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
   - **Inicio:** 00:07
   - **Fin:** 03:17
   - **Enlace de entrevista:** [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112749_upc_edu_pe/ERP0sf0OcAhMryt-BGJusicB6tFAdMA6lxjY8QTW3XVs7w?e=RCdZ3L)
+![e_1_1](images/e_1_1.png)
+
 - **Resumen:**  
   Juan es desarrollador de software con interés en hidroponía casera e IoT. Busca cultivar de manera eficiente y controlar condiciones desde el celular. Identifica como desafíos la falta de información consolidada y la complejidad técnica. Espera precisión, ajustes automáticos y datos históricos. Considera esencial el monitoreo en tiempo real, integración con sensores y una interfaz intuitiva con guías.
 
----
 
 **Entrevista 2:**
 - **Nombre y apellidos:** Eddy Rojas
@@ -578,6 +530,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Ubicación:** San Martín, Lima
 - **Inicio:** 03:18
 - **Fin:** 05:25
+  ![e_1_2](images/e_1_2.png)
 - **Resumen:**  
   Eddy está interesado en la hidroponía para aprender a cultivar eficientemente e integrar IoT. Imagina un sistema automatizado con alertas al celular. Señala como reto la falta de información sencilla para principiantes. Espera mejorar el crecimiento de las plantas y ahorrar tiempo. Encuentra útil una app con monitoreo en tiempo real y guías prácticas.
 
@@ -589,6 +542,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Ubicación:** Santa Anita, Lima
 - **Inicio:** 05:24
 - **Fin:** 09:46
+  ![e_1_3](images/e_1_3.png)
 - **Resumen:**  
   Andrea quiere cultivar vegetales de forma eficiente e integrar IoT. Desea un sistema automatizado que monitoree agua, nutrientes, luz y humedad, con alertas móviles. El mayor desafío es encontrar información integrada y accesible. Ve en los sensores una forma de ahorrar tiempo y mejorar el rendimiento. Considera útil una app con monitoreo y guías prácticas.
 
@@ -603,6 +557,7 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Inicio:** 09:50
 - **Fin:** 15:04
 - **Enlace de entrevista:** [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112749_upc_edu_pe/ERP0sf0OcAhMryt-BGJusicB6tFAdMA6lxjY8QTW3XVs7w?e=RCdZ3L)
+  ![e_2_1](images/e_2_1.png)
 - **Resumen:**  
   Paolo es agricultor experto. Empezó en hidroponía por la escasez de recursos en agricultura tradicional. Usa OneNote para organizar sus cultivos. Uno de sus desafíos es la durabilidad de los sensores en contacto con el agua. Le sería útil una app que le brinde datos específicos para detectar necesidades de sus cultivos y mejorar la producción.
 
@@ -614,35 +569,21 @@ En esta sección se han formulado las preguntas para nuestro segmento objetivo, 
 - **Ubicación:** San Martín, Lima
 - **Inicio:** 15:05
 - **Fin:** 17:07
+  ![e_2_2](images/e_2_2.png)
 - **Enlace de entrevista:** [Ver entrevista](https://upcedupe
 
 ### 2.2.3. Análisis de entrevistas
 
-#### Entrevistados por Jesús Antonio Lazo Tapia
+| Características                          | Aficionados a la hidroponía                                                                                  | Expertos en hidroponía                                                                                   |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| **Interés y motivación para usar tecnología IoT** | Buscan eficiencia, automatización y control desde el celular. Interés alto en soluciones accesibles y educativas. | Motivados por escasez de recursos en métodos tradicionales. Enfocados en optimización a través de datos precisos. |
+| **Desafíos al implementar IoT**          | Dificultad para encontrar información integrada y accesible. Complejidad técnica.                            | Durabilidad de sensores. Interpretación práctica de datos complejos.                                     |
+| **Expectativas de la solución**         | Monitoreo en tiempo real, alertas, interfaz amigable, guías prácticas.                                       | Acceso a datos específicos y recomendaciones automatizadas para ajustar el sistema.                      |
+| **Relevancia de la personalización**     | Desean herramientas adaptadas a su nivel, con orientación paso a paso.                                       | Valoran análisis avanzados y funcionalidades configurables según el tipo de cultivo.                    |
+| **Percepción sobre el uso de una app**   | La ven útil para aprender, monitorear y automatizar procesos.                                                | La consideran clave para consolidar datos, obtener alertas y optimizar producción.                      |
+| **Resumen**                              | Valoran la simplicidad, acompañamiento educativo y facilidad de acceso a datos.                              | Buscan precisión, durabilidad y análisis técnico para escalar su producción.                            |
 
-- Ambos entrevistados, aunque con niveles diferentes de experiencia, coinciden en que la tecnología IoT tiene un gran potencial para mejorar la hidroponía.
-  - **Diego Jesús**, el experto, está más enfocado en cómo aprovechar los datos para optimizar los cultivos, pero enfrenta el reto de interpretar esa información de manera práctica.
-  - **Eddy Rojas**, aficionado, está interesado en la simplicidad y accesibilidad que la tecnología le puede ofrecer para aprender y automatizar tareas.
 
-- Ambos ven valor en herramientas que simplifiquen el monitoreo y el análisis de los cultivos, lo que destaca una necesidad común: **la accesibilidad a la tecnología, independientemente del nivel de experiencia**.  
-  Una plataforma que combine datos fáciles de entender con recomendaciones claras sería beneficiosa tanto para expertos como para principiantes.
-
----
-
-#### Entrevistados por Farid Rolando Hinostroza Mavila
-
-- La entrevistada está motivada por la idea de utilizar la tecnología IoT en su proyecto de hidroponía casera, buscando **optimizar el cultivo a través de la automatización y el monitoreo en tiempo real**.
-
-- Uno de los mayores desafíos que identifica es la **dificultad para encontrar información integrada** que aborde tanto la hidroponía como la tecnología IoT de manera conjunta.
-
-- También resalta que la integración de sensores IoT permitiría:
-  - Mejorar la eficiencia del sistema.
-  - Evitar problemas comunes como el riego inadecuado.
-  - Ahorrar tiempo en tareas repetitivas.
-
-- Considera muy útil una aplicación que **brinde monitoreo en tiempo real**, guías de expertos y recomendaciones personalizadas para mejorar sus cultivos.
-
----
 ## 2.3. Needfinding
 Los **User Personas** son fundamentales para el éxito del proyecto, ya que brindan una comprensión profunda y concreta de las necesidades, deseos, frustraciones y comportamientos de los usuarios clave. Estos perfiles detallados permiten a la startup diseñar una plataforma y experiencia de aprendizaje altamente enfocada y personalizada, abordando de manera efectiva los desafíos específicos de cada segmento objetivo: desde brindar recursos claros y accesibles a aficionados, hasta ofrecer herramientas para que los expertos compartan su conocimiento.
 
@@ -651,9 +592,12 @@ Para comprender mejor a los usuarios a los que está dirigida nuestra solución,
 
 #### Agricultor Experto
 Es un profesional con experiencia en la gestión de cultivos a gran escala, que busca soluciones tecnológicas avanzadas para optimizar sus operaciones y maximizar la eficiencia de su producción.
+![up_ex](images/up_ex.png)
 
 #### Aficionado a la Hidroponía
 Es alguien que se está iniciando en el mundo del cultivo sin suelo, buscando tecnologías sencillas que le faciliten el cuidado de sus plantas y le permitan mejorar su rendimiento sin necesidad de un conocimiento técnico profundo.
+![up_ex_1](images/up_ex_1.png)
+
 
 ### 2.3.2. User Task Matrix
 El **User Task Matrix** es una herramienta clave que recopila y analiza las tareas fundamentales que los usuarios de "HydroLink Innovators" realizan en su actividad agrícola, ya sea en la agricultura tradicional o en la hidroponía. Este cuadro se enfoca en evaluar con qué frecuencia los usuarios llevan a cabo cada una de estas tareas y la severidad o impacto que estas tienen en su éxito. Al identificar estas áreas clave, HydroLink podrá desarrollar soluciones tecnológicas que no solo faciliten la vida de los usuarios, sino que también maximicen la eficiencia y la efectividad en el manejo de sus cultivos. Esto permite priorizar las necesidades más críticas de los usuarios y ofrecerles herramientas que realmente les ayuden a alcanzar sus objetivos de manera óptima.
@@ -676,77 +620,46 @@ El **User Task Matrix** es una herramienta clave que recopila y analiza las tare
 #### Aficionado a la Hidroponía
 
 El User Journey Mapping del aficionado a la hidroponía explora el recorrido completo que este usuario realiza desde el momento en que se da cuenta de la necesidad de una solución tecnológica para mejorar el cuidado de sus cultivos, hasta la evaluación final de la eficacia de dicha solución.
+![233_a](images/233_a.png)
 
-Este mapa detalla:
-- Las etapas clave.
-- Las emociones.
-- Los desafíos que enfrenta mientras:
-  - Navega por opciones tecnológicas.
-  - Se registra en una plataforma.
-  - Comienza a usar la tecnología.
-  - Evalúa el impacto en sus cultivos.
-
-Este análisis permite identificar oportunidades para mejorar la experiencia del usuario y facilitar su camino hacia la adopción de tecnologías innovadoras.
 
 #### Agricultor Experto
 
 El User Journey Mapping del agricultor experto en grandes cultivos ofrece una visión detallada del proceso que sigue este usuario al integrar tecnologías avanzadas en sus operaciones agrícolas.
 
-El recorrido abarca:
-- Desde la búsqueda inicial de soluciones tecnológicas.
-- Hasta la implementación, personalización y evaluación del retorno de inversión.
-
-Este análisis revela:
-- Las altas expectativas del usuario experimentado.
-- Los desafíos técnicos y estratégicos en la adopción de nuevas herramientas.
-
-Proporciona una base para diseñar soluciones que entreguen valor tangible y medible.
-
----
+![233_e](images/233_e.png)
 
 ### 2.3.4. Empathy Mapping
 
 El *Empathy Mapping* es una herramienta esencial para entender profundamente a nuestros usuarios.
 
-Nos ayuda a capturar:
-- Lo que piensan y sienten.
-- Lo que ven, oyen y dicen.
-- Lo que hacen en su día a día relacionado con sus cultivos.
+**Segmento Objetivo 1 - Aficionado a la Hidroponía**
 
-A través de este proceso, identificamos:
-- Motivaciones.
-- Frustraciones.
-- Deseos.
 
-Esto permite diseñar soluciones alineadas con sus verdaderas necesidades.
+![empa_1](images/empa_1.png)
 
----
+**Segmento Objetivo 2 -  Agricultor Experto**
+
+
+![empa_2](images/empa_2.png)
+
 
 ### 2.3.5. As-is Scenario Mapping
 
 El *As-Is Scenario Mapping* nos permite comprender el flujo actual de actividades, pensamientos y emociones que experimentan nuestros usuarios **antes de implementar la solución**.
 
-Este mapeo ayuda a identificar:
-- Cómo interactúan actualmente con tecnologías y procesos existentes.
-- Puntos de dolor.
-- Oportunidades de mejora.
-- Áreas donde nuestra solución puede tener mayor impacto.
+**Segmento Objetivo 1 - Aficionado a la Hidroponía**
 
-#### Aficionados
 
-- Utilizan métodos tradicionales o manuales.
-- Poca información consolidada sobre hidroponía con IoT.
-- Dificultad para interpretar datos técnicos.
-- Altas ganas de aprender, pero limitados por lo técnico.
+![as_is_1](images/as_is_1.png)
 
-#### Expertos
+**Segmento Objetivo 2 -  Agricultor Experto**
 
-- Ya aplican tecnología, pero enfrentan integración fragmentada.
-- Requieren datos precisos y análisis complejos.
-- Desean optimización basada en KPIs productivos.
-- Buscan retorno de inversión medible y confiable.
 
----
+![as_is_2](images/as_is_2.png)
+
+
+
 
 ### 2.4. Ubiquitous Language
 
@@ -1122,7 +1035,6 @@ Este mockup fue creado para reflejar la esencia de HydroLink Tech —una soluci�
 
 En esta sección se muestran los wireframes de las aplicaciones, los cuales ofrecen una representación visual preliminar de la estructura y disposición de los elementos en las distintas pantallas. Estos esquemas permiten anticipar la organización de la interfaz, asegurando una navegación intuitiva y una experiencia de usuario coherente y eficiente desde las primeras etapas del diseño.
 
-![movil1]("https://github.com/user-attachments/assets/df21e237-e6ee-423f-be88-d87020796059)
 ![movil2](https://github.com/user-attachments/assets/4562639a-ac30-491a-a7cb-b0dcb3926875)
 ![movil3](https://github.com/user-attachments/assets/c271d4eb-75a2-4a69-8846-a8eda2556ca8)
 
@@ -1802,7 +1714,21 @@ Esta sección expone de forma precisa cómo se llevó a cabo la documentación d
 
 
 ### 5.2.8. Team Collaboration Insights
-![Mockup de la aplicación](images/insights.png)
+**TB1**: Se han desarrollado las actividades correspondientes para la entrega TB1 en el siguiente repositorio de Github dentro de la organización del equipo:
+
+Link de repositorio Github: https://github.com/1ASI0732-4433-G3/Report
+
+Registro de commits:
+![insight1TB1](images/insights.png)
+![insight2TB1](images/contributors.png)
+
+**TP1**: Se han desarrollado las actividades correspondientes para la entrega TP1 en el siguiente repositorio de GitHub dentro de la organización del equipo:
+
+Link de repositorio GitHub: https://github.com/1ASI0732-4433-G3/Report
+
+Registro de commits:
+![insight1TB1](images/insights2.png)
+![insight2TB1](images/contributors2.png)
 
 ## 5.3. Video About-the-Product
 
@@ -2103,8 +2029,6 @@ Scenario: Usuario conecta un nuevo dispositivo a su cuenta
 
 ### 6.1.4. Core System Tests.
 
-
-## Backlog #: 6.1.4-SystemTest1
 **Descripción:**
 Esta prueba representa un **test de sistema completo**, abarcando tanto backend como frontend desplegados. Se realizó manualmente a través de la interfaz web publicada, simulando el comportamiento real de un usuario final interactuando con HydroLink mediante su navegador.
 
